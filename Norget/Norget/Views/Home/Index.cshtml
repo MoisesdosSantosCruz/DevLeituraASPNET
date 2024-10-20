@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Norget.Models.Livro>
+
+<h2>Lista de Livros</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Preço</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var livro in Model)
+        {
+            <tr>
+                <td>@livro.Id</td>
+                <td>@livro.Nome</td>
+                <td>@livro.Preco</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Livro/Adicionar" class="btn btn-primary">Adicionar Livro</a>
