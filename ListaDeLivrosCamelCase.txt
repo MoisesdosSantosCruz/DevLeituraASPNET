@@ -1,0 +1,58 @@
+Livros categoria
+
+* Fundamentos de TI;
+* Programação e Desenvolvimento de Software;
+* Bando de Dados;
+* Redes e Infraestrutura;
+* Segurança da Informação;
+* Inteligencia Artificial e Machine Learning;
+* Gerenciamento de Projetos;
+* Gestão de TI;
+* Hardware e Periféricos;
+* Tecnologia e Sociedade;
+
+Livro:
+    ISBN
+    NomeLiv
+    PrecoLiv (excessão - ver depois um preço para colocar)
+    DescLiv
+    ImgLiv (excessão - não da pra colocar aqui né pokkkk)
+    Categoria
+    Autor
+    DataPubli 
+    Editora
+
+3. Projetos e Implementação de Redes: Fundamentos, Soluções, Arquiteturas e Planejamento
+ISBN: 9788535248740
+Categoria: Redes e Infraestrutura
+Autor: Edmundo Antonio Pucci
+Data de publicação: 2010
+Editora: Érica
+
+4. Manual de Produção de Jogos Digitais
+ISBN: 9788574526102
+Categoria: Programação e Desenvolvimento de Software
+Autor: Adriano Hazenauer
+Data de publicação: 2009
+Editora: Visual Books
+
+5. Inteligência Artificial na Sala de Aula: Como a Tecnologia Está Revolucionando a Educação
+ISBN: 9788550802320
+Categoria: Inteligência Artificial e Machine Learning
+Autor: Leo Fraiman
+Data de publicação: 2020
+Editora: Matrix Editora
+
+6. A Guerra das Inteligências na Era do ChatGPT
+ISBN: 9788545207481
+Categoria: Inteligência Artificial e Machine Learning
+Autor: Renato de Castro
+Data de publicação: 2023
+Editora: Editora Gente
+
+7. O Verdadeiro Valor do TI
+ISBN: 9788597004087
+Categoria: Gestão de TI
+Autor: Mark Schwartz
+Data de publicação: 2019
+Editora: Alta Books

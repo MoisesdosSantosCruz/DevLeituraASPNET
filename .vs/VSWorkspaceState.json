@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Norget",
-    "\\Norget\\Norget",
-    "\\Norget\\Norget\\Models",
-    "\\Norget\\Norget\\Views",
-    "\\Norget\\Norget\\Views\\Home"
+    "\\Norget\\Norget"
   ],
-  "SelectedNode": "\\Norget\\Norget\\Views\\Home\\Adicionar.cshtml",
+  "SelectedNode": "\\Norget\\Norget\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

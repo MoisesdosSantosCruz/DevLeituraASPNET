@@ -1,7 +1,8 @@
 create database db_DevReads;
+
 use db_DevReads;
 
-drop database db_DevReads;
+-- drop database db_DevReads;
 
 create table tbCliente(
 id int primary key auto_increment,
@@ -53,7 +54,6 @@ NF int, -- Chave Estranheira nota fiscal
 constraint FK_Id_Compra foreign key(Id_cli) references tbCliente(id),
 constraint fk_NF foreign key(NF) references tbNotaFiscal(NF)
 );
-
 -- CodCompra, TotalCompra, QtdTotal, DataCompra, FormPag, fk_NF, fk_CPFCli_Compra
 
 create table tbItemCompra(
@@ -65,7 +65,6 @@ constraint primary key(NumeroCompra, ISBN),
 constraint FK_NumeroCompra foreign key(NumeroCompra) references tbCompra(NumeroCompra),
 constraint FK_ISBN_C foreign key(ISBN) references tbLivro(ISBN)
 );
-
 -- fk_NumeroCompra, fk_ISBNC, ValorItem, QtdC
 
 create table tbVenda(
@@ -94,54 +93,7 @@ A outra precisa ser indexada, ou seja, criar um index sobre ela para que possa s
 no caso o fk_EmailCli da tbNotaFiscal ao Email da tbCliente. 
 O problema é se isso já foi mostrado em aulas de Banco de Dados.*/
 
-/* Mesmo problema: o id_Edi não é uma chave primária. Necessitando uma index*/
-
-
--- Chaves estrangeiras! --------------------------------------------------------------
-
-/*
-
-alter table tbNotaFiscal add constraint fk_idCli foreign key(idCli) references tbCliente(idCli);
-
-alter table tbCompra add constraint fk_NF foreign key(NF) references tbNotaFiscal(NF);
-alter table tbCompra add constraint fk_idCli_Compra foreign key(idCli) references tbCliente(idCli);
-
-alter table tbItemCompra add constraint fk_NumeroCompra foreign key(NumeroCompra) references tbCompra(NumeroCompra);
-alter table tbItemCompra add constraint fk_ISBNC foreign key(ISBN) references tbLivro(ISBN);
-
-
-alter table tbItemVenda add constraint fk_NumeroVenda foreign key(NumeroVenda) references tbVenda(CodVenda);
-alter table tbItemVenda add constraint fk_ISBNV foreign key(ISBN) references tbLivro(ISBN);
-
-*/
-
--- Inserts/Testes ------------------------------------------------------------------------------------------
-
-insert into tbNotaFiscal() -- NF, TotalCompra, DataEmissao, fk_CPFCli -- NotaFiscal
-values(1, 85.00, current_date(), 46956936969 );
-
-Select * from tbCliente;
-
-insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, Autor, DataPubli) -- ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, Autor, DataPubli, fk_CNPJ
-values(1234567891023, 'Código Limpo', 85.00, 'Habilidades da codificação de software', 'CodigoLimpo.JPG', 'FrontEnd',
-'Robert Cecil Martin', '2012-06-19', 56978912330);
-
-insert into tbEditora(CNPJ, NomeEdi, TelEdi) -- CNPJ, NomeEdi, TelEdi
-values(56978912330, 'Editora Dialética', 987654321);
-select * from tbEditora;
-
-insert into tbCompra(CodCompra, TotalCompra, QtdTotal, DataCompra, FormPag) -- CodCompra, TotalCompra, QtdTotal, DataCompra, FormPag, fk_NF, fk_CPFCli_Compra
-values(1, 85.00, 10, current_date(), 'Cartão', 1, 1);
-
-insert into tbItemCompra(fk_NumeroCompra, fk_ISBNC, ValorItem, QtdC) -- fk_NumeroCompra, fk_ISBNC, ValorItem, QtdC
-values(1, 1234567891023, 85.00, 5);
-
-insert into tbVenda(CodVenda, DataVenda, ValorTotal, QtdTotal, fk_CNPJ) -- CodVenda, DataVenda, ValorTotal, QtdTotal, fk_CNPJ
-values(1, current_date(), 1700.00, 20, 56978912330);
-
-insert into tbItemVenda(fk_NumeroVenda, fk_ISBNV, ValorItem, QtdV) -- fk_NumeroVenda, fk_ISBNV, ValorItem, QtdV
-values(1, 1234567891023, 20, 1700.00);
-
+/* Mesmo problema: o id_Edi não é uma chave primária. Necessitando uma index */
 
 -- Procedures! ----------------------------------------------------------------------------------
 delimiter $$                  
@@ -159,9 +111,10 @@ call spInsertCliente('Niko', 46956936969, 'nikoolhate@gmail.com', 123456, 986754
 call spInsertCliente('Luciano', 34567891011, 'Luciano@gmail.com', 132457, 997765421);
 call spInsertCliente('Edu bolanhos', 34567665401, 'Edu@gmail.com', 345678, 934465421);
 call spInsertCliente('Luciana Amelia Damasceno Ramos dos Santos', 34567665455, 'Luci@gmail.com', 345655, 934465455)
-select * from tbCliente;
--- Procedure tbLivro ----------------------------------------------------------
 
+select * from tbCliente;
+
+-- Procedure tbLivro ----------------------------------------------------------
 delimiter $$                  
 create procedure spInsertLivro(vISBN decimal(13,0), vNomeLiv varchar(50), vPrecoLiv decimal(6,2), 
 vDescLiv varchar(100), vImgLiv varchar(200), vCategoria Varchar(30), vAutor varchar(50), vDataPubli char(10), vQtd int)
@@ -176,12 +129,31 @@ select "Já tem!";
 end if;
 end $$
 
-call spInsertLivro(1234567891023, 'Código Limpo', 85.00, 'Habilidades da codificação de software', 'CodigoLimpo.JPG', 'FrontEnd',
-'Robert Cecil Martin', '19/06/2012', 10);
+call spInsertLivro(9788576082675, 'Código Limpo', 85.00, 'Habilidades da codificação de software',
+'CodigoLimpo.jpg', 'FrontEnd', 'Robert Cecil Martin', '19/06/2012', 10);
+call spInsertLivro(9788535262128, 'Como Criar Uma Mente', 65.00, 'Conhecimento da tecnologia para com a mente humana',
+'ComoCriar.jpg','Inteligência Artificial e Machine Learning', 'Ray Kurzweil', '13/11/2012', 10);
+call spInsertLivro(, '', , '', '', '', '', '', );
+call spInsertLivro(, '', , '', '', '', '', '', );
+call spInsertLivro(, '', , '', '', '', '', '', );
+call spInsertLivro(, '', , '', '', '', '', '', );
+call spInsertLivro(, '', , '', '', '', '', '', );
+call spInsertLivro(, '', , '', '', '', '', '', );
+
+-- Acrescentar a editora nos livros (atributo) - ORDEM DAS EDITORAS DOS LIVROS A SEGUIR SEGUE A ORDEM DOS INSERTS DOS LIVROS
+/*
+Alta Books
+Companhia das Letras
+Érica
+Visual Books
+Matrix Editora
+Editora Gente
+Alta Books
+*/
+
 select * from tblivro;
+
 -- Procedure compra
-
-
 delimiter $$
 Create procedure spInsertCompra
 (vNumeroCompra int, vISBN decimal(13, 0), vQtd int, vNomeCli varchar(200), vValorItem decimal(8, 2), vFormPag varchar(40))
@@ -206,7 +178,7 @@ call spInsertCompra(1, 1234567891023, 1, 'Niko', 85.00, 'Cartão');
 call spInsertCompra(4, 1234567891023, 4, 'Luciana Amelia Damasceno Ramos dos Santos', 85.00, 'débito');
 select * from tbCompra;
 
--- Venda -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Venda ------------------------------------------------------------------------------------
 delimiter $$
 Create procedure spInsertVenda(vNumeroVenda int, vNomeEdi varchar(200), vDataVenda char(10), vISBN decimal(13,0), vValorItem decimal (8,2), vQtd int, vQtdTotal int, vValorTotal decimal (8,2))
 BEGIN 
@@ -229,7 +201,7 @@ describe tbVenda;
 describe tbItemvenda;
 select * from tbitemVenda;
 
--- Editora ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Editora ----------------------------------------------------------------
 describe tbEditora;
 delimiter $$                  
 create procedure spInsertEditora(vCNPJ decimal(11,0), vNomeEdi varchar(50), vTelEdi int)
@@ -269,8 +241,7 @@ call spInsertNF (361, 'Edu bolanhos');
 
 select * from tbNotaFiscal;
 
-
--- Triggers! -------------------------------------------------------------------------------------
+-- Triggers! -------------------------------------------------------------------------------
 -- select * from tbClienteHistorico; 
 -- Select * from tbCliente;
 -- drop procedure spInsertCliente;
@@ -310,12 +281,12 @@ begin
     values (NEW.ISBN, NEW.NomeLiv, NEW.PrecoLiv, NEW.DescLiv, NEW.ImgLiv, NEW.Categoria, NEW.Autor, NEW.Datapubli, 'Novo', NOW());
 end$$
 select * from tbcomprahistorico;
+
 -- Compra /////////////////////////////////////////////////////////
 create table tbCompraHistorico like tbCompra; -- Teste de Histórico
 alter table tbCompraHistorico add Ocorrencia varchar(20) NULL AFTER id_Cli;
 alter table tbCompraHistorico add Atualizacao datetime null after Ocorrencia;
 describe tbCompra;
-
 
 DELIMITER $$
 create trigger trgCompraNova AFTER INSERT ON tbCompra
@@ -367,7 +338,6 @@ begin
     insert into tbNotaFiscalHistorico (NF, TotalCompra, DataEmissao, idCli, Ocorrencia, Atualizacao)
     values (NEW.NF, NEW.TotalCompra, NEW.DataEmissao, NEW.idCli, 'Novo', NOW());
 end$$
-
 
 -- Procedure de Select na Venda, Editora e... Produto/Livro.
 -- Adicionar Chaves Estrangeiras às Tabelas
