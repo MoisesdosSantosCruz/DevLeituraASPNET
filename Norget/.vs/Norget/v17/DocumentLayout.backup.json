@@ -1,29 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\",
+  "WorkspaceRootPath": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\skycloud\\norget\\norget\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\libraries\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\libraries\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\skycloud\\norget\\norget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\repository\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\repository\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\skycloud\\norget\\norget\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\repository\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\repository\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\skycloud\\norget\\norget\\views\\home\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\libraries\\login\\loginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\libraries\\login\\loginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\skycloud\\norget\\norget\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\skycloud\\norget\\norget\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -34,71 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Norget\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Norget\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T14:21:54.944Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LivroController.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Controllers\\LivroController.cs",
-              "RelativeDocumentMoniker": "Norget\\Controllers\\LivroController.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Controllers\\LivroController.cs",
-              "RelativeToolTip": "Norget\\Controllers\\LivroController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T14:05:27.915Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Adicionar.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Views\\Home\\Adicionar.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Adicionar.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Views\\Home\\Adicionar.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\Adicionar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T14:32:56.443Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T19:54:07.38Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\appsettings.json",
               "RelativeDocumentMoniker": "Norget\\appsettings.json",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\appsettings.json",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\appsettings.json",
               "RelativeToolTip": "Norget\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -108,15 +48,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Norget\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\SkyCloud\\Norget\\Norget\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Norget\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LoginUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Libraries\\Login\\LoginUsuario.cs",
+              "RelativeDocumentMoniker": "Norget\\Libraries\\Login\\LoginUsuario.cs",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Libraries\\Login\\LoginUsuario.cs",
+              "RelativeToolTip": "Norget\\Libraries\\Login\\LoginUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T10:34:50.891Z",
+              "WhenOpened": "2024-11-05T22:41:17.922Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Repository\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Norget\\Repository\\UsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Repository\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "Norget\\Repository\\UsuarioRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:23:40.993Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Repository\\IUsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Norget\\Repository\\IUsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Repository\\IUsuarioRepositorio.cs",
+              "RelativeToolTip": "Norget\\Repository\\IUsuarioRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:24:01.53Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Libraries\\Session\\Session.cs",
+              "RelativeDocumentMoniker": "Norget\\Libraries\\Session\\Session.cs",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Libraries\\Session\\Session.cs",
+              "RelativeToolTip": "Norget\\Libraries\\Session\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:47:39.733Z",
               "EditorCaption": ""
             },
             {

@@ -1,57 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\",
+  "WorkspaceRootPath": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\models\\itemvenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\models\\itemvenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\libraries\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\libraries\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\models\\notafiscal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\models\\notafiscal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\repository\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\repository\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\models\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\models\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\repository\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\repository\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\views\\home\\painelusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\painelusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\libraries\\login\\loginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\libraries\\login\\loginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\views\\home\\cadastrousuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\cadastrousuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\3ds\\desktop\\teste\\norget\\norget\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -62,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\appsettings.json",
               "RelativeDocumentMoniker": "Norget\\appsettings.json",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\appsettings.json",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\appsettings.json",
               "RelativeToolTip": "Norget\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-16T14:31:46.915Z",
               "IsPinned": true,
@@ -80,145 +48,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ItemVenda.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\ItemVenda.cs",
-              "RelativeDocumentMoniker": "Norget\\Models\\ItemVenda.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\ItemVenda.cs",
-              "RelativeToolTip": "Norget\\Models\\ItemVenda.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "DocumentIndex": 3,
+              "Title": "LoginUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Libraries\\Login\\LoginUsuario.cs",
+              "RelativeDocumentMoniker": "Norget\\Libraries\\Login\\LoginUsuario.cs",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Libraries\\Login\\LoginUsuario.cs",
+              "RelativeToolTip": "Norget\\Libraries\\Login\\LoginUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:51:23.829Z",
+              "WhenOpened": "2024-11-05T22:41:17.922Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Venda.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\Venda.cs",
-              "RelativeDocumentMoniker": "Norget\\Models\\Venda.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\Venda.cs",
-              "RelativeToolTip": "Norget\\Models\\Venda.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Repository\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Norget\\Repository\\UsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Repository\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "Norget\\Repository\\UsuarioRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:50:10.028Z",
+              "WhenOpened": "2024-11-05T22:23:40.993Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NotaFiscal.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\NotaFiscal.cs",
-              "RelativeDocumentMoniker": "Norget\\Models\\NotaFiscal.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\NotaFiscal.cs",
-              "RelativeToolTip": "Norget\\Models\\NotaFiscal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Title": "IUsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Repository\\IUsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Norget\\Repository\\IUsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Repository\\IUsuarioRepositorio.cs",
+              "RelativeToolTip": "Norget\\Repository\\IUsuarioRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:49:14.662Z",
+              "WhenOpened": "2024-11-05T22:24:01.53Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LivroController.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Controllers\\LivroController.cs",
-              "RelativeDocumentMoniker": "Norget\\Controllers\\LivroController.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Controllers\\LivroController.cs",
-              "RelativeToolTip": "Norget\\Controllers\\LivroController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Libraries\\Session\\Session.cs",
+              "RelativeDocumentMoniker": "Norget\\Libraries\\Session\\Session.cs",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Libraries\\Session\\Session.cs",
+              "RelativeToolTip": "Norget\\Libraries\\Session\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:43:39.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Norget\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Norget\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:43:29.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PainelUsuario.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\PainelUsuario.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\PainelUsuario.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\PainelUsuario.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\PainelUsuario.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T17:37:20.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T17:36:24.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\Editar.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\Editar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T17:35:40.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T17:32:19.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CadastroUsuario.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\CadastroUsuario.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\CadastroUsuario.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Views\\Home\\CadastroUsuario.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\CadastroUsuario.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T17:31:05.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Norget\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\Cliente.cs",
-              "RelativeToolTip": "Norget\\Models\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:28:33.8Z",
+              "WhenOpened": "2024-11-05T22:47:39.733Z",
               "EditorCaption": ""
             },
             {
@@ -228,19 +108,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Norget\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\teste\\Norget\\Norget\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Norget\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T10:34:50.891Z",
-              "EditorCaption": ""
             }
           ]
         }
