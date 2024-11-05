@@ -7,8 +7,8 @@ namespace Norget.Controllers
     {
         private static List<Livro> _livros = new List<Livro>
         {
-            new Livro { Id = 1, Nome = "Produto A", Preco = 10M },
-            new Livro { Id = 2, Nome = "Produto B", Preco = 20M }
+            new Livro { ISBN = 1, NomeLiv = "Produto A", PrecoLiv = 10M },
+            new Livro { ISBN = 2, NomeLiv = "Produto B", PrecoLiv = 20M }
         };
 
         public IActionResult Index()

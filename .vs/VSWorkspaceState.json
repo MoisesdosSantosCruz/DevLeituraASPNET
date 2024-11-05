@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Norget",
-    "\\Norget\\Norget"
+    "\\Norget\\Norget",
+    "\\Norget\\Norget\\Models"
   ],
-  "SelectedNode": "\\Norget\\Norget\\appsettings.json",
+  "SelectedNode": "\\Norget\\Norget\\Models\\Editora.cs",
   "PreviewInSolutionExplorer": false
 }

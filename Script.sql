@@ -2,7 +2,7 @@ create database db_DevReads;
 
 use db_DevReads;
 
--- drop database db_DevReads;
+ -- drop database db_DevReads;
 
 create table tbCliente(
 id int primary key auto_increment,
@@ -12,37 +12,45 @@ EmailCli varchar(30) not null,
 SenhaCli int not null,
 Tel int
 );
--- fk_EmailCli varchar(30) not null 
+
+create table tbEditora(
+idEdi int primary key auto_increment,
+CNPJ decimal (11,0) unique not null,
+NomeEdi varchar(100) not null,
+TelEdi int 
+);
 
 create table tbNotaFiscal(
 NF int primary key, -- Chave Principal NotaFiscal/Chave estrangeira tbCompra
 TotalNota decimal(8,2) not null,
 DataEmissao date not null
 );
--- NF, TotalCompra, DataEmissao, fk_CPFCli -- NotaFiscal
-
-/* O Auto_Incremente apenas deve ser usado uma vez.*/
 
 create table tbLivro(
 ISBN decimal(13,0) primary Key,
-NomeLiv varchar(50) not null,
+NomeLiv varchar(100) not null,
 PrecoLiv decimal(6,2) not null,
 DescLiv varchar(100)not null,
 ImgLiv varchar(200) not null,
 Categoria varchar(30) not null,
+idEdi int ,
 Autor varchar(50) not null,
 DataPubli date not null,
-Qtd int -- Chave Estrangeira da Tabela Editora
+Qtd int,
+constraint FK_Id_Edi foreign key(idEdi) references tbEditora(idEdi)
 );
--- ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, Autor, DataPubli, fk_CNPJ
 
-create table tbEditora(
-idEdi int primary key auto_increment,
-CNPJ decimal (11,0) unique not null,
-NomeEdi varchar(50) not null,
-TelEdi int 
-);
--- CNPJ, NomeEdi, TelEdi
+
+/*create table tbCarrinho(
+idCarro int primary key auto_increment,
+ISBN decimal(13,0) not null,
+Qtd int not null, -- FK item_compra
+ImgLiv varchar(200) not null,
+constraint FK_Id_ISBN foreign key(ISBN) references tbLivro(ISBN),
+-- constraint FK_Id_PrecoLiv foreign key(PrecoLiv) references tbLivro(PrecoLiv),
+constraint FK_Id_QtdItem foreign key(Qtd) references tbItemCompra(Qtd),
+constraint FK_Id_ImgLiv foreign key(ImgLiv) references tbLivro(ImgLiv)
+); */
 
 create table tbCompra( 
 NumeroCompra int primary key, -- Notafiscal
@@ -54,7 +62,7 @@ NF int, -- Chave Estranheira nota fiscal
 constraint FK_Id_Compra foreign key(Id_cli) references tbCliente(id),
 constraint fk_NF foreign key(NF) references tbNotaFiscal(NF)
 );
--- CodCompra, TotalCompra, QtdTotal, DataCompra, FormPag, fk_NF, fk_CPFCli_Compra
+
 
 create table tbItemCompra(
 NumeroCompra int,-- Chave Estrangeira CodCompra/NotaFiscal
@@ -86,14 +94,6 @@ constraint PK_NV_ISBN primary key(NumeroVenda, ISBN),
 constraint FK_NumeroVenda foreign key(NumeroVenda) references tbVenda(NumeroVenda),
 constraint FK_ISBN foreign key(ISBN) references tbLivro(ISBN)
 );
--- fk_NumeroVenda, fk_ISBNV, ValorItem, QtdV
-
-/* Problema encontrado: Quando há duas chaves estrangeiras sendo apenas uma delas a chave primária,
-A outra precisa ser indexada, ou seja, criar um index sobre ela para que possa se interligar a tabela que, 
-no caso o fk_EmailCli da tbNotaFiscal ao Email da tbCliente. 
-O problema é se isso já foi mostrado em aulas de Banco de Dados.*/
-
-/* Mesmo problema: o id_Edi não é uma chave primária. Necessitando uma index */
 
 -- Procedures! ----------------------------------------------------------------------------------
 delimiter $$                  
@@ -107,6 +107,7 @@ select "Já tem";
 
 end if;
 end $$
+
 call spInsertCliente('Niko', 46956936969, 'nikoolhate@gmail.com', 123456, 986754389);
 call spInsertCliente('Luciano', 34567891011, 'Luciano@gmail.com', 132457, 997765421);
 call spInsertCliente('Edu bolanhos', 34567665401, 'Edu@gmail.com', 345678, 934465421);
@@ -114,23 +115,42 @@ call spInsertCliente('Luciana Amelia Damasceno Ramos dos Santos', 34567665455, '
 
 select * from tbCliente;
 
+-- Editora ----------------------------------------------------------------
+describe tbEditora;
+delimiter $$                  
+create procedure spInsertEditora(vCNPJ decimal(11,0), vNomeEdi varchar(50), vTelEdi int)
+begin
+if not exists (select CNPJ from tbEditora where CNPJ = vCNPJ)then
+	insert into tbEditora(CNPJ, NomeEdi, TelEdi)
+			values(vCNPJ, vNomeEdi, vTelEdi);
+else
+select "Já tem";
+
+end if;
+end $$
+
+call spInsertEditora (56978912330, 'Editora Dialética', 987654321);
+
+
 -- Procedure tbLivro ----------------------------------------------------------
+select * from tbLivro;
+
 delimiter $$                  
 create procedure spInsertLivro(vISBN decimal(13,0), vNomeLiv varchar(50), vPrecoLiv decimal(6,2), 
-vDescLiv varchar(100), vImgLiv varchar(200), vCategoria Varchar(30), vAutor varchar(50), vDataPubli char(10), vQtd int)
+vDescLiv varchar(100), vImgLiv varchar(200), vCategoria Varchar(30), vNomeEdi varchar(100), vAutor varchar(50), vDataPubli char(10), vQtd int)
 begin
 if not exists (select ISBN from tbLivro where ISBN = vISBN)then
-	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, Autor, DataPubli, Qtd)
-			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, vCategoria, vAutor, str_to_date(vDataPubli, '%d/%m/%Y'), vQtd);
+	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, idEdi, Autor, DataPubli, Qtd)
+			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, vCategoria, (select idEdi from tbEditora where NomeEdi = vNomeEdi), vAutor, str_to_date(vDataPubli, '%d/%m/%Y'), vQtd);
 
 else
 select "Já tem!";
 
 end if;
 end $$
-
+select * from tbLivro;
 call spInsertLivro(9788576082675, 'Código Limpo', 85.00, 'Habilidades da codificação de software',
-'CodigoLimpo.jpg', 'FrontEnd', 'Robert Cecil Martin', '19/06/2012', 10);
+'CodigoLimpo.jpg', 'FrontEnd', 'Editora Dialética', 'Robert Cecil Martin', '19/06/2012', 10);
 call spInsertLivro(9788535262128, 'Como Criar Uma Mente', 65.00, 'Conhecimento da tecnologia para com a mente humana',
 'ComoCriar.jpg','Inteligência Artificial e Machine Learning', 'Ray Kurzweil', '13/11/2012', 10);
 call spInsertLivro(, '', , '', '', '', '', '', );
@@ -201,21 +221,7 @@ describe tbVenda;
 describe tbItemvenda;
 select * from tbitemVenda;
 
--- Editora ----------------------------------------------------------------
-describe tbEditora;
-delimiter $$                  
-create procedure spInsertEditora(vCNPJ decimal(11,0), vNomeEdi varchar(50), vTelEdi int)
-begin
-if not exists (select CNPJ from tbEditora where CNPJ = vCNPJ)then
-	insert into tbEditora(CNPJ, NomeEdi, TelEdi)
-			values(vCNPJ, vNomeEdi, vTelEdi);
-else
-select "Já tem";
 
-end if;
-end $$
-
-call spInsertEditora (56978912330, 'Editora Dialética', 987654321);
 select * from 
 -- NotaFiscal
 
@@ -338,9 +344,3 @@ begin
     insert into tbNotaFiscalHistorico (NF, TotalCompra, DataEmissao, idCli, Ocorrencia, Atualizacao)
     values (NEW.NF, NEW.TotalCompra, NEW.DataEmissao, NEW.idCli, 'Novo', NOW());
 end$$
-
--- Procedure de Select na Venda, Editora e... Produto/Livro.
--- Adicionar Chaves Estrangeiras às Tabelas
--- Criar Procedures nas Tabelas Importantes
--- Criar Triggers/Tabelas-Históricos para registrar as informações de compra, venda, etc.
--- Engenharia Reversa, provando o modelo lógico.

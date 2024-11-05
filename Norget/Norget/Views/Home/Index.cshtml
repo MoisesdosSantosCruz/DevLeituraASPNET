@@ -1,24 +1,8 @@
-﻿@model IEnumerable<Norget.Models.Livro>
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
 
-<h2>Lista de Livros</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Nome</th>
-            <th>Preço</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var livro in Model)
-        {
-            <tr>
-                <td>@livro.Id</td>
-                <td>@livro.Nome</td>
-                <td>@livro.Preco</td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-<a href="/Livro/Adicionar" class="btn btn-primary">Adicionar Livro</a>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
