@@ -40,21 +40,21 @@ namespace Norget.Repository
                 MySqlDataReader dr;
 
                 // Instanciando a model cliente
-                Usuario cliente = new Usuario();
+                Usuario usuario = new Usuario();
                 // Executando os comandos do mysql e passsando paa a variavel dr
                 dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
 
                 // Verifica todos os dados que foram pego do banco e pega o email e senha
                 while (dr.Read())
                 {
-                    cliente.Email = Convert.ToString(dr["email"]);
-                    cliente.Senha = Convert.ToString(dr["senha"]);
+                    usuario.Email = Convert.ToString(dr["email"]);
+                    usuario.Senha = Convert.ToString(dr["senha"]);
                 }
-                return cliente;
+                return usuario;
             }
         }
         // MÉTODO CADASTRAR CLIENTE
-        public void Cadastrar(Usuario cliente)
+        public void Cadastro(Usuario usuario)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
 
@@ -63,9 +63,9 @@ namespace Norget.Repository
 
                 MySqlCommand cmd = new MySqlCommand("Insert into tbCliente (Nome,Tel,Email) values (@Nome, @Telefone, @Email)", conexao); // @: PARAMETRO
 
-                cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = cliente.Nome;
-                cmd.Parameters.Add("@Telefone", MySqlDbType.VarChar).Value = cliente.Tel;
-                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = cliente.Email;
+                cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = usuario.Nome;
+                cmd.Parameters.Add("@Telefone", MySqlDbType.VarChar).Value = usuario.Tel;
+                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = usuario.Email;
 
                 cmd.ExecuteNonQuery();
                 conexao.Close();
@@ -74,7 +74,7 @@ namespace Norget.Repository
         }
         // Listar todos os clientes
 
-        public IEnumerable<Usuario> TodosClientes()
+        public IEnumerable<Usuario> TodosUsuarios()
         {
             List<Usuario> Clientlist = new List<Usuario>();
 
@@ -95,7 +95,7 @@ namespace Norget.Repository
                             new Usuario
                             {
                                 Nome = ((string)dr["nome"]),
-                                Tel = ((string)dr["tel"]),
+                                Tel = ((int)dr["tel"]),
                                 Email = ((string)dr["email"]),
                             });
                 }
@@ -105,7 +105,7 @@ namespace Norget.Repository
         }
 
         // Buscar todos os clientes por id
-        public Usuario ObterCliente(int Id)
+        public Usuario ObterUsuario(int Id)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
@@ -123,7 +123,7 @@ namespace Norget.Repository
                 {
                     cliente.Id = Convert.ToInt32(dr["id"]);
                     cliente.Nome = (string)(dr["nome"]);
-                    cliente.Tel = (string)(dr["tel"]);
+                    cliente.Tel = (int)(dr["tel"]);
                     cliente.Email = (string)(dr["email"]);
                 }
                 return cliente;

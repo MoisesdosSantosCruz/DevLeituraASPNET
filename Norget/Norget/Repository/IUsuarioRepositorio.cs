@@ -18,12 +18,12 @@ namespace Norget.Repository
         IEnumerable<Usuario> TodosUsuarios();
 
         //Busca todos por id
-        Usuario ObterUsuario(int id);
+        Usuario ObterUsuario(int Id);
 
         //Atualizar Cliente
         void Atualizar(Usuario usuario);
 
         // Excluir
-        void Excluir(int id);
+        void Excluir(int Id);
     }
 }
