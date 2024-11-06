@@ -3,8 +3,10 @@
     "",
     "\\Norget",
     "\\Norget\\Norget",
+    "\\Norget\\Norget\\Libraries",
+    "\\Norget\\Norget\\Libraries\\Session",
     "\\Norget\\Norget\\Models"
   ],
-  "SelectedNode": "\\Norget\\Norget\\Models\\ItemVenda.cs",
+  "SelectedNode": "\\Norget\\Norget\\Libraries\\Session\\Session.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -10,7 +10,7 @@ CPF decimal(11,0) unique not null,
 NomeCli varchar(200) not null,
 EmailCli varchar(30) not null,
 SenhaCli int not null,
-Tel int
+Tel int not null
 );
 
 create table tbEditora(
@@ -97,7 +97,7 @@ constraint FK_ISBN foreign key(ISBN) references tbLivro(ISBN)
 
 -- Procedures! ----------------------------------------------------------------------------------
 delimiter $$                  
-create procedure spInsertCliente( vNomeCli varchar(200), vCPF decimal(11,0), vEmailCli varchar(30), vSenhaCli int, vTel int)
+create procedure spInsertUsuario(vCPF decimal(11,0), vNomeCli varchar(200), vEmailCli varchar(30), vSenhaCli int, vTel int)
 begin
 if not exists (select CPF from tbCliente where CPF = vCPF)then
 	insert into tbCliente(CPF, NomeCli, EmailCli, SenhaCli, Tel)
@@ -108,10 +108,12 @@ select "Já tem";
 end if;
 end $$
 
-call spInsertCliente('Niko', 46956936969, 'nikoolhate@gmail.com', 123456, 986754389);
-call spInsertCliente('Luciano', 34567891011, 'Luciano@gmail.com', 132457, 997765421);
-call spInsertCliente('Edu bolanhos', 34567665401, 'Edu@gmail.com', 345678, 934465421);
-call spInsertCliente('Luciana Amelia Damasceno Ramos dos Santos', 34567665455, 'Luci@gmail.com', 345655, 934465455)
+describe tbCliente;
+
+call spInsertUsuario(46956936969, 'Niko', 'nikoolhate@gmail.com', 123456, 986754389);
+call spInsertUsuario(34567891011, 'Luciano', 'Luciano@gmail.com', 132457, 997765421);
+call spInsertUsuario(34567665401, 'Edu bolanhos', 'Edu@gmail.com', 345678, 934465421);
+call spInsertUsuario(34567665455, 'Luciana Amelia Damasceno Ramos dos Santos', 'Luci@gmail.com', 345655, 934465455);
 
 select * from tbCliente;
 

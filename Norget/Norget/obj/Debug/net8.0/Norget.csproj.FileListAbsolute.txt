@@ -48,3 +48,15 @@ C:\Users\3ds\Desktop\SkyCloud\Norget\Norget\obj\Debug\net8.0\refint\Norget.dll
 C:\Users\3ds\Desktop\SkyCloud\Norget\Norget\obj\Debug\net8.0\Norget.pdb
 C:\Users\3ds\Desktop\SkyCloud\Norget\Norget\obj\Debug\net8.0\Norget.genruntimeconfig.cache
 C:\Users\3ds\Desktop\SkyCloud\Norget\Norget\obj\Debug\net8.0\ref\Norget.dll
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.csproj.AssemblyReference.cache
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfoInputs.cache
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfo.cs
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.csproj.CoreCompileInputs.cache
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cache
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cs
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.sourcelink.json
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.dll
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\refint\Norget.dll
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\Norget.pdb

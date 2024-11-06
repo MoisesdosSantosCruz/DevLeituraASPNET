@@ -8,7 +8,7 @@ namespace Norget.Repository
 {
     
     // Chamar a interface com herança
-    public class UsuasioRepositorio : IUsuarioRepositorio
+    public class UsuarioRepositorio : IUsuarioRepositorio
     {
         //declarando a varival de da string de conexão
 
@@ -40,7 +40,7 @@ namespace Norget.Repository
                 MySqlDataReader dr;
 
                 // Instanciando a model cliente
-                Cliente cliente = new Cliente();
+                Usuario cliente = new Usuario();
                 // Executando os comandos do mysql e passsando paa a variavel dr
                 dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
 
@@ -54,7 +54,7 @@ namespace Norget.Repository
             }
         }
         // MÉTODO CADASTRAR CLIENTE
-        public void Cadastrar(Cliente cliente)
+        public void Cadastrar(Usuario cliente)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
 
@@ -64,7 +64,7 @@ namespace Norget.Repository
                 MySqlCommand cmd = new MySqlCommand("Insert into tbCliente (Nome,Tel,Email) values (@Nome, @Telefone, @Email)", conexao); // @: PARAMETRO
 
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = cliente.Nome;
-                cmd.Parameters.Add("@Telefone", MySqlDbType.VarChar).Value = cliente.Telefone;
+                cmd.Parameters.Add("@Telefone", MySqlDbType.VarChar).Value = cliente.Tel;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = cliente.Email;
 
                 cmd.ExecuteNonQuery();
@@ -74,9 +74,9 @@ namespace Norget.Repository
         }
         // Listar todos os clientes
 
-        public IEnumerable<Cliente> TodosClientes()
+        public IEnumerable<Usuario> TodosClientes()
         {
-            List<Cliente> Clientlist = new List<Cliente>();
+            List<Usuario> Clientlist = new List<Usuario>();
 
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
@@ -92,10 +92,10 @@ namespace Norget.Repository
                 foreach (DataRow dr in dt.Rows)
                 {
                     Clientlist.Add(
-                            new Cliente
+                            new Usuario
                             {
                                 Nome = ((string)dr["nome"]),
-                                Telefone = ((string)dr["tel"]),
+                                Tel = ((string)dr["tel"]),
                                 Email = ((string)dr["email"]),
                             });
                 }
@@ -105,7 +105,7 @@ namespace Norget.Repository
         }
 
         // Buscar todos os clientes por id
-        public Cliente ObterCliente(int Id)
+        public Usuario ObterCliente(int Id)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
@@ -116,14 +116,14 @@ namespace Norget.Repository
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 MySqlDataReader dr;
 
-                Cliente cliente = new Cliente();
+                Usuario cliente = new Usuario();
                 // retorna conjunto de resultado ,  é funcionalmente equivalente a chamar ExecuteReader().
                 dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
                 while (dr.Read())
                 {
-                    cliente.Codigo = Convert.ToInt32(dr["cod"]);
+                    cliente.Id = Convert.ToInt32(dr["id"]);
                     cliente.Nome = (string)(dr["nome"]);
-                    cliente.Telefone = (string)(dr["tel"]);
+                    cliente.Tel = (string)(dr["tel"]);
                     cliente.Email = (string)(dr["email"]);
                 }
                 return cliente;
@@ -131,7 +131,7 @@ namespace Norget.Repository
         }
 
         //Alterar Cliente
-        public void Atualizar(Cliente cliente)
+        public void Atualizar(Usuario cliente)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
@@ -139,9 +139,9 @@ namespace Norget.Repository
                 MySqlCommand cmd = new MySqlCommand("Update tbCliente set nome=@nome, tel=@telefone, email=@email " +
                                                     " where cod=@codigo ", conexao);
 
-                cmd.Parameters.Add("@codigo", MySqlDbType.VarChar).Value = cliente.Codigo;
+                cmd.Parameters.Add("@codigo", MySqlDbType.VarChar).Value = cliente.Id;
                 cmd.Parameters.Add("@nome", MySqlDbType.VarChar).Value = cliente.Nome;
-                cmd.Parameters.Add("@telefone", MySqlDbType.VarChar).Value = cliente.Telefone;
+                cmd.Parameters.Add("@telefone", MySqlDbType.VarChar).Value = cliente.Tel;
                 cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = cliente.Email;
 
                 cmd.ExecuteNonQuery();

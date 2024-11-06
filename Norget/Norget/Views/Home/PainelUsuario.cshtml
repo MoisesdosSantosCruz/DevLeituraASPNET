@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ProjetoCity.Models.Cliente>
+﻿@model IEnumerable<Norget.Models.Usuario>
 
 @{
     ViewData["Title"] = "Index";
@@ -11,13 +11,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Codigo)
+                @Html.DisplayNameFor(model => model.Id)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Telefone)
+                @Html.DisplayNameFor(model => model.Tel)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Email)
@@ -30,20 +30,20 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Codigo)
+                    @Html.DisplayFor(modelItem => item.Id)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Nome)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Telefone)
+                    @Html.DisplayFor(modelItem => item.Tel)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Email)
                 </td>
                 <td>
-                    @Html.ActionLink("Editar", "Editar", new { id = item.Codigo }) |
-                    @Html.ActionLink("Excluir", "Excluir", new { id = item.Codigo },
+                    @Html.ActionLink("Editar", "Editar", new { id = item.Id }) |
+                    @Html.ActionLink("Excluir", "Excluir", new { id = item.Id },
                              new { onclick = "return confirm('Deseja realmente Excluir este item?');" })
                 </td>
             </tr>

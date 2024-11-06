@@ -21,7 +21,7 @@ namespace Norget.Libraries.Login
         public void Login(Usuario usuario)
         {
             // Serializar- Com a serialização é possível salvar objetos em arquivos de dados
-            string clienteJSONString = JsonConvert.SerializeObject(cliente);
+            string clienteJSONString = JsonConvert.SerializeObject(usuario);
         }
 
         public Usuario GetUsuario()
@@ -32,7 +32,7 @@ namespace Norget.Libraries.Login
             if (_sessao.Existe(Key))
             {
                 string clienteJSONString = _sessao.Consultar(Key);
-                return JsonConvert.DeserializeObject<Cliente>(clienteJSONString);
+                return JsonConvert.DeserializeObject<Usuario>(clienteJSONString);
             }
             else
             {

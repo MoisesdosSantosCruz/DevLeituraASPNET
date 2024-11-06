@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Norget.Models
 {
-    public class Cliente
+    public class Usuario
     {
         public int Id { get; set; }
 
@@ -12,17 +12,18 @@ namespace Norget.Models
         public decimal CPF { get; set; }
 
         [Required]
-        [StringLength(120)]
-        public string NomeCli { get; set; }
+        [StringLength(200)]
+        public string Nome { get; set; }
 
         [Required]
         [EmailAddress]
-        [StringLength(40)]
-        public string EmailCli { get; set; }
+        [StringLength(30)]
+        public string Email { get; set; }
 
         [Required]
-        public int SenhaCli { get; set; }
+        public int Senha { get; set; }
 
-        public int? Tel { get; set; }
+        [Required]
+        public int Tel { get; set; }
     }
 }
