@@ -1,16 +1,175 @@
 ﻿@{
-    Layout = null;
+    ViewData["Title"] = "Index";
 }
 
-<!DOCTYPE html>
-<html lang = "pt-br">
-<head>
-    <meta name = "viewport" content = "width=device-width">
-    <title>Index</title>
-</head>
 <body>
-    <div>
-        <h1>Página do usuário</h1>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logodr.png" alt="Logo"></a>
+
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="icons">
+            <i class="bi bi-bag"></i>
+
+            <div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-caret-down"></i></div>
+        </div>
+        <nav id="menu" class="nav-menu">
+            <h2>MENU</h2>
+            <ul>
+                <li><a href="config.html">Conta</a></li>
+                <li><a href="atendimento.html">Central de Atendimento</a></li>
+            </ul>
+            <div class="line"></div>
+            <div class="menu-buttons">
+                <button class="btnlog"><a href="login.html">Login</a></button>
+                <button class="btnreg"><a href="registro.html">Registre-se</a></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="populares">
+            <h2>POPULARES</h2>
+            <div class="cards"> <!-- Altere aqui para "cards" -->
+                <div class="card"><br><br><img src="img/b.jpg">
+                    <h2>NOME LIVRO</h2>
+                    <p>R$ 00,00</p>
+                    <button class="btnp"><a href="#">VER</button></a>
+                </div>
+                <div class="card"><br><br><img src="img/b.jpg">
+                    <h2>NOME LIVRO</h2>
+                    <p>R$ 00,00</p>
+                    <button class="btnp"><a href="#">VER</button></a>
+                </div>
+                <div class="card"><br><br><img src="img/b.jpg">
+                    <h2>NOME LIVRO</h2>
+                    <p>R$ 00,00</p>
+                    <button class="btnp"><a href="#">VER</button></a>
+                </div>
+                <div class="card"><br><br><img src="img/b.jpg">
+                    <h2>NOME LIVRO</h2>
+                    <p>R$ 00,00</p>
+                    <button class="btnp"><a href="#">VER</button></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="gradiente1"></div>
+
+        <h2>PROMOÇÕES</h2>
+
+        <div class="promocoes-container">
+            <div class="cardestaque">
+                <div class="destaque">
+                    <h2>Livro da Semana</h2>
+                    <img src="img/b.jpg">
+                    <p>NOME LIVRO</p>
+                    <span>R$ 00,00</span>
+                    <button class="btnd"><a href="#">VER</button></a>
+                </div>
+
+                <div class="promocoes-container">
+                    <section class="promocoes">
+                        <div class="ofertas">
+                            <h2>Ofertas da Semana</h2>
+                        </div>
+
+                        <div class="cardestaque">
+                            <div class="cardP"><br><br><img src="img/b.jpg">
+                                <h2>NOME LIVRO</h2>
+                                <p>R$ 00,00</p>
+                                <button class="btnd"><a href="#">VER</button></a>
+                            </div>
+
+                            <div class="cardP"><br><br><img src="img/b.jpg">
+                                <h2>NOME LIVRO</h2>
+                                <p>R$ 00,00</p>
+                                <button class="btnd"><a href="#">VER</button></a>
+                            </div>
+
+                            <div class="cardP"><br><br><img src="img/b.jpg">
+                                <h2>NOME LIVRO</h2>
+                                <p>R$ 00,00</p>
+                                <button class="btnd"><a href="#">VER</button></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+        </div>
+    </main>
+
+
+            </div>
+        </section>
+    <div class="gradiente2"></div>
+        <section class="categorias">
+            <h2>CATEGORIAS</h2>
+            <div class="grid-categorias">
+
+                <div class="categoria">
+                    <p>FUNDAMENTOS DE TI</p>
+                </div>
+
+                <div class="categoria">
+                    <p>DESENVOLVIMENTO DE SOFTWARE</p>
+                </div>
+
+                <div class="categoria">
+                    <p>BANCO DE DADOS</h2>
+                </div>
+
+                <div class="categoria">
+                    <p>SEGURANÇA DA INFORMAÇÃO</p>
+                </div>
+
+                <div class="categoria">
+                    <p>IA E MACHINE LEARNING</p>
+                </div>
+
+                <div class="categoria">
+                    <p>REDES E INFRAESTRUTURA</p>
+                </div>
+
+                <div class="categoria">
+                    <p>HARDWARE</h2>
+                </div>
+                    <div class="categoria">
+                        <p>TECNOLOGIA E SOCIEDADE</p>
+                </div>
+                    <div class="categoria">
+                        <p>IDENTIDADE VISUAL</p>
+                </div>
+            </div>
+        </div>
     </div>
-</body>
+</div>
+</section>
+</main>
+
+    <div class="gradiente3"></div>
+
+    <div class="carousel">
+            <div class="carouselL">
+                <div class="crul"><br><br><img src="img/b.jpg">
+                    <h2>NOME LIVRO</h2>
+                    <p>R$ 00,00</p>
+                    <button class="btnc"><a href="#">VER</button></a>
+                </div>
+                <div class="crul"><br><br><img src="img/b.jpg">
+                    <h2>NOME LIVRO</h2>
+                    <p>R$ 00,00</p>
+                    <button class="btnc"><a href="#">VER</button></a>
+                </div>
+                <div class="crul"><br><br><img src="img/b.jpg">
+                    <h2>NOME LIVRO</h2>
+                    <p>R$ 00,00</p>
+                    <button class="btnc"><a href="#">VER</button></a>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

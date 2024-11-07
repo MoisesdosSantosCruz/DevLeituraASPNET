@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #212121;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: #212121;
+}
+
+.logo img {
+    color: white;
+    font-size: 30px;
+    border-radius: -0px;
+}
+
+.search button {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    width: 50px;
+    border: #3FB950 solid 3px;
+    margin-left: 5px;
+    color: #3FB950;
+    cursor: pointer;
+}
+
+    .search button:hover {
+        box-shadow: #3fb94f1f 0px 0px 30px;
+        transition: all 0.2s ease-in-out;
+    }
+
+
+.gradiente1 {
+    margin: 30px 0;
+    height: 2px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)), color-stop(50%, #3FB950));
+}
+
+.gradiente2 {
+    margin: 30px 0;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #3FB950, #1F487E, transparent);
+}
+
+.gradiente3 {
+    margin: 30px 0;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #1F487E,transparent);
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+    .search input {
+        padding: 18px;
+        width: 45%;
+        border: none;
+        border-radius: 30px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+    }
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.nav-menu {
+    display: none;
+    background-color: #212121;
+    position: absolute;
+    border-radius: 20px;
+    top: 90px;
+    right: 0;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.986) -10px 25px 60px;
+}
+
+    .nav-menu.active {
+        display: block;
+    }
+
+    .nav-menu h2 {
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: bolder;
+    }
+
+    .nav-menu ul {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+        .nav-menu ul li {
+            margin-bottom: 15px;
+        }
+
+            .nav-menu ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+
+.menu-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btnlog {
+    background-color: #3FB950;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+    .btnlog a {
+        text-decoration: none;
+        color: white;
+    }
+
+.btnreg {
+    background-color: #1F487E;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+    .btnreg a {
+        text-decoration: none;
+        color: white;
+    }
+
+.line {
+    margin: 30px 0;
+    height: 2px;
+    background: linear-gradient(to right, #1F487E, #3FB950, #1F487E,#3FB950 );
+    ;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+}
+
+.btnp {
+    background-color: #1F487E;
+    color: black;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+
+.btnd {
+    background-color: #3FB950;
+    color: black;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+
+.populares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Garante que a seção ocupa toda a largura */
+    margin-bottom: 30px;
+}
+
+.cardpopular {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    justify-items: center;
+    display: center;
+}
+
+.card {
+    flex: 1 1 auto; /* Permite ajuste de largura automática */
+    min-width: 200px; /* Largura mínima de cada card */
+    max-width: 300px; /* Largura máxima para limitar expansão */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: nowrap; /* Mantém os cards em uma linha */
+    width: 100%; /* Largura total */
+    overflow-x: auto; /* Permite rolagem se os cards não couberem */
+    text-decoration: none;
+}
+
+    .cards a {
+        text-decoration: none;
+        color: #1E1E1E;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+.cardestaque {
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+}
+
+.cardsP h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 23px; /* Distância entre o título e os cards */
+}
+
+.cardP h2 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 23px; /* Distância entre o título e os cards */
+}
+
+.cardP {
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -59px;
+}
+
+    .cardP a {
+        text-decoration: none;
+        color: #1E1E1E;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+.promocoes-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.promocoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #2B2D42;
+    border-radius: 30px;
+    padding: 30px;
+    align-items: center;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.ofertas h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.destaque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    border-radius: 30px;
+    padding: 30px 30px;
+    border: #3FB950 3px solid;
+    /* box-shadow: #3fb94fa2 0px 0px 30px;*/
+    margin-bottom: 40px;
+}
+
+    .destaque h2 {
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 44px;
+    }
+
+    .destaque p {
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 28px;
+        font-size: 24px;
+    }
+
+    .destaque a {
+        text-decoration: none;
+        color: #212121;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+img {
+    border-radius: 20px;
+}
+
+.grid-categorias {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3%;
+}
+
+.categorias h2 {
+    margin-bottom: -6px;
+}
+
+.categoria {
+    padding: 10px;
+    border-radius: 26px;
+    width: 240px;
+    height: 110px;
+    text-align: center;
+    border: 3px solid #3FB950;
+    font-size: 6px;
+}
+
+    .categoria p {
+        margin: 0px;
+        font-size: 21px;
+        text-align: center;
+        margin-top: 14px;
+    }
+
+footer {
+    padding: 20px;
+    background: #333;
+    text-align: center;
+    justify-items: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto; /* Margem automática para centralizar */
+    width: 100%;
+}
+
+.carouselL {
+    display: flex;
+    gap: 40px;
+    background-color: #2B2D42;
+    border-radius: 30px;
+    padding: 30px 30px;
+    max-width: 80%; /* Limita a largura máxima do carrossel */
+    justify-content: center; /* Habilita rolagem horizontal para telas pequenas */
+    /*box-shadow: #525899d7 0px 0px 30px;8*/
+}
+
+    .carouselL a {
+        text-decoration: none;
+        color: #1E1E1E;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .carouselL p {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .carouselL h2 {
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 2px;
+        margin-top: 23px; /* Distância entre o título e os cards */
+    }
+
+.btnc {
+    background-color: #3FB950;
+    color: black;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    align-items: center;
+}
+
+.destaque:hover {
+    box-shadow: #3fb94fb2 0px 0px 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.categoria:hover {
+    box-shadow: #3fb94f7a 0px 0px 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btnc:hover {
+    background-color: #2B2D42;
+}
+
+.btnd:hover {
+    border: #3FB950 solid 2px;
+}
+
+.btnp:hover {
+    background-color: #3FB950;
+}
+
+
+.carousel .card {
+    min-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .search, .search button {
+        display: none;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .carousel {
+        flex-direction: column;
+    }
+
+    .grid-categorias {
+        grid-template-columns: 1fr;
+    }
+}
