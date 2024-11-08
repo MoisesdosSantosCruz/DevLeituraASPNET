@@ -19,7 +19,7 @@ namespace Norget.Repository
 
         //Busca todos por id
         Usuario ObterUsuario(int Id);
-
+        
         //Atualizar Cliente
         void Atualizar(Usuario usuario);
 

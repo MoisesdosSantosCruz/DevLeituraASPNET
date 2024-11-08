@@ -76,7 +76,7 @@ namespace Norget.Repository
 
         public IEnumerable<Usuario> TodosUsuarios()
         {
-            List<Usuario> Clientlist = new List<Usuario>();
+            List<Usuario> Usuariolist = new List<Usuario>();
 
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
@@ -91,7 +91,7 @@ namespace Norget.Repository
 
                 foreach (DataRow dr in dt.Rows)
                 {
-                    Clientlist.Add(
+                    Usuariolist.Add(
                             new Usuario
                             {
                                 Nome = ((string)dr["nome"]),
@@ -99,7 +99,7 @@ namespace Norget.Repository
                                 Email = ((string)dr["email"]),
                             });
                 }
-                return Clientlist;
+                return Usuariolist;
 
             }
         }
@@ -116,22 +116,22 @@ namespace Norget.Repository
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 MySqlDataReader dr;
 
-                Usuario cliente = new Usuario();
+                Usuario usuario = new Usuario();
                 // retorna conjunto de resultado ,  é funcionalmente equivalente a chamar ExecuteReader().
                 dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
                 while (dr.Read())
                 {
-                    cliente.Id = Convert.ToInt32(dr["id"]);
-                    cliente.Nome = (string)(dr["nome"]);
-                    cliente.Tel = (int)(dr["tel"]);
-                    cliente.Email = (string)(dr["email"]);
+                    usuario.Id = Convert.ToInt32(dr["id"]);
+                    usuario.Nome = (string)(dr["nome"]);
+                    usuario.Tel = (int)(dr["tel"]);
+                    usuario.Email = (string)(dr["email"]);
                 }
-                return cliente;
+                return usuario;
             }
         }
 
         //Alterar Cliente
-        public void Atualizar(Usuario cliente)
+        public void Atualizar(Usuario usuario)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
@@ -139,10 +139,10 @@ namespace Norget.Repository
                 MySqlCommand cmd = new MySqlCommand("Update tbCliente set nome=@nome, tel=@telefone, email=@email " +
                                                     " where cod=@codigo ", conexao);
 
-                cmd.Parameters.Add("@codigo", MySqlDbType.VarChar).Value = cliente.Id;
-                cmd.Parameters.Add("@nome", MySqlDbType.VarChar).Value = cliente.Nome;
-                cmd.Parameters.Add("@telefone", MySqlDbType.VarChar).Value = cliente.Tel;
-                cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = cliente.Email;
+                cmd.Parameters.Add("@codigo", MySqlDbType.VarChar).Value = usuario.Id;
+                cmd.Parameters.Add("@nome", MySqlDbType.VarChar).Value = usuario.Nome;
+                cmd.Parameters.Add("@telefone", MySqlDbType.VarChar).Value = usuario.Tel;
+                cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = usuario.Email;
 
                 cmd.ExecuteNonQuery();
                 conexao.Close();

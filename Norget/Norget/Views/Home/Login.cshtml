@@ -4,43 +4,37 @@
     ViewData["Title"] = "Login";
 }
 
-<main role="main">
-    <br />
-    <br />
-    <section class="container">
-        <aside class="col-sm-4">
-            <h3 class="subtitle-doc">
-                Primeiro Acesso
-            </h3>
-            <div id="code_login_1">
-                <div class="card">
-                    <article class="card-body">
-                        @if (ViewData["msg"] != null)
-                        {
-                            @* O HTML Raw pode ser usado para: Procurar e baixar páginas HTML, Procurar e baixar cabeçalhos.*@
-                            <p class="alert alert-danger">@Html.Raw(ViewData["msg"])</p>
-                        }
+<body>
 
-                        <h4 class="card-title mb-4 mt-1">Entrar</h4>
-                        <form method="post">
-                            <div class="form-group">
-                                <label>E-mail</label>
+    <div class="container">
 
-                                <input asp-for="Email" class="form-control" placeholder="Email" type="email">
-                            </div>
-                            <div class="form-group">
-                                <label>Senha</label>
-                                <input asp-for="Senha" class="form-control" placeholder="******" type="password">
-                            </div>
-                            <br />
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-primary btn-block"> Login </button>
-
-                            </div>
-                        </form>
-                    </article>
-                </div>
+        <div class="formulario">
+            <div class="header">
+                <span>LOGIN</span>
             </div>
-        </aside>
-    </section>
-</main>
+            <div class="form">
+                <div class="user">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h2>Seja Bem-Vindo de volta!</h2>
+                <form>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+
+                    <label for="password"></label>
+                    <div class="senha">
+                        <input type="password" id="password" name="password" placeholder="Senha" required>
+                        <span class="mostrar">&#128065;</span> <!-- Olho para mostrar a senha -->
+                    </div>
+
+                    <a href="#" class="esqueci-senha">Esqueceu sua senha? <strong>Clique aqui!</strong></a>
+                    <button type="submit" class="btn-login">Registre-se</button>
+                </form>
+            </div>
+        </div>
+        <div class="redirecionar">
+            <p><span>NÃO</span> TEM CONTA? :(</p>
+            <a href="registro.html">Clique <span class="reg">aqui</span> para fazer uma conta com a gente!</a>
+        </div>
+    </div>
+</body>

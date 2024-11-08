@@ -2,8 +2,6 @@
 using Newtonsoft.Json;
 using Norget.Models;
 
-// RECEBA (TROCAR O CÓDIGO)
-
 namespace Norget.Libraries.Login
 {
     public class LoginUsuario

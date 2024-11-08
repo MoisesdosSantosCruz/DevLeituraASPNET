@@ -5,8 +5,10 @@
     "\\Norget\\Norget",
     "\\Norget\\Norget\\Libraries",
     "\\Norget\\Norget\\Libraries\\Session",
-    "\\Norget\\Norget\\Models"
+    "\\Norget\\Norget\\Models",
+    "\\Norget\\Norget\\wwwroot",
+    "\\Norget\\Norget\\wwwroot\\css"
   ],
-  "SelectedNode": "\\Norget\\Norget.sln",
+  "SelectedNode": "\\Norget\\Norget\\wwwroot\\css\\estilo.css",
   "PreviewInSolutionExplorer": false
 }
