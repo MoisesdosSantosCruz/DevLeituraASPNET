@@ -6,9 +6,11 @@
     "\\Norget\\Norget\\Libraries",
     "\\Norget\\Norget\\Libraries\\Session",
     "\\Norget\\Norget\\Models",
+    "\\Norget\\Norget\\Views",
+    "\\Norget\\Norget\\Views\\Home",
     "\\Norget\\Norget\\wwwroot",
     "\\Norget\\Norget\\wwwroot\\css"
   ],
-  "SelectedNode": "\\Norget\\Norget\\wwwroot\\css\\estilo.css",
+  "SelectedNode": "\\Norget\\Norget\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

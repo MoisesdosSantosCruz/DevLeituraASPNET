@@ -66,8 +66,7 @@
               "RelativeToolTip": "Norget\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:58:57.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T00:58:57.85Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Norget\\Repository\\UsuarioRepositorio.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAGUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:45:54.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T23:45:54.022Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "Norget\\Repository\\IUsuarioRepositorio.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:45:52.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T23:45:52.616Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "Norget\\Controllers\\UsuarioController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAvwBoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:20:23.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T23:20:23.119Z"
             },
             {
               "$type": "Document",
@@ -118,8 +114,7 @@
               "RelativeToolTip": "Norget\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T01:18:05.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T01:18:05.034Z"
             },
             {
               "$type": "Document",
@@ -129,7 +124,7 @@
               "RelativeDocumentMoniker": "Norget\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Norget\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-08T00:43:21.723Z",
               "EditorCaption": ""
@@ -144,8 +139,7 @@
               "RelativeToolTip": "Norget\\Views\\Home\\CadastroUsuario.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T01:28:45.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T01:28:45.242Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "Norget\\Views\\Home\\Login.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T01:15:29.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T01:15:29.518Z"
             }
           ]
         }
