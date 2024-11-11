@@ -1,21 +1,20 @@
 create database db_DevReads;
-
 use db_DevReads;
 
- -- drop database db_DevReads;
+-- drop database db_DevReads;
 
 create table tbCliente(
 id int primary key auto_increment,
 CPF decimal(11,0) unique not null,
 NomeCli varchar(200) not null,
-EmailCli varchar(30) not null,
+EmailCli varchar(50) not null,
 SenhaCli int not null,
-Tel int not null
+Tel int
 );
 
 create table tbEditora(
 idEdi int primary key auto_increment,
-CNPJ decimal (11,0) unique not null,
+CNPJ decimal (14,0) unique not null,
 NomeEdi varchar(100) not null,
 TelEdi int 
 );
@@ -30,16 +29,15 @@ create table tbLivro(
 ISBN decimal(13,0) primary Key,
 NomeLiv varchar(100) not null,
 PrecoLiv decimal(6,2) not null,
-DescLiv varchar(100)not null,
+DescLiv varchar(250)not null,
 ImgLiv varchar(200) not null,
-Categoria varchar(30) not null,
-idEdi int ,
-Autor varchar(50) not null,
+Categoria varchar(100) not null,
+idEdi int not null,
+Autor varchar(100) not null,
 DataPubli date not null,
 Qtd int,
 constraint FK_Id_Edi foreign key(idEdi) references tbEditora(idEdi)
 );
-
 
 /*create table tbCarrinho(
 idCarro int primary key auto_increment,
@@ -97,7 +95,7 @@ constraint FK_ISBN foreign key(ISBN) references tbLivro(ISBN)
 
 -- Procedures! ----------------------------------------------------------------------------------
 delimiter $$                  
-create procedure spInsertUsuario(vCPF decimal(11,0), vNomeCli varchar(200), vEmailCli varchar(30), vSenhaCli int, vTel int)
+create procedure spInsertCliente( vNomeCli varchar(200), vCPF decimal(11,0), vEmailCli varchar(50), vSenhaCli int, vTel int)
 begin
 if not exists (select CPF from tbCliente where CPF = vCPF)then
 	insert into tbCliente(CPF, NomeCli, EmailCli, SenhaCli, Tel)
@@ -108,19 +106,18 @@ select "Já tem";
 end if;
 end $$
 
-describe tbCliente;
-
-call spInsertUsuario(46956936969, 'Niko', 'nikoolhate@gmail.com', 123456, 986754389);
-call spInsertUsuario(34567891011, 'Luciano', 'Luciano@gmail.com', 132457, 997765421);
-call spInsertUsuario(34567665401, 'Edu bolanhos', 'Edu@gmail.com', 345678, 934465421);
-call spInsertUsuario(34567665455, 'Luciana Amelia Damasceno Ramos dos Santos', 'Luci@gmail.com', 345655, 934465455);
+call spInsertCliente('Niko', 46956936969, 'nikoolhate@gmail.com', 123456, 986754389);
+call spInsertCliente('Luciano', 34567891011, 'Luciano@gmail.com', 132457, 997765421);
+call spInsertCliente('Edu bolanhos', 34567665401, 'Edu@gmail.com', 345678, 934465421);
+call spInsertCliente('Luciana Amelia Damasceno Ramos dos Santos', 34567665455, 'Luci@gmail.com', 345655, 934465455)
 
 select * from tbCliente;
 
 -- Editora ----------------------------------------------------------------
-describe tbEditora;
+select * from tbEditora;
+
 delimiter $$                  
-create procedure spInsertEditora(vCNPJ decimal(11,0), vNomeEdi varchar(50), vTelEdi int)
+create procedure spInsertEditora(vCNPJ decimal(14,0), vNomeEdi varchar(50), vTelEdi int)
 begin
 if not exists (select CNPJ from tbEditora where CNPJ = vCNPJ)then
 	insert into tbEditora(CNPJ, NomeEdi, TelEdi)
@@ -131,36 +128,13 @@ select "Já tem";
 end if;
 end $$
 
-call spInsertEditora (56978912330, 'Editora Dialética', 987654321);
+call spInsertEditora (04713695000452, 'Alta Books', 987654321);
+call spInsertEditora (23308850000157, 'Érica', 888997767);
+call spInsertEditora (08693550000145, 'Visual Books', 991733583);
+call spInsertEditora (03032435000106, 'Matrix Editora', 38682863);
+call spInsertEditora (74514316000138, 'Editora Gente',  36752505);
+call spInsertEditora (55789390000112, 'Companhia das Letras', 37073500);
 
-
--- Procedure tbLivro ----------------------------------------------------------
-select * from tbLivro;
-
-delimiter $$                  
-create procedure spInsertLivro(vISBN decimal(13,0), vNomeLiv varchar(50), vPrecoLiv decimal(6,2), 
-vDescLiv varchar(100), vImgLiv varchar(200), vCategoria Varchar(30), vNomeEdi varchar(100), vAutor varchar(50), vDataPubli char(10), vQtd int)
-begin
-if not exists (select ISBN from tbLivro where ISBN = vISBN)then
-	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, idEdi, Autor, DataPubli, Qtd)
-			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, vCategoria, (select idEdi from tbEditora where NomeEdi = vNomeEdi), vAutor, str_to_date(vDataPubli, '%d/%m/%Y'), vQtd);
-
-else
-select "Já tem!";
-
-end if;
-end $$
-select * from tbLivro;
-call spInsertLivro(9788576082675, 'Código Limpo', 85.00, 'Habilidades da codificação de software',
-'CodigoLimpo.jpg', 'FrontEnd', 'Editora Dialética', 'Robert Cecil Martin', '19/06/2012', 10);
-call spInsertLivro(9788535262128, 'Como Criar Uma Mente', 65.00, 'Conhecimento da tecnologia para com a mente humana',
-'ComoCriar.jpg','Inteligência Artificial e Machine Learning', 'Ray Kurzweil', '13/11/2012', 10);
-call spInsertLivro(, '', , '', '', '', '', '', );
-call spInsertLivro(, '', , '', '', '', '', '', );
-call spInsertLivro(, '', , '', '', '', '', '', );
-call spInsertLivro(, '', , '', '', '', '', '', );
-call spInsertLivro(, '', , '', '', '', '', '', );
-call spInsertLivro(, '', , '', '', '', '', '', );
 
 -- Acrescentar a editora nos livros (atributo) - ORDEM DAS EDITORAS DOS LIVROS A SEGUIR SEGUE A ORDEM DOS INSERTS DOS LIVROS
 /*
@@ -173,7 +147,56 @@ Editora Gente
 Alta Books
 */
 
-select * from tblivro;
+
+-- Procedure tbLivro ----------------------------------------------------------
+select * from tbLivro;
+
+delimiter $$                  
+create procedure spInsertLivro(vISBN decimal(13,0), vNomeLiv varchar(100), vPrecoLiv decimal(6,2), 
+vDescLiv varchar(250), vImgLiv varchar(200), vCategoria Varchar(100), vNomeEdi varchar(100), vAutor varchar(50), vDataPubli char(10), vQtd int)
+begin
+if not exists (select ISBN from tbLivro where ISBN = vISBN)then
+	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, idEdi, Autor, DataPubli, Qtd)
+			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, vCategoria, (select idEdi from tbEditora where NomeEdi = vNomeEdi), vAutor, str_to_date(vDataPubli, '%d/%m/%Y'), vQtd);
+
+else
+select "Já tem!";
+
+end if;
+end $$
+
+
+call spInsertLivro(9788535262128, 'Como Criar Uma Mente', 65.00, 'Conhecimento da tecnologia para com a mente humana',
+'ComoCriar.jpg','Inteligência Artificial e Machine Learning', 'Companhia das Letras', 'Ray Kurzweil', '13/11/2013', 10);
+
+call spInsertLivro(9788576082675, 'Código Limpo: Habilidades Práticas do Agile Software', 
+85.00, 'Habilidades da codificação de software',
+'CodigoLimpo.jpg', 'FrontEnd', 'Alta Books', 'Robert Cecil Martin', '01/08/2008', 10);
+
+call spInsertLivro(9788535248740, 'Projetos e Implementação de Redes: Fundamentos, Soluções, Arquiteturas e Planejamento', 
+213.00, 'Esta publicação apresenta conceitos iniciais e avançados sobre redes de computador, 
+com exemplos práticos e estudo de soluções', 'Projetos.jpg', ' Redes e Infraestrutura ', 
+'Érica', 'Edmundo Antonio Pucci', '30/07/2010', 10);
+
+call spInsertLivro(9788574526102, 'Manual de Produção de Jogos Digitais', 340.00 , 'São apresentados tópicos gerais como: pré-produção, testes e liberação do código, bem como tópicos específicos como: 
+gravações de voiceover e motioncapture, tradução e localização e fornecedores externos.', 'Manual.jpg', 'Programação e Desenvolvimento de Software', 
+'Visual Books', 'Adriano Hazenauer', '01/01/2012', 10);
+
+call spInsertLivro(9788550802320, 'Inteligência Artificial na Sala de Aula: Como a Tecnologia Está Revolucionando a Educação',  
+40.00, 'Qual é o impacto da Inteligência Artificial na educação? Ao embarcar neste livro, que responde a essas perguntas, 
+lembre-se de que a integração da Inteligência Artificial na educação é uma jornada, não um destino.', 
+'Inteligencia.jpg', 'Inteligência Artificial e Machine Learning','Matrix Editora', 'Leo Fraiman', '25/06/2024', 10);
+
+call spInsertLivro(9788545207481, 'A Guerra das Inteligências na Era do ChatGPT', 98.00, 
+'O ChatGPT está na origem de uma virada fundamental de nossa História. Seu fundador, Sam Altman, 
+quer criar uma Superinteligência Artificial para competir com nossos cérebros, 
+mesmo que isso signifique uma perigosa corrida mundial.', 'Chat.jpg', 
+'Inteligência Artificial e Machine Learning ', 'Editora Gente', 'Renato de Castro', '17/05/2024', 10);
+
+call spInsertLivro(9788597004087, 'O Verdadeiro Valor do TI ', 99.00 , 'Como Transformar TI de um Centro de Custos em um Centro de Valor e Competitividade Se esta parece ser a situação na sua empresa, 
+considere este livro como um chamado para despertar para a vida.', 'Valor.jpg', 
+'Gestão de TI', 'Alta Books', 'Mark Schwartz', '01/01/2019', 10 );
+
 
 -- Procedure compra
 delimiter $$
@@ -196,17 +219,17 @@ end $$
 
 call spInsertCompra(3, 1234567891023, 3, 'Edu bolanhos', 85.00, 'Dinheiro');
 call spInsertCompra(2, 1234567891023, 2, 'Luciano', 85.00, 'Pix');
-call spInsertCompra(1, 1234567891023, 1, 'Niko', 85.00, 'Cartão');
+call spInsertCompra(1, 9788535262128, 1, 'Niko', 85.00, 'Cartão');
 call spInsertCompra(4, 1234567891023, 4, 'Luciana Amelia Damasceno Ramos dos Santos', 85.00, 'débito');
 select * from tbCompra;
 
 -- Venda ------------------------------------------------------------------------------------
 delimiter $$
-Create procedure spInsertVenda(vNumeroVenda int, vNomeEdi varchar(200), vDataVenda char(10), vISBN decimal(13,0), vValorItem decimal (8,2), vQtd int, vQtdTotal int, vValorTotal decimal (8,2))
+Create procedure spInsertVenda(vNumeroVenda int, vNomeEdi varchar(100), vDataVenda char(10), vISBN decimal(13,0), vValorItem decimal (8,2), vQtd int, vQtdTotal int, vValorTotal decimal (8,2))
 BEGIN 
 	If not exists (select NumeroVenda from tbVenda where  NumeroVenda = vNumeroVenda) then
 		If exists (select idEdi from tbEditora where NomeEdi = vNomeEdi) and exists (select ISBN from tbLivro where ISBN = vISBN) then
-			insert into tbVenda (NumeroVenda, DataVenda, ValorTotal, QtdTotal,idEdi) 
+			insert into tbVenda (NumeroVenda, DataVenda, ValorTotal, QtdTotal, idEdi) 
 				values (vNumeroVenda, str_to_date(vDataVenda, '%d/%m/%Y'), vValorTotal, vQtdTotal, (select idEdi from tbEditora where NomeEdi = vNomeEdi));
 		End if;
 	End if; 
@@ -217,12 +240,12 @@ BEGIN
 	End if;
 END $$
 
-call spInsertVenda(8459, 'Editora Dialética', '01/05/2018', 1234567891023, 22.22, 200, 700, 21944.00);
+call spInsertVenda(1, 'Alta Books', '01/05/2018', 9788535262128, 22.22, 200, 700, 21944.00);
 
 describe tbVenda;
 describe tbItemvenda;
 select * from tbitemVenda;
-
+select * from tbVenda;
 
 select * from 
 -- NotaFiscal
@@ -285,8 +308,8 @@ DELIMITER $$
 create trigger trgLivroNovo AFTER INSERT ON tbLivro
 for each row
 begin
-    insert into tbLivroHistorico (ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, Autor, DataPubli, Ocorrencia, Atualizacao)
-    values (NEW.ISBN, NEW.NomeLiv, NEW.PrecoLiv, NEW.DescLiv, NEW.ImgLiv, NEW.Categoria, NEW.Autor, NEW.Datapubli, 'Novo', NOW());
+    insert into tbLivroHistorico (ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, idEdi, Autor, DataPubli, Ocorrencia, Atualizacao)
+    values (NEW.ISBN, NEW.NomeLiv, NEW.PrecoLiv, NEW.DescLiv, NEW.ImgLiv, NEW.Categoria, NEW.idEdi, NEW.Autor, NEW.Datapubli, 'Novo', NOW());
 end$$
 select * from tbcomprahistorico;
 
