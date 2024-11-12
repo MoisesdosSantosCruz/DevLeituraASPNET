@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZdxH4O9LYl4harDOG48ZYIRUZJthHzXvqACGL9TAuDg=",
+  "Hash": "IfY4zPI059ay606EDE20aE24RMzKi+v/uTkHiYXgxMk=",
   "Source": "Norget",
   "BasePath": "_content/Norget",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
+      "SourceId": "Norget",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\wwwroot\\",
+      "BasePath": "_content/Norget",
+      "RelativePath": "css/cadastro.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
+    },
+    {
       "Identity": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\wwwroot\\css\\estilo.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
@@ -72,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\estilo.css"
+    },
+    {
+      "Identity": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\wwwroot\\css\\login.css",
+      "SourceId": "Norget",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\wwwroot\\",
+      "BasePath": "_content/Norget",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\wwwroot\\favicon.ico",

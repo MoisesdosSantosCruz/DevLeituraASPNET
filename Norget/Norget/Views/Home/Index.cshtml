@@ -2,6 +2,30 @@
     ViewData["Title"] = "Index";
 }
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!--link o css para o html-->
+    <link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true" />
+    <!--coloca o icon da dev reads no site-->
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap lib para pegar icones necessarios para a montagem do site-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    
+    <!--fonte do google montserrat para os textos-->
+    <title>DEVREADS</title>
+    <!--um script para mostrar ao clicar no menu-->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</head>
+
 <body>
     <header>
         <div class="logo">
@@ -133,7 +157,7 @@
                 </div>
 
                 <div class="categoria">
-                    <p>HARDWARE</h2>
+                    <p>HARDWARE</p>
                 </div>
                     <div class="categoria">
                         <p>TECNOLOGIA E SOCIEDADE</p>
@@ -167,3 +191,4 @@
             </div>
         </div>
 </body>
+</html>
