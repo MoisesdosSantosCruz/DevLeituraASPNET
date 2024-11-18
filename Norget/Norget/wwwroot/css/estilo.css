@@ -8,11 +8,12 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #212121;
-    color: white;
-    line-height: 1.6;
+    color: #ffffff;
+    line-height: 1.6; 
+    display: flex;
+    flex-direction: column;
 }
-
-header {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,13 +21,12 @@ header {
     background: #212121;
 }
 
-.logo img {
+.logo img{
     color: white;
     font-size: 30px;
     border-radius: -0px;
 }
-
-.search button {
+.search button{
     background-color: rgba(0, 0, 0, 0);
     border-radius: 50px;
     width: 50px;
@@ -34,33 +34,13 @@ header {
     margin-left: 5px;
     color: #3FB950;
     cursor: pointer;
-}
-
-    .search button:hover {
+    
+} 
+.search button:hover{
         box-shadow: #3fb94f1f 0px 0px 30px;
         transition: all 0.2s ease-in-out;
     }
-
-
-.gradiente1 {
-    margin: 30px 0;
-    height: 2px;
-    background: black;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)), color-stop(50%, #3FB950));
-}
-
-.gradiente2 {
-    margin: 40px;
-    height: 3px;
-    background: linear-gradient(to right, transparent, #3FB950, #1F487E, transparent);
-}
-
-.gradiente3 {
-    margin: 500px 0;
-    height: 3px;
-    background: linear-gradient(to right, transparent, #1F487E,transparent);
-}
-
+    
 .search {
     flex: 1;
     display: flex;
@@ -68,14 +48,14 @@ header {
     position: relative;
 }
 
-    .search input {
-        padding: 18px;
-        width: 45%;
-        border: none;
-        border-radius: 30px;
-        font-family: "Montserrat", sans-serif;
-        font-size: 14px;
-    }
+.search input {
+    padding: 18px;
+    width: 45%;
+    border: none;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
 
 .icons {
     display: flex;
@@ -86,91 +66,45 @@ header {
 }
 
 
-.menu-icon {
+.icons {
     cursor: pointer;
     font-size: 25px;
 }
-
-.nav-menu {
-    display: none;
-    background-color: #212121;
-    position: relative;
-    z-index: 1000;
-    border-radius: 20px;
-    top: 90px;
-    right: 0;
-    padding: 20px 20px;
-    box-shadow: rgba(0, 0, 0, 0.986) -10px 25px 60px;
+.icons a {
+   text-decoration: none;
+   color: #fff;
 }
 
-    .nav-menu.active {
-        display: block;
-    }
-
-    .nav-menu h2 {
-        text-align: left;
-        color: white;
-        font-size: 20px;
-        margin-bottom: 20px;
-        font-weight: bolder;
-    }
-
-    .nav-menu ul {
-        list-style: none;
-        margin-bottom: 20px;
-    }
-
-        .nav-menu ul li {
-            margin-bottom: 15px;
-        }
-
-            .nav-menu ul li a {
-                text-decoration: none;
-                color: white;
-                font-size: 20px;
-            }
-
-.menu-buttons {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.btnlog {
+.login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
     background-color: #3FB950;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    font-size: 20px;
+}
+.login:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: #3FB950 0px 0px 30px;
 }
 
-    .btnlog a {
-        text-decoration: none;
-        color: white;
-    }
-
-.btnreg {
+.cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
     background-color: #1F487E;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    font-size: 20px;
+    transition: 1s background;
 }
 
-    .btnreg a {
-        text-decoration: none;
-        color: white;
-    }
-
-.line {
-    margin: 30px 0;
-    height: 2px;
-    background: linear-gradient(to right, #1F487E, #3FB950, #1F487E,#3FB950 );
+.cadastro:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: #1F487E 0px 0px 30px;
 }
 
 main {
@@ -178,115 +112,58 @@ main {
 }
 
 h2 {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
     text-align: center;
     font-weight: normal;
-    font-family: "Montserrat", sans-serif;
 }
 
-.btnp {
-    background-color: #1F487E;
-    color: black;
-    border: none;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-}
-
-.btnd {
-    background-color: #3FB950;
-    color: black;
-    border: none;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-}
 
 .populares {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%; /* Garante que a se��o ocupa toda a largura */
+    width: 100%; /* Garante que a seção ocupa toda a largura */
     margin-bottom: 30px;
 }
-
 .cardpopular {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
     justify-items: center;
     display: center;
+    
 }
 
 .card {
-    flex: 1 1 auto; /* Permite ajuste de largura autom�tica */
-    min-width: 200px; /* Largura m�nima de cada card */
-    max-width: 300px; /* Largura m�xima para limitar expans�o */
+    flex: 1 1 auto; /* Permite ajuste de largura automática */
+    min-width: 200px; /* Largura mínima de cada card */
+    max-width: 300px; /* Largura máxima para limitar expansão */
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-}
 
+}
+/*cards do topo */
 .cards {
     display: flex;
     gap: 20px;
     justify-content: center;
-    flex-wrap: nowrap; /* Mant�m os cards em uma linha */
+    flex-wrap: nowrap; /* Mantém os cards em uma linha */
     width: 100%; /* Largura total */
-    overflow-x: auto; /* Permite rolagem se os cards n�o couberem */
+    overflow-x: auto; /* Permite rolagem se os cards não couberem */
     text-decoration: none;
-    color: black;
-    font-size: 20px
 }
-
-    .cards a {
-        text-decoration: none;
-        color: #1E1E1E;
-        font-weight: bold;
-        font-size: 18px;
-    }
-
-.cardestaque {
-    display: flex;
-    gap: 40px;
-    font-size: 15px;
-}
-
-.cardsP h2 {
-    color: white;
+.cards a {
+    text-decoration: none;
+    color:#1E1E1E;
     font-weight: bold;
-    text-align: center;
-    margin-bottom: 2px;
-    margin-top: 23px; /* Dist�ncia entre o t�tulo e os cards */
+    font-size: 18px;
 }
+/*fim do cards do topo*/
 
-.cardP h2 {
-    color: white;
-    font-weight: bolder;
-    text-align: center;
-    margin-bottom: 2px;
-    margin-top: 23px; /* Dist�ncia entre o t�tulo e os cards */
-}
 
-.cardP {
-    text-align: center;
-    border-radius: 10px;
-    margin-top: -59px;
-}
 
-    .cardP a {
-        text-decoration: none;
-        color: #1E1E1E;
-        font-weight: bold;
-        font-size: 18px;
-    }
 
 .promocoes-container {
     display: flex;
@@ -304,56 +181,111 @@ h2 {
     align-items: center;
     width: fit-content;
     flex-direction: column;
+    
 }
-
+/*arruma deixando o h2 centralizado */
 .ofertas h2 {
     color: white;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 20%;
+    margin-bottom: 20%; 
 }
 
+/*cards da div de promoções*/
+.cardP {
+
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -59px;
+}
+
+.cardP h2 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 23px; /* Distância entre o título e os cards */
+}
+
+.cardP a {
+    text-decoration: none;
+    color:#1E1E1E;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btnp {
+    background-color: #1F487E;
+        color: black;
+        border: none;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 100;
+}
+/*fim do cards da div de promoções*/
+
+
+/*sessao para o card destaque e estilizando ele*/
+.cardestaque {
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+}
+/*estlizaçao em si do card destaque*/
 .destaque {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
     border-radius: 30px;
-    padding: 30px 30px;
-    border: #3FB950 3px solid;
-    /* box-shadow: #3fb94fa2 0px 0px 30px;*/
+    padding:30px 30px;
+    border:#3FB950 3px solid;
+   /* box-shadow: #3fb94fa2 0px 0px 30px;*/
     margin-bottom: 40px;
 }
-
-    .destaque h2 {
-        color: white;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 44px;
-    }
-
-    .destaque p {
-        color: white;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 28px;
-        font-size: 24px;
-    }
-
-    .destaque a {
-        text-decoration: none;
-        color: #212121;
-        font-weight: bold;
-        font-size: 18px;
-    }
-
-
-img {
-    border-radius: 10px;
+/*arrumando o texto centralizando, trocando a cor e deixando em negrito*/
+.destaque h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 44px; 
+}
+.destaque p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 28px;
+    font-size: 24px;
+}
+/*tirando a "linkagem" (barra que fica em baixo do texto) e estilizando*/
+.destaque a {
+    text-decoration: none;
+    color:#212121;
+    font-weight: bold;
+    font-size: 18px;
 }
 
+.btnd {
+    background-color: #3FB950;
+    
+        color: black;
+        border: none;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 100;
+}
+/*deixando as imagens com cantos arrondados*/
+img {
+    border-radius: 20px;
+}
+/*sessao de categoria e suas configs*/
 .grid-categorias {
-    padding-top: 2px;
+    padding-top: 20px;
     justify-content: center;
     display: flex;
     gap: 40px;
@@ -361,11 +293,10 @@ img {
     text-align: center;
     padding: 3%;
 }
-
 .categorias h2 {
     margin-bottom: -6px;
 }
-
+/*arruma o cards da categoria ficando redondo que com uma borda */
 .categoria {
     padding: 10px;
     border-radius: 26px;
@@ -376,26 +307,27 @@ img {
     font-size: 6px;
 }
 
-    .categoria p {
-        margin: 0px;
-        font-size: 21px;
-        text-align: center;
-        margin-top: 14px;
-    }
+.categoria p {
+    margin: 0px;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 14px;
+}
 
-footer {
+/*footer nao configurado ent nao entra no site*/
+/* footer {
     padding: 20px;
     background: #333;
     text-align: center;
     justify-items: center;
-}
+} */
 
-
+/*config do carrossel com a estilizacao do mesmo */
 .carousel {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px auto; /* Margem autom�tica para centralizar */
+    margin: 40px auto; /* Margem automática para centralizar */
     width: 100%;
 }
 
@@ -404,83 +336,81 @@ footer {
     gap: 40px;
     background-color: #2B2D42;
     border-radius: 30px;
-    padding: 30px 30px;
-    max-width: 80%; /* Limita a largura m�xima do carrossel */
+    padding:30px 30px;
+    max-width: 80%; /* Limita a largura máxima do carrossel */
     justify-content: center; /* Habilita rolagem horizontal para telas pequenas */
     /*box-shadow: #525899d7 0px 0px 30px;8*/
 }
+.carouselL a{
+    text-decoration: none;
+    color:#1E1E1E;
+    font-weight: bold;
+    font-size: 18px;
 
-    .carouselL a {
-        text-decoration: none;
-        color: #1E1E1E;
-        font-weight: bold;
-        font-size: 18px;
-    }
-
-    .carouselL p {
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .carouselL h2 {
-        color: white;
-        font-weight: bolder;
-        text-align: center;
-        margin-bottom: 2px;
-        margin-top: 23px; /* Dist�ncia entre o t�tulo e os cards */
-    }
-
-.btnc {
-    background-color: #3FB950;
-    color: black;
-    border: none;
-    margin-top: 10px;
-    margin-left: 80px;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-    align-items: center;
+}
+.carouselL p{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.carouselL h2 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 23px; /* Distância entre o título e os cards */
 }
 
-.destaque:hover {
-    box-shadow: #3fb94fb2 0px 0px 30px;
-    transition: all 0.2s ease-in-out;
+/*estilização do btn do carrossel*/
+.btnc{
+        background-color: #3FB950;
+        color: black;
+        border: none;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 100;
+        align-items: center;
+        
 }
-
-.categoria:hover {
-    box-shadow: #3fb94f7a 0px 0px 30px;
-    transition: all 0.2s ease-in-out;
-}
-
-.btnc:hover {
-    background-color: #2B2D42;
-}
-
-.btnd:hover {
-    border: #3FB950 solid 2px;
-}
-
-.btnp:hover {
-    background-color: #3FB950;
-}
-
 
 .carousel .card {
     min-width: 200px;
 }
 
+/*hover dos botoes e do card destaque*/
+.destaque:hover{
+    box-shadow: #3fb94fb2 0px 0px 30px;
+    transition: all 0.2s ease-in-out;
+}
+.categoria:hover{
+    box-shadow: #3fb94f7a 0px 0px 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btnd:hover{
+    border: #3FB950 solid 2px;
+}
+.btnp:hover{
+    background-color: #3FB950;
+}
+
+
+
+
+/*responsividade*/
 @media (max-width: 768px) {
     .search, .search button {
         display: none;
-    }
 
+    }
+    
     .cards {
         flex-direction: column;
-        gap: 5px;
+        gap: 10px;
     }
 
     .carousel {

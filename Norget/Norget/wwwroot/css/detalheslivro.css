@@ -1,0 +1,315 @@
+* {
+    margin: 0;/* deixa a margem zerada*/
+    padding: 0;/* deixa o preenchimento zerado*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif; /* fonte padrao para o site inteiro */
+    background-color: #212121;
+    color: #ffffff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* config da nav bar junto com o dropdown menu*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: #212121;
+    width: 100%; /* Para ocupar a largura total */
+}
+
+.logo img{
+    color: white;
+    width: 80%;
+    margin-left: 20px;
+}
+
+/* barra e botao de pesquisa junto com o hover da mesma*/
+.search button{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    width: 50px;
+    border: #3FB950 solid 3px;
+    margin-left: 5px;
+    color: #3FB950;
+    cursor: pointer;
+    
+} 
+.search button:hover{
+        box-shadow: #3fb94f1f 0px 0px 30px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+.search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search input {
+    padding: 18px;
+    width: 45%;
+    border: none;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+
+/* icones que aparece na nav (sacola e menu) */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.nav-menu {
+    display: none;
+    background-color: #212121;
+    position: absolute;
+    border-radius: 20px;
+    top: 90px;
+    right: 0;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.986) -10px 25px 60px;
+    
+}
+
+/* configs do dropdown menu colocando os links para outras paginas e os botoes de login e cadastro*/
+.nav-menu.active {
+    display: block;
+    
+}
+
+.nav-menu h2 {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.nav-menu ul li {
+    margin-bottom: 15px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* botoes de login e cadastro */
+.menu-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btnlog {
+    background-color: #3FB950;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btnlog a{
+    text-decoration: none;
+    color: white;
+}
+.btnreg {
+    background-color: #1F487E;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btnreg a{
+    text-decoration: none;
+    color: white;
+}
+
+/* uma linha estilizada que tem entre o li e os buttons*/
+.line{
+    margin: 30px 0;
+    height: 2px;
+    background: linear-gradient(to right, #1F487E, #3FB950, #1F487E,#3FB950 );;
+    
+}
+/* botao de voltar para a tela anterior */
+.voltar {
+    padding: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.voltar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* detalhes do produto */
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto; /* Centraliza o elemento dentro do contêiner */
+}
+
+        .product-info {
+            text-align: center;
+        }
+
+        .product-info h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product-info .price {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .price span{
+            font-weight: bold;
+            font-size: 28px;
+        }
+
+.product-image img {
+    max-width: 300px;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+}
+
+/* botaos de compra e add carrinho */
+.actions {
+    display: block;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 28px;
+    margin-top: 10px;
+}
+
+.actions .comprar {
+    background-color: #3FB950;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.actions .addcarrinho {
+    background-color: #1F487E;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+/* info tecnica */
+.product-info-details {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+.product-info-details h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tech-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.tech-info span {
+    font-weight: bold;
+}
+
+.tech-info div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+/* botaos de compartilhar */
+.share i{
+    font-weight: bold;
+}
+
+/* responsividade */
+@media (max-width: 768px) {
+    .product-details {
+        padding: 10px;
+    }
+    /* faz quando a largura for menor que 768px desaparecer a search bar e o btn */
+    .search, .search button {
+        display: none;
+
+    }
+    .tech-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+/*  mesma coisa com a search bar mas agora com a logo */
+@media (max-width: 470px) {
+    .logo img {
+        display: none;
+        
+    }
+}
+
+/* alinha os btns no meio em column e da um gap entre eles */
+@media (max-width: 383px) {
+    .actions .addcarrinho {
+        
+        margin: 20px 0px;
+        
+    }
+}

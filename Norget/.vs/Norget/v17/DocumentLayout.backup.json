@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\views\\home\\navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\views\\home\\infosp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\infosp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\views\\home\\categoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\categoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\55119\\desktop\\asp\\norget\\norget\\views\\home\\carrinho.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\carrinho.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,28 +50,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Program.cs",
-              "RelativeDocumentMoniker": "Norget\\Program.cs",
-              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Program.cs",
-              "RelativeToolTip": "Norget\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:54:19.927Z",
+              "DocumentIndex": 1,
+              "Title": "InfoSp.cshtml",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\InfoSp.cshtml",
+              "RelativeDocumentMoniker": "Norget\\Views\\Home\\InfoSp.cshtml",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\InfoSp.cshtml",
+              "RelativeToolTip": "Norget\\Views\\Home\\InfoSp.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAawC4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:19:35.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\appsettings.json",
-              "RelativeDocumentMoniker": "Norget\\appsettings.json",
-              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\appsettings.json",
-              "RelativeToolTip": "Norget\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-18T00:54:05.946Z",
+              "DocumentIndex": 0,
+              "Title": "NavBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\NavBar.cshtml",
+              "RelativeDocumentMoniker": "Norget\\Views\\Home\\NavBar.cshtml",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\NavBar.cshtml",
+              "RelativeToolTip": "Norget\\Views\\Home\\NavBar.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T21:32:20.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cshtml",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\Categoria.cshtml",
+              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Categoria.cshtml",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\Categoria.cshtml",
+              "RelativeToolTip": "Norget\\Views\\Home\\Categoria.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:16:31.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carrinho.cshtml",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\Carrinho.cshtml",
+              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Carrinho.cshtml",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\Carrinho.cshtml",
+              "RelativeToolTip": "Norget\\Views\\Home\\Carrinho.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:11:53.042Z",
               "EditorCaption": ""
             }
           ]

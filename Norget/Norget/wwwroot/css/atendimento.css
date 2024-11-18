@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width:100%
+}
+body {
+    font-family:"Montserrat", sans-serif;
+    background-color: #212121;
+    color: white;
+  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: #212121;
+}
+
+.logo img{
+    color: white;
+    font-size: 30px;
+    border-radius: -0px;
+}
+.search button{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    width: 50px;
+    border: #3FB950 solid 3px;
+    margin-left: 5px;
+    color: #3FB950;
+    cursor: pointer;
+    
+} 
+.search button:hover{
+        box-shadow: #3fb94f1f 0px 0px 30px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+.search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search input {
+    padding: 18px;
+    width: 45%;
+    border: none;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.nav-menu {
+    display: none;
+    background-color: #212121;
+    position: absolute;
+    border-radius: 20px;
+    top: 90px;
+    right: 0;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.986) -10px 25px 60px;
+    
+}
+
+.nav-menu.active {
+    display: block;
+    
+}
+
+.nav-menu h2 {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.nav-menu ul li {
+    margin-bottom: 15px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btnlog {
+    background-color: #3FB950;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btnlog a{
+    text-decoration: none;
+    color: white;
+}
+.btnreg {
+    background-color: #1F487E;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btnreg a{
+    text-decoration: none;
+    color: white;
+}
+.line{
+    margin: 30px 0;
+    height: 2px;
+    background: linear-gradient(to right, #1F487E, #3FB950, #1F487E,#3FB950 );;
+    
+}
+
+.voltar{
+    font-family:"Montserrat", sans-serif;
+    padding: 80px 80px;
+    font-size: 28px;
+    color:  white;
+    text-decoration: none;
+}
+
+.quebra{
+    width: 850px;
+    justify-content: center;
+    display: center;
+    flex-wrap: wrap;
+}
+
+    .voltar a{
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+.central-atendimento {
+    text-align: center;
+    padding-top: 5px;
+        
+}
+
+
+    .central-atendimento h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .central-atendimento p {
+        margin-bottom: 10px;
+        font-size: 19px;
+        padding-bottom: 45px;
+    }
+
+.span{
+    color: #3FB950;
+    font-weight: bold;
+}
+
+.quebra{
+    width: 1000px;
+    justify-content: center;
+    display: inline-block;
+}
+
+.opcoes-atendimento {
+    padding-top: 60px;
+    justify-content: center;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.opcao {
+    
+    padding: 12px;
+    border-radius: 23px;
+    width: 330px;
+    height: 200px;
+    text-align: center;
+    border: 3px solid #3FB950;
+    
+}
+
+    .opcao h2 {
+        margin: 15px 0;
+        font-size: 21px;
+    }
+
+    .opcao p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: white;
+    }
+    
+    
+    .opcao button {
+        background-color: #3FB950;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 100;
+    }
+
+        .opcao button:hover {
+            background-color: #3FB950;
+        }
+
+.icone {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.opcao i {
+    font-size: 40px;
+    color: #3FB950;
+    margin-bottom: 10px;
+}
+.opcao a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+
+.opcao>img{
+    margin-top: 10px;
+    width: 14%;
+    height: 43px;
+
+}
+@media (max-width: 768px) {
+    .search, .search button {
+        display: none;
+
+    }
+    .quebra{
+        display: none;
+    }
+}
