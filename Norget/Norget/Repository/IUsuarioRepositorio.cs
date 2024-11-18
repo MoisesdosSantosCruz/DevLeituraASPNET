@@ -9,7 +9,7 @@ namespace Norget.Repository
         // CRUD
         // Login
         // Em verde model, amarelo = método (dentro dele  está as funçoes do sql(select, insert, etc))
-        Usuario Login(string Email, string Senha);
+        Usuario Login(string EmailCli, string SenhaCli);
 
         // Cadastrar cliente
         void Cadastro(Usuario usuario);
@@ -19,7 +19,7 @@ namespace Norget.Repository
 
         //Busca todos por id
         Usuario ObterUsuario(int Id);
-        
+
         //Atualizar Cliente
         void Atualizar(Usuario usuario);
 

@@ -50,13 +50,13 @@ header {
 }
 
 .gradiente2 {
-    margin: 30px 0;
+    margin: 40px;
     height: 3px;
     background: linear-gradient(to right, transparent, #3FB950, #1F487E, transparent);
 }
 
 .gradiente3 {
-    margin: 30px 0;
+    margin: 500px 0;
     height: 3px;
     background: linear-gradient(to right, transparent, #1F487E,transparent);
 }
@@ -94,7 +94,8 @@ header {
 .nav-menu {
     display: none;
     background-color: #212121;
-    position: absolute;
+    position: relative;
+    z-index: 1000;
     border-radius: 20px;
     top: 90px;
     right: 0;
@@ -170,7 +171,6 @@ header {
     margin: 30px 0;
     height: 2px;
     background: linear-gradient(to right, #1F487E, #3FB950, #1F487E,#3FB950 );
-    ;
 }
 
 main {
@@ -178,10 +178,11 @@ main {
 }
 
 h2 {
-    margin-bottom: 20px;
-    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
     text-align: center;
     font-weight: normal;
+    font-family: "Montserrat", sans-serif;
 }
 
 .btnp {
@@ -241,6 +242,8 @@ h2 {
     width: 100%; /* Largura total */
     overflow-x: auto; /* Permite rolagem se os cards não couberem */
     text-decoration: none;
+    color: black;
+    font-size: 20px
 }
 
     .cards a {
@@ -344,12 +347,13 @@ h2 {
         font-size: 18px;
     }
 
+
 img {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .grid-categorias {
-    padding-top: 20px;
+    padding-top: 2px;
     justify-content: center;
     display: flex;
     gap: 40px;
@@ -385,6 +389,7 @@ footer {
     text-align: center;
     justify-items: center;
 }
+
 
 .carousel {
     display: flex;
@@ -432,6 +437,7 @@ footer {
     color: black;
     border: none;
     margin-top: 10px;
+    margin-left: 80px;
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
@@ -474,7 +480,7 @@ footer {
 
     .cards {
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
 
     .carousel {

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: inherit;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
@@ -38,7 +38,7 @@ body {
 }
 
 .header {
-    position: absolute;
+    position: relative;
     top: -40px;
     right: 0px;
     height: 80px;
@@ -78,7 +78,6 @@ label {
 input[type="email"],
 input[type="nome"],
 input[type="password"] {
-
     width: 100%;
     padding: 10px;
     background: transparent;
@@ -97,10 +96,10 @@ input[type="password"] {
     align-items: center;
 }
 
-.senha input {
-    width: 100%;
-    padding-right: 30px;
-}
+    .senha input {
+        width: 100%;
+        padding-right: 30px;
+    }
 
 .mostrar {
     position: absolute;
@@ -115,10 +114,10 @@ input[type="password"] {
     text-decoration: none;
 }
 
-.esqueci-senha strong {
-    color: #333;
-    font-weight: bold;
-}
+    .esqueci-senha strong {
+        color: #333;
+        font-weight: bold;
+    }
 
 .btnregistrar {
     width: 30%; /* Ajuste para que o botão seja mais centralizado e proporcional */
@@ -133,14 +132,13 @@ input[type="password"] {
     margin-top: 30px;
     cursor: pointer;
     text-align: center;
-    
 }
 
-.btnregistrar:hover {
-    background-color: #3FB950;
-    transition: 0.3s background;
-    box-shadow: #3fb94fa8 0px 0px 28px;
-}
+    .btnregistrar:hover {
+        background-color: #3FB950;
+        transition: 0.3s background;
+        box-shadow: #3fb94fa8 0px 0px 28px;
+    }
 
 .redirecionar {
     text-align: center;
@@ -152,18 +150,19 @@ input[type="password"] {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.redirecionar p {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #212121;
-}
+    .redirecionar p {
+        font-size: 1.4em;
+        font-weight: bold;
+        color: #212121;
+    }
 
-.redirecionar a {
-    text-decoration: none;
-    color: #212121;
-    font-weight: normal;
-}
-span{
+    .redirecionar a {
+        text-decoration: none;
+        color: #212121;
+        font-weight: normal;
+    }
+
+span {
     color: #1F487E;
     font-weight: bold;
 }

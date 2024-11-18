@@ -2,15 +2,24 @@ create database db_DevReads;
 use db_DevReads;
 
 -- drop database db_DevReads;
+select * from tbCliente;
 
 create table tbCliente(
+id int primary key auto_increment,
+NomeCli varchar(200) not null,
+EmailCli varchar(50) not null,
+SenhaCli varchar(50),
+Tel int
+);
+
+/*create table tbCliente(
 id int primary key auto_increment,
 CPF decimal(11,0) unique not null,
 NomeCli varchar(200) not null,
 EmailCli varchar(50) not null,
 SenhaCli int not null,
 Tel int
-);
+);*/
 
 create table tbEditora(
 idEdi int primary key auto_increment,
@@ -95,6 +104,21 @@ constraint FK_ISBN foreign key(ISBN) references tbLivro(ISBN)
 
 -- Procedures! ----------------------------------------------------------------------------------
 delimiter $$                  
+create procedure spInsertCliente(vNomeCli varchar(200), vEmailCli varchar(50), vSenhaCli varchar(50), vTel int)
+begin
+if not exists (select NomeCli from tbCliente where NomeCli = vNomeCli)then
+	insert into tbCliente(NomeCli, EmailCli, SenhaCli, Tel)
+			values(vNomeCli, vEmailCli, vSenhaCli, vTel);
+else
+select "Já tem";
+
+end if;
+end $$
+
+call spInsertCliente('Niko', 'nikoolhate@gmail.com', 123456, 986754389);
+
+
+/*delimiter $$                  
 create procedure spInsertCliente( vNomeCli varchar(200), vCPF decimal(11,0), vEmailCli varchar(50), vSenhaCli int, vTel int)
 begin
 if not exists (select CPF from tbCliente where CPF = vCPF)then
@@ -104,7 +128,7 @@ else
 select "Já tem";
 
 end if;
-end $$
+end $$ */
 
 call spInsertCliente('Niko', 46956936969, 'nikoolhate@gmail.com', 123456, 986754389);
 call spInsertCliente('Luciano', 34567891011, 'Luciano@gmail.com', 132457, 997765421);

@@ -3,14 +3,14 @@
     "",
     "\\Norget",
     "\\Norget\\Norget",
-    "\\Norget\\Norget\\Libraries",
-    "\\Norget\\Norget\\Libraries\\Session",
+    "\\Norget\\Norget\\Controllers",
     "\\Norget\\Norget\\Models",
     "\\Norget\\Norget\\Views",
     "\\Norget\\Norget\\Views\\Home",
+    "\\Norget\\Norget\\Views\\Shared",
     "\\Norget\\Norget\\wwwroot",
     "\\Norget\\Norget\\wwwroot\\css"
   ],
-  "SelectedNode": "\\Norget\\Norget\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\Norget\\Norget\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

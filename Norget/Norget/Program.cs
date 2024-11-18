@@ -1,7 +1,20 @@
+using Norget.Libraries.Login;
+using Norget.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHttpContextAccessor();
+
+//Adicionar a Interface como um serviço 
+// Adicionar serviços 
+builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+
+builder.Services.AddScoped<Norget.Libraries.Session.Session>();
+builder.Services.AddScoped<LoginUsuario>();
+
 
 var app = builder.Build();
 

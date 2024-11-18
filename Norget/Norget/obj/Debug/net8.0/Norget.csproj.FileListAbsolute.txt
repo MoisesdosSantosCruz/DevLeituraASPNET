@@ -150,3 +150,7 @@ C:\Users\3ds\Desktop\TCCDR\Norget\Norget\obj\Debug\net8.0\refint\Norget.dll
 C:\Users\3ds\Desktop\TCCDR\Norget\Norget\obj\Debug\net8.0\Norget.pdb
 C:\Users\3ds\Desktop\TCCDR\Norget\Norget\obj\Debug\net8.0\Norget.genruntimeconfig.cache
 C:\Users\3ds\Desktop\TCCDR\Norget\Norget\obj\Debug\net8.0\ref\Norget.dll
+C:\Users\55119\Desktop\Asp\Norget\Norget\bin\Debug\net8.0\Norget.staticwebassets.endpoints.json
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\55119\Desktop\Asp\Norget\Norget\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

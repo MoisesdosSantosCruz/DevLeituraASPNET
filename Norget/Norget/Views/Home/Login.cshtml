@@ -6,15 +6,15 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
-        <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-        <title>Tela de Login</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Tela de Login</title>
+</head>
 
 <body>
 
@@ -29,24 +29,34 @@
                     <i class="fas fa-user"></i>
                 </div>
                 <h2>Seja Bem-Vindo de volta!</h2>
-                <form>
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                <article class="card-body">
 
-                    <label for="password"></label>
-                    <div class="senha">
-                        <input type="password" id="password" name="password" placeholder="Senha" required>
-                        <span class="mostrar">&#128065;</span> <!-- Olho para mostrar a senha -->
-                    </div>
+                    @if (ViewData["msg"] != null)
+                    {
+                        @* O HTML Raw pode ser usado para: Procurar e baixar páginas HTML, Procurar e baixar cabeçalhos.*@
+                        <p class="alert alert-danger">@Html.Raw(ViewData["msg"])</p>
+                    }
 
-                    <a href="#" class="esqueci-senha">Esqueceu sua senha? <strong>Clique aqui!</strong></a>
-                    <button type="submit" class="btn-login">Registre-se</button>
-                </form>
+                    <form method="post">
+                        <label for="email"></label>
+                        <input asp-for="EmailCli" id="email" placeholder="E-mail" type="email" required>
+
+                        <label for="password"></label>
+                        <div class="senha">
+                            <input asp-for="SenhaCli" id="password" placeholder="Senha" type="password" required>
+                            <span class="mostrar">&#128065;</span> <!-- Olho para mostrar a senha -->
+                        </div>
+
+                        <a href="#" class="esqueci-senha">Esqueceu sua senha? <strong>Clique aqui!</strong></a>
+                        <button type="submit" class="btn-login">Registre-se</button>
+                    </form>
+                </article>
             </div>
         </div>
         <div class="redirecionar">
             <p><span>NÃO</span> TEM CONTA? :(</p>
-            <a href="registro.html">Clique <span class="reg">aqui</span> para fazer uma conta com a gente!</a>
+            <a asp-action="CadastroUsuario">Clique <span class="reg">aqui</span> para fazer uma conta com a gente!</a>
+
         </div>
     </div>
 </body>

@@ -1,11 +1,12 @@
 ﻿@model IEnumerable<Norget.Models.Usuario>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "PainelUsuario";
 }
 
+<br />
 <p>
-    <a asp-controller="Home" asp-action="CadastroCliente">Cadastra Cliente</a>
+    <a asp-controller="Home" asp-action="CadastroUsuario">Cadastra Usuario</a>
 </p>
 <table class="table">
     <thead>
@@ -14,13 +15,13 @@
                 @Html.DisplayNameFor(model => model.Id)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                @Html.DisplayNameFor(model => model.NomeCli)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Tel)
+                @Html.DisplayNameFor(model => model.EmailCli)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+                @Html.DisplayNameFor(model => model.SenhaCli)
             </th>
             <th>Ação</th>
         </tr>
@@ -33,13 +34,13 @@
                     @Html.DisplayFor(modelItem => item.Id)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
+                    @Html.DisplayFor(modelItem => item.NomeCli)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Tel)
+                    @Html.DisplayFor(modelItem => item.EmailCli)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Email)
+                    @Html.DisplayFor(modelItem => item.SenhaCli)
                 </td>
                 <td>
                     @Html.ActionLink("Editar", "Editar", new { id = item.Id }) |

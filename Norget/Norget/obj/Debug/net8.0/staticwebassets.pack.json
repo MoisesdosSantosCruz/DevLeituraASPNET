@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Norget.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Norget.o8efev9ebn.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
@@ -295,6 +295,10 @@
     {
       "Id": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssets.props",

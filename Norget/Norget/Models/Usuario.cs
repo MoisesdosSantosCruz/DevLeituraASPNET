@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using MySqlX.XDevAPI;
 
 namespace Norget.Models
 {
@@ -7,23 +8,21 @@ namespace Norget.Models
     {
         public int Id { get; set; }
 
-        [Required]
-        [Column(TypeName = "decimal(11, 0)")]
-        public decimal CPF { get; set; }
+        // [Required]
+        //  [StringLength(200)]
+        public string? NomeCli { get; set; }
 
-        [Required]
-        [StringLength(200)]
-        public string Nome { get; set; }
+        // [Required]
+        // [EmailAddress]
+        // [StringLength(50)]
+        public string? EmailCli { get; set; }
 
-        [Required]
-        [EmailAddress]
-        [StringLength(30)]
-        public string Email { get; set; }
+        //  [Required]
+        public string? SenhaCli { get; set; }
 
-        [Required]
-        public string Senha { get; set; }
-
-        [Required]
+        // [Required]
         public int Tel { get; set; }
+        public List<Usuario>? ListaUsuario { get; set; }
+
     }
 }

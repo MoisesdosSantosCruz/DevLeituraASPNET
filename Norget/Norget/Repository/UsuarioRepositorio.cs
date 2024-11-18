@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI;
 using Norget.Models;
 using System.Data;
 
@@ -6,7 +7,7 @@ using System.Data;
 
 namespace Norget.Repository
 {
-    
+
     // Chamar a interface com herança
     public class UsuarioRepositorio : IUsuarioRepositorio
     {
@@ -19,7 +20,7 @@ namespace Norget.Repository
 
         //Login Cliente(metodo )
 
-        public Usuario Login(string Email, string Senha)
+        public Usuario Login(string EmailCli, string SenhaCli)
         {
             //usando a variavel conexao 
             using (var conexao = new MySqlConnection(_conexaoMySQL))
@@ -28,11 +29,11 @@ namespace Norget.Repository
                 conexao.Open();
 
                 // variavel cmd que receb o select do banco de dados buscando email e senha
-                MySqlCommand cmd = new MySqlCommand("select * from tbCliente where email = @Email and senha = @Senha", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbCliente where EmailCli = @Email and SenhaCli = @Senha", conexao);
 
                 //os paramentros do email e da senha 
-                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = Email;
-                cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = Senha;
+                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = EmailCli;
+                cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = SenhaCli;
 
                 // Lê os dados que foi pego do email e senha do banco de dados
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -47,8 +48,8 @@ namespace Norget.Repository
                 // Verifica todos os dados que foram pego do banco e pega o email e senha
                 while (dr.Read())
                 {
-                    usuario.Email = Convert.ToString(dr["email"]);
-                    usuario.Senha = Convert.ToString(dr["senha"]);
+                    usuario.EmailCli = Convert.ToString(dr["EmailCli"]);
+                    usuario.SenhaCli = Convert.ToString(dr["SenhaCli"]);
                 }
                 return usuario;
             }
@@ -61,11 +62,11 @@ namespace Norget.Repository
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("Insert into tbCliente (Nome,Tel,Email) values (@Nome, @Telefone, @Email)", conexao); // @: PARAMETRO
+                MySqlCommand cmd = new MySqlCommand("Insert into tbCliente (NomeCli,EmailCli,SenhaCli) values (@Nome,@Email,@Senha)", conexao); // @: PARAMETRO
 
-                cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = usuario.Nome;
-                cmd.Parameters.Add("@Telefone", MySqlDbType.VarChar).Value = usuario.Tel;
-                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = usuario.Email;
+                cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = usuario.NomeCli;
+                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = usuario.EmailCli;
+                cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = usuario.SenhaCli;
 
                 cmd.ExecuteNonQuery();
                 conexao.Close();
@@ -94,9 +95,10 @@ namespace Norget.Repository
                     Usuariolist.Add(
                             new Usuario
                             {
-                                Nome = ((string)dr["nome"]),
-                                Tel = ((int)dr["tel"]),
-                                Email = ((string)dr["email"]),
+                                Id = ((int)dr["id"]),
+                                NomeCli = ((string)dr["NomeCli"]),
+                                EmailCli = ((string)dr["EmailCli"]),
+                                SenhaCli = ((string)dr["SenhaCli"]),
                             });
                 }
                 return Usuariolist;
@@ -111,7 +113,7 @@ namespace Norget.Repository
             {
                 conexao.Open();
                 MySqlCommand cmd = new("SELECT * from tbCliente ", conexao);
-                cmd.Parameters.AddWithValue("@codigo", Id);
+                cmd.Parameters.AddWithValue("@id", Id);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 MySqlDataReader dr;
@@ -122,9 +124,9 @@ namespace Norget.Repository
                 while (dr.Read())
                 {
                     usuario.Id = Convert.ToInt32(dr["id"]);
-                    usuario.Nome = (string)(dr["nome"]);
-                    usuario.Tel = (int)(dr["tel"]);
-                    usuario.Email = (string)(dr["email"]);
+                    usuario.NomeCli = (string)(dr["NomeCli"]);
+                    usuario.EmailCli = (string)(dr["EmailCli"]);
+                    usuario.SenhaCli = (string)(dr["SenhaCli"]);
                 }
                 return usuario;
             }
@@ -136,13 +138,13 @@ namespace Norget.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("Update tbCliente set nome=@nome, tel=@telefone, email=@email " +
-                                                    " where cod=@codigo ", conexao);
+                MySqlCommand cmd = new MySqlCommand("Update tbCliente set NomeCli=@Nome, EmailCli=@Email, SenhaCli= @Senha " +
+                                                    " where Id=@id ", conexao);
 
-                cmd.Parameters.Add("@codigo", MySqlDbType.VarChar).Value = usuario.Id;
-                cmd.Parameters.Add("@nome", MySqlDbType.VarChar).Value = usuario.Nome;
-                cmd.Parameters.Add("@telefone", MySqlDbType.VarChar).Value = usuario.Tel;
-                cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = usuario.Email;
+                cmd.Parameters.Add("@id", MySqlDbType.VarChar).Value = usuario.Id;
+                cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = usuario.NomeCli;
+                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = usuario.EmailCli;
+                cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = usuario.SenhaCli;
 
                 cmd.ExecuteNonQuery();
                 conexao.Close();
@@ -155,8 +157,8 @@ namespace Norget.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("delete from tbCliente where cod=@codigo", conexao);
-                cmd.Parameters.AddWithValue("@codigo", Id);
+                MySqlCommand cmd = new MySqlCommand("delete from tbCliente where Id=@id", conexao);
+                cmd.Parameters.AddWithValue("@id", Id);
                 int i = cmd.ExecuteNonQuery();
                 conexao.Close();
             }
