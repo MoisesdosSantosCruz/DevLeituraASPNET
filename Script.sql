@@ -2,24 +2,15 @@ create database db_DevReads;
 use db_DevReads;
 
 -- drop database db_DevReads;
-select * from tbCliente;
 
 create table tbCliente(
-id int primary key auto_increment,
-NomeCli varchar(200) not null,
-EmailCli varchar(50) not null,
-SenhaCli varchar(50),
-Tel int
-);
-
-/*create table tbCliente(
 id int primary key auto_increment,
 CPF decimal(11,0) unique not null,
 NomeCli varchar(200) not null,
 EmailCli varchar(50) not null,
 SenhaCli int not null,
 Tel int
-);*/
+);
 
 create table tbEditora(
 idEdi int primary key auto_increment,
@@ -104,21 +95,6 @@ constraint FK_ISBN foreign key(ISBN) references tbLivro(ISBN)
 
 -- Procedures! ----------------------------------------------------------------------------------
 delimiter $$                  
-create procedure spInsertCliente(vNomeCli varchar(200), vEmailCli varchar(50), vSenhaCli varchar(50), vTel int)
-begin
-if not exists (select NomeCli from tbCliente where NomeCli = vNomeCli)then
-	insert into tbCliente(NomeCli, EmailCli, SenhaCli, Tel)
-			values(vNomeCli, vEmailCli, vSenhaCli, vTel);
-else
-select "Já tem";
-
-end if;
-end $$
-
-call spInsertCliente('Niko', 'nikoolhate@gmail.com', 123456, 986754389);
-
-
-/*delimiter $$                  
 create procedure spInsertCliente( vNomeCli varchar(200), vCPF decimal(11,0), vEmailCli varchar(50), vSenhaCli int, vTel int)
 begin
 if not exists (select CPF from tbCliente where CPF = vCPF)then
@@ -128,7 +104,7 @@ else
 select "Já tem";
 
 end if;
-end $$ */
+end $$
 
 call spInsertCliente('Niko', 46956936969, 'nikoolhate@gmail.com', 123456, 986754389);
 call spInsertCliente('Luciano', 34567891011, 'Luciano@gmail.com', 132457, 997765421);
@@ -152,13 +128,22 @@ select "Já tem";
 end if;
 end $$
 
+-- CNPJ, nome da editora e numero de telefone-------
 call spInsertEditora (04713695000452, 'Alta Books', 987654321);
 call spInsertEditora (23308850000157, 'Érica', 888997767);
 call spInsertEditora (08693550000145, 'Visual Books', 991733583);
 call spInsertEditora (03032435000106, 'Matrix Editora', 38682863);
 call spInsertEditora (74514316000138, 'Editora Gente',  36752505);
 call spInsertEditora (55789390000112, 'Companhia das Letras', 37073500);
-
+call spInsertEditora (02507334000181, '‎ Sulina', 1932581970);
+call spInsertEditora (01043230000109,'Bookman', 5130277000);
+call spInsertEditora (50268838000309, 'Saraiva Uni', 11947141771);
+call spInsertEditora (02310771000100,'Susan Cain', 2125384100);
+call spInsertEditora (11154322000101, 'AMGH', 5130733914);
+call spInsertEditora (04908981000120,'MBooks',1136415314);
+call spInsertEditora (585511850001,'Novatec',1129596529);
+call spInsertEditora (57105736000141, 'Editora Contexto',1138325838);
+describe tbEditora;
 
 -- Acrescentar a editora nos livros (atributo) - ORDEM DAS EDITORAS DOS LIVROS A SEGUIR SEGUE A ORDEM DOS INSERTS DOS LIVROS
 /*
@@ -189,37 +174,92 @@ select "Já tem!";
 end if;
 end $$
 
-
+-- 1 -----
 call spInsertLivro(9788535262128, 'Como Criar Uma Mente', 65.00, 'Conhecimento da tecnologia para com a mente humana',
 'ComoCriar.jpg','Inteligência Artificial e Machine Learning', 'Companhia das Letras', 'Ray Kurzweil', '13/11/2013', 10);
-
+-- 2 -----
 call spInsertLivro(9788576082675, 'Código Limpo: Habilidades Práticas do Agile Software', 
 85.00, 'Habilidades da codificação de software',
 'CodigoLimpo.jpg', 'FrontEnd', 'Alta Books', 'Robert Cecil Martin', '01/08/2008', 10);
-
+-- 3 -----
 call spInsertLivro(9788535248740, 'Projetos e Implementação de Redes: Fundamentos, Soluções, Arquiteturas e Planejamento', 
 213.00, 'Esta publicação apresenta conceitos iniciais e avançados sobre redes de computador, 
 com exemplos práticos e estudo de soluções', 'Projetos.jpg', ' Redes e Infraestrutura ', 
 'Érica', 'Edmundo Antonio Pucci', '30/07/2010', 10);
-
+-- 4 -----
 call spInsertLivro(9788574526102, 'Manual de Produção de Jogos Digitais', 340.00 , 'São apresentados tópicos gerais como: pré-produção, testes e liberação do código, bem como tópicos específicos como: 
 gravações de voiceover e motioncapture, tradução e localização e fornecedores externos.', 'Manual.jpg', 'Programação e Desenvolvimento de Software', 
 'Visual Books', 'Adriano Hazenauer', '01/01/2012', 10);
-
+-- 5 -----
 call spInsertLivro(9788550802320, 'Inteligência Artificial na Sala de Aula: Como a Tecnologia Está Revolucionando a Educação',  
 40.00, 'Qual é o impacto da Inteligência Artificial na educação? Ao embarcar neste livro, que responde a essas perguntas, 
 lembre-se de que a integração da Inteligência Artificial na educação é uma jornada, não um destino.', 
 'Inteligencia.jpg', 'Inteligência Artificial e Machine Learning','Matrix Editora', 'Leo Fraiman', '25/06/2024', 10);
-
+-- 6 -----
 call spInsertLivro(9788545207481, 'A Guerra das Inteligências na Era do ChatGPT', 98.00, 
 'O ChatGPT está na origem de uma virada fundamental de nossa História. Seu fundador, Sam Altman, 
 quer criar uma Superinteligência Artificial para competir com nossos cérebros, 
 mesmo que isso signifique uma perigosa corrida mundial.', 'Chat.jpg', 
 'Inteligência Artificial e Machine Learning ', 'Editora Gente', 'Renato de Castro', '17/05/2024', 10);
-
+-- 7 -----
 call spInsertLivro(9788597004087, 'O Verdadeiro Valor do TI ', 99.00 , 'Como Transformar TI de um Centro de Custos em um Centro de Valor e Competitividade Se esta parece ser a situação na sua empresa, 
 considere este livro como um chamado para despertar para a vida.', 'Valor.jpg', 
 'Gestão de TI', 'Alta Books', 'Mark Schwartz', '01/01/2019', 10 );
+-- Novos Livros adicionados ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- 8 -----
+call spInsertLivro(9788599593196, 'Redes, Guia Prático, de Carlos Morimoto', 73.03, 'O livro Redes e Servidores Linux, Guia Prático o primeiro best-seller do Carlos Morimoto, vendendo 
+um total de 8.000 exemplares em suas duas edições.', 'Redes.jpeg', 'Redes e Infraestrutura', 'Sulina', 'Carlos E. Morimoto', '01/01/2011', 10 );
+ -- 9 -----
+call spInsertLivro(9788577805310, 'Design de Navegação Web: Otimizando a Experiência do Usuário', '154.00', 'Este livro trata das principais ferramentas de design de navegação', 'Redes.jpeg',
+'visual Books', 'Bookman',  'James kalbach', '01/01/2009', 10 );
+ -- 10 -----
+call spInsertlivro(9788502082045,'Um bate-papo sobre T.I.: Tudo que você gostaria de saber sobre ERP e tecnologia da informação, mas ficava encabulado de perguntar', '19.00', 'Um bate-papo sobre T.I. 
+mostrará ao leitor, de maneira leve e bem humorada, a evolução rápida e constante da Tecnologia da Informação e o quanto ela pode ajudar pessoas, e principalmente empresas, a serem mais eficientes e eficazes', 
+'Redes.jpeg', 'Gestão de TI', 'Saraiva Uni', 'Ernesto Mario Haberkorn', '29/11/2012', 10);
+ -- 11 -----
+call spIsertlivro(9788543108704, 'O poder dos quietos: Como os tímidos e introvertidos podem mudar um mundo que não para de falar', '39.45', 'O poder dos quietos já vendeu mais de 3 milhões
+ de exemplares no mundo todo, foi traduzido para 41 idiomas e passou quatro anos na lista de mais vendidos do The New York Times .', 'Redes.jpeg', 'Gestão de TI', 'Editora Sextante',
+ 'Susan Cain', '02/10/2019', 10);
+ -- 12 -----
+ call spInsertlivro(9788576084730, 'Use a Cabeça!: Programação', '114.00', 'Alguma vez você desejou aprender a programar com um livro? Se você não tem nenhuma experiência em programação, pode estar imaginando por onde começar.',
+ 'Redes.jpeg', 'Gestão de TI', 'Alta Books', 'Paul Barry', '18/08/2009', 10);
+ -- 13 -----
+ call spInsertlivro(9788550819884, 'Use a Cabeça Java – 3ª Edição: Guia do Aprendiz Para Programação no Mundo Real', '119.00', 'O “Use a Cabeça Java” é uma experiência completa de aprendizado em Java e 
+ programação orientada a objetos.', 'Redes.jpeg', 'Gestão de TI', 'Alta Books', 'Kathy Sierra', '30/09/2024', 10);
+ -- 14 -----
+call spInsertlivro(9788576089483, 'Começando a Programar em Python Para Leigos', '69.67', 'Potente e dinâmico, o Python é uma linguagem de programação usada em várias
+ aplicações e projetada para ter uma independência real de plataforma. Isso o torna uma ótima ferramenta para programadores.', 'Redes.jpeg', 'Gestão de TI', 'Alta Books', 'John Paul Mueller',
+ '05/11/2020', 10);
+ -- 15 -----
+ call spInsertlivro(9788572839785, 'A Quarta Revolução Industrial', '49.32', 'Novas tecnologias estão fundindo os mundos físico, digital e biológico de forma a criar grandes promessas e possíveis perigos.', 'Redes.jpeg',
+ 'Inteligência Artificial', 'Edipro', 'Klaus Schwab', '01/02/2018', 10);
+ -- 16 -----
+ call spInsertlivro(9788580555332, 'Engenharia de Software: Uma Abordagem Profissional', '299.00', 'Engenharia de Software chega à sua 8ª edição como o mais abrangente guia sobre essa importante área.',
+ 'redes.jpeg', 'Habilidades da codificação de software', 'AMGH', 'Bruce R. Maxim', '15/01/2016', 10);
+ -- 17 -----
+ call spInsertlivro(9788589384780, 'Governança de ti - Tecnologia da Informação', '25.00', 'Como administrar os direitos decisórios de TI na busca por resultados superiores 
+ Como as empresas com melhor desempenho administram os direitos decisórios de TI.', 'redes.jpeg', 'Gestão de TI', 'MBooks', 'Peter Weil', '01/01/2005', 10);
+ -- 18 -----
+ call spInsertlivro(9788575222348, 'Desenvolvendo Websites com PHP – 2ª Edição', '18.00', 'Desenvolvendo Websites com PHP apresenta técnicas de programação
+ fundamentais para o desenvolvimento de sites dinâmicos e interativos.', 'redes.jpeg', 'Habilidades de codificação de software', ' Novatec', 'Juliano Niederauer', '10/03/2011', 10);
+ -- 19 -----
+ call spInsertlivro(9788575224038, 'HTML5: a Linguagem de Marcação que Revolucionou a Web', '85.00', 'HTML, alterando de maneira significativa como você desenvolve para a web.',
+ 'redes.jpeg', 'Gestão de TI', 'Novatec', 'Maurício Samy Silva', '12/11/2014', 10);
+ -- 20 -----
+ call spInsertlivro(9788575221778, 'Linux Guia do Administrador do Sistema', '50.00', 'Este livro é uma referência completa do Linux, abrangendo desde as atividades 
+ básicas de administração até a criação e manutenção de redes Linux.', 'redes.jpeg', 'Programação e Desenvolvimento de Software', 'Novatec', 'Rubem E. Ferreira', '07/11/2008', 10);
+ -- 21 -----
+ call spInsertlivro(9788577807000, 'O Programador Pragmático: De Aprendiz a Mestre', '157.00', 'O Programador Pragmático ilustra as melhores práticas e as principais armadilhas
+ do desenvolvimento de software.', 'redes.jpeg', 'programação e Desenvolvimento de software', 'Bookman', 'Andrew Hunt', 01/01/2010, 10);
+ -- 22 -----
+ call spInsertlivro(9788552001447, 'O cérebro no mundo digital: Os desafios da leitura na nossa era', '52.72', 'Nunca se leu tanto como hoje. Com alguns toques no smartphone, temos
+ na palma da mão um universo de informações.', 'redes.jpeg', 'Inteligência Artificial e Machine Learning', 'Editora Contexto', 'Maryanne Wolf', 01/05/2019, 10);
+ -- 23 -----
+ call spInsertlivro(9788576085591,'Use a Cabeça!: C#', '173.25', 'O Use a Cabeça! C# – 2ª Edição é uma experiência completa de aprendizagem para a programação com C#.', 'redes.jpeg',
+ 'programação de software', 'Alta Books','Andrew Stellman', 11/02/2013, 10);
+ 
+ -- pegar sempre o ISBN-13----
+ 
 
 
 -- Procedure compra

@@ -11,20 +11,22 @@ namespace Norget.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private IUsuarioRepositorio? _usuarioRepositorio;
+        private ILivroRepositorio? _livroRepositorio;
         private LoginUsuario _loginUsuario;
 
 
-        public HomeController(ILogger<HomeController> logger, IUsuarioRepositorio usuarioRepositorio, LoginUsuario loginUsuario)
+        public HomeController(ILogger<HomeController> logger, IUsuarioRepositorio usuarioRepositorio, ILivroRepositorio livroRepositorio, LoginUsuario loginUsuario)
         {
             _logger = logger;
             _usuarioRepositorio = usuarioRepositorio;
+            _livroRepositorio = livroRepositorio;
             _loginUsuario = loginUsuario;
 
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(_livroRepositorio.ListarLivros());
         }
 
         /* Para que os botões funcionem, o controle deve devolver
@@ -111,6 +113,12 @@ namespace Norget.Controllers
             return RedirectToAction(nameof(PainelUsuario));
         }
 
+        //Detalhes Livros
+
+        public IActionResult DetalheLivro() {
+
+            return View();
+        }
 
 
 

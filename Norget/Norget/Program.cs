@@ -11,6 +11,7 @@ builder.Services.AddHttpContextAccessor();
 //Adicionar a Interface como um serviço 
 // Adicionar serviços 
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+builder.Services.AddScoped<ILivroRepositorio, LivroRepositorio>();
 
 builder.Services.AddScoped<Norget.Libraries.Session.Session>();
 builder.Services.AddScoped<LoginUsuario>();

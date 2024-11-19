@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<Norget.Models.Livro>
+@{
     ViewData["Title"] = "Index";
 }
 
@@ -60,12 +61,15 @@
             <h2>POPULARES</h2>
             <div class="cards">
                 <!-- Altere aqui para "cards" -->
-                <div class="card">
-                    <br><br><img src="img/img1.jpeg">
-                    <h2>Como Criar Uma Mente</h2>
-                    <p>R$ 71,92</p>
+                @foreach (var livro in Model)
+                {
+                    <div class="card">
+                    <br><br><img src="img/@livro.ImgLiv">
+                    <h2>Suamãe</h2>
+                    <p>@livro.PrecoLiv</p>
                     <button class="btnp">VER</button>
-                </div>
+                    </div>
+                }
                 <div class="card">
                     <br><br><img src="img/img2.jpeg">
                     <h2>Engenharia de Confiabilidade</h2>

@@ -9,69 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Norget
 build_property.RootNamespace = Norget
-build_property.ProjectDir = C:\Users\55119\Desktop\Asp\Norget\Norget\
+build_property.ProjectDir = C:\Users\3ds\Desktop\69DevReads\DevReadsASPNET\Norget\Norget\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\55119\Desktop\Asp\Norget\Norget
+build_property.MSBuildProjectDirectory = C:\Users\3ds\Desktop\69DevReads\DevReadsASPNET\Norget\Norget
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/CadastroUsuario.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/CadastroUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3Ryb1VzdWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/Carrinho.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/Carrinho.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJyaW5oby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/Categoria.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/Categoria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/Editar.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/DetalheLivro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGhlTGl2cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/Index.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/InfoSp.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/InfoSp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvU3AuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/Login.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/NavBar.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/NavBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOYXZCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/PainelUsuario.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Home/PainelUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWluZWxVc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Shared/Error.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/_ViewImports.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/_ViewStart.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Shared/_Layout.cshtml]
+[C:/Users/3ds/Desktop/69DevReads/DevReadsASPNET/Norget/Norget/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3wlk53qgyi

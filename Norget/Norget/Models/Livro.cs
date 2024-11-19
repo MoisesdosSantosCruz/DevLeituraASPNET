@@ -21,11 +21,10 @@ public class Livro
     [StringLength(100)]
     public string DescLiv { get; set; }
 
-    /*
+    
     [Required]
-    [StringLength(???)] // Esse eu não sei se precisa colocar o tamanho da string
     public string ImgLiv { get; set; } // Não sei como funcionaria esse
-    */
+    
 
     [Required]
     [StringLength(30)]
