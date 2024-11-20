@@ -209,3 +209,7 @@ C:\Users\3ds\Desktop\69DevReads\DevReadsASPNET\Norget\Norget\obj\Debug\net8.0\sc
 C:\Users\3ds\Desktop\69DevReads\DevReadsASPNET\Norget\Norget\obj\Debug\net8.0\Norget.csproj.Up2Date
 C:\Users\3ds\Desktop\69DevReads\DevReadsASPNET\Norget\Norget\obj\Debug\net8.0\Norget.genruntimeconfig.cache
 C:\Users\3ds\Desktop\69DevReads\DevReadsASPNET\Norget\Norget\obj\Debug\net8.0\ref\Norget.dll
+C:\Users\55119\Desktop\Asp\Norget\Norget\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\55119\Desktop\Asp\Norget\Norget\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\55119\Desktop\Asp\Norget\Norget\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\55119\Desktop\Asp\Norget\Norget\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

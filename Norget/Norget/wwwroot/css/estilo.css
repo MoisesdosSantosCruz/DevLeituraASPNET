@@ -138,7 +138,7 @@ h2 {
 .card {
     flex: 1 1 auto; /* Permite ajuste de largura automática */
     min-width: 200px; /* Largura mínima de cada card */
-    max-width: 300px; /* Largura máxima para limitar expansão */
+    max-width: 200px; /* Largura máxima para limitar expansão */
     padding: 20px;
     text-align: center;
     border-radius: 10px;

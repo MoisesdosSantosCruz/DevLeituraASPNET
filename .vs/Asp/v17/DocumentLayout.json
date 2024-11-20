@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\55119\\Desktop\\Asp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\Carrinho.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Norget\\Norget\\Views\\Home\\Carrinho.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Norget\\Norget\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Carrinho.cshtml",
+              "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\Carrinho.cshtml",
+              "RelativeDocumentMoniker": "Norget\\Norget\\Views\\Home\\Carrinho.cshtml",
+              "ToolTip": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Views\\Home\\Carrinho.cshtml",
+              "RelativeToolTip": "Norget\\Norget\\Views\\Home\\Carrinho.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T14:52:59.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\55119\\Desktop\\Asp\\Norget\\Norget\\Program.cs",
               "RelativeDocumentMoniker": "Norget\\Norget\\Program.cs",
@@ -46,8 +63,7 @@
               "RelativeToolTip": "Norget\\Norget\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:51:52.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T21:51:52.244Z"
             }
           ]
         }

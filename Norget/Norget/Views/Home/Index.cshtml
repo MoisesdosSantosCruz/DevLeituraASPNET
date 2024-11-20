@@ -30,7 +30,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.cshtml"><img src="img/logodr.png" alt="Logo"></a>
+            <a asp-controller="Home" asp-action="Index"><img src="img/logodr.png" alt="Logo"></a>
 
         </div>
         <div class="search">
@@ -38,7 +38,7 @@
             <button type="submit"><i class="fa fa-search"></i></button>
         </div>
         <div class="icons">
-            <i class="bi bi-bag"></i>
+            <a asp-controller="Home" asp-action="Carrinho" class="bi bi-bag"></a>
 
             <div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-caret-down"></i></div>
         </div>
@@ -50,8 +50,8 @@
             </ul>
             <div class="line"></div>
             <div class="menu-buttons">
-                <a asp-controller="Home" asp-action="Login" class="btn btn-primary">Login</a>
-                <a asp-controller="Home" asp-action="CadastroUsuario" class="btn btn-primary">Registre-se</a>
+                <a asp-controller="Home" asp-action="Login" class="login">Login</a>
+                <a asp-controller="Home" asp-action="CadastroUsuario" class="cadastro">Registre-se</a>
             </div>
         </nav>
     </header>
@@ -64,30 +64,12 @@
                 @foreach (var livro in Model)
                 {
                     <div class="card">
-                    <br><br><img src="img/@livro.ImgLiv">
-                    <h2>Suamãe</h2>
-                    <p>@livro.PrecoLiv</p>
-                    <button class="btnp">VER</button>
-                    </div>
-                }
-                <div class="card">
-                    <br><br><img src="img/img2.jpeg">
-                    <h2>Engenharia de Confiabilidade</h2>
-                    <p>R$ 125,00</p>
-                    <button class="btnp">VER</button>
-                </div>
-                <div class="card">
-                    <br><br><img src="img/img3.jpeg">
-                    <h2>BigData</h2>
-                    <p>R$ 54,43</p>
-                    <button class="btnp">VER</button>
-                </div>
-                <div class="card">
-                    <br><br><img src="img/img4.jpeg">
-                    <h2>O Programador Pragmático</h2>
-                    <p>R$ 142,20</p>
-                    <button class="btnp">VER</button>
-                </div>
+                        <br><br><img src="img/@livro.ImgLiv">
+                        <h2>@livro.NomeLiv</h2>
+                        <p>@livro.PrecoLiv</p>
+                        <button class="btnp">VER</button>
+                    </div>                   
+                }                
             </div>
         </section>
 

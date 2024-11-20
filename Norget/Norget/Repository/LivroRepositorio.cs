@@ -17,7 +17,7 @@ namespace Norget.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select ISBN, NomeLiv, PrecoLiv, imgLiv from tbLivro", conexao);
+                MySqlCommand cmd = new MySqlCommand("select ISBN, NomeLiv, PrecoLiv, ImgLiv from tbLivro", conexao);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -46,7 +46,7 @@ namespace Norget.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new("SELECT * from tbCliente ", conexao);
+                MySqlCommand cmd = new("SELECT * from tbLivro ", conexao);
                 cmd.Parameters.AddWithValue("@ISBN", ISBN);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);

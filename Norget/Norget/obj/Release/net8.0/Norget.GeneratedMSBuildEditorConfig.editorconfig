@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/DetalheLivro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGhlTGl2cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,8 +52,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/Navbar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOYXZiYXIuY3NodG1s
+[C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/NavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOYXZCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/55119/Desktop/Asp/Norget/Norget/Views/Home/PainelUsuario.cshtml]

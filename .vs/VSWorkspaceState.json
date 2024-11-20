@@ -5,12 +5,12 @@
     "\\Norget\\Norget",
     "\\Norget\\Norget\\Controllers",
     "\\Norget\\Norget\\Models",
+    "\\Norget\\Norget\\Repository",
     "\\Norget\\Norget\\Views",
     "\\Norget\\Norget\\Views\\Home",
     "\\Norget\\Norget\\Views\\Shared",
-    "\\Norget\\Norget\\wwwroot",
-    "\\Norget\\Norget\\wwwroot\\css"
+    "\\Norget\\Norget\\wwwroot"
   ],
-  "SelectedNode": "\\Norget\\Norget.sln",
+  "SelectedNode": "\\Norget\\Norget\\Repository\\LivroRepositorio.cs",
   "PreviewInSolutionExplorer": false
 }
