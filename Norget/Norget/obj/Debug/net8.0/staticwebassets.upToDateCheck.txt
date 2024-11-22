@@ -1,5 +1,6 @@
 wwwroot\css\atendimento.css
 wwwroot\css\cadastro.css
+wwwroot\css\cadastroLivro.css
 wwwroot\css\carrinho.css
 wwwroot\css\cartao.css
 wwwroot\css\categoria.css

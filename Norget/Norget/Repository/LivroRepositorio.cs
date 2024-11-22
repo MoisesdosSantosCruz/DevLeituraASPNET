@@ -13,11 +13,11 @@ namespace Norget.Repository
 
         public IEnumerable<Livro> ListarLivros()
         {
-            List<Livro> ProdList = new List<Livro>();
+            List<Livro> LivroList = new List<Livro>();
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select ISBN, NomeLiv, PrecoLiv, ImgLiv from tbLivro", conexao);
+                MySqlCommand cmd = new MySqlCommand("select ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, Autor, DataPubli from tbLivro", conexao);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -27,19 +27,24 @@ namespace Norget.Repository
 
                 foreach (DataRow dr in dt.Rows)
                 {
-                    ProdList.Add(
+                    LivroList.Add(
                         new Livro
                         {
-                            ISBN = Convert.ToInt64(dr["ISBN"]),
+                            ISBN = (decimal)(dr["ISBN"]),
                             NomeLiv = (string)(dr["NomeLiv"]),
                             PrecoLiv = (decimal)(dr["PrecoLiv"]),
+                            DescLiv = (string)(dr["DescLiv"]),
                             ImgLiv = (string)(dr["ImgLiv"]),
+                            Categoria = (string)(dr["Categoria"]),
+                           // EditoraId = (int)(dr["idEdi"]),
+                            Autor = (string)(dr["Autor"]),
+                            DataPubli = (string)(dr["DataPubli"])
 
                         }
                     );
                 }
             }
-            return ProdList;
+            return LivroList;
         }
         public Livro ObterLivro(int ISBN)
         {
@@ -57,14 +62,50 @@ namespace Norget.Repository
                 dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
                 while (dr.Read())
                 {
-                    livro.ISBN = Convert.ToInt32(dr["ISBN"]);
+                    livro.ISBN = (decimal)(dr["ISBN"]);
                     livro.NomeLiv = (string)(dr["NomeLiv"]);
                     livro.PrecoLiv = (decimal)(dr["PrecoLiv"]);
                     livro.DescLiv = (string)(dr["DescLiv"]);
-                    livro.EditoraId = (int)(dr["idEdi"]);
+                    livro.ImgLiv = (string)(dr["ImgLiv"]);
+                    livro.Categoria = (string)(dr["Categoria"]);
+                   // livro.EditoraId = (int)(dr["idEdi"]);
+                    livro.Autor = (string)(dr["Autor"]);
+                    livro.DataPubli = (string)(dr["DataPubli"]);
+
+
                 }
                 return livro;
             }
+        }
+
+        public void CadastroLivro(Livro livro)
+        {
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+
+            {
+                conexao.Open();
+
+                string query = "CALL spInsertLivro(@ISBN, @NomeLiv, @PrecoLiv, @DescLiv, @ImgLiv, @Categoria, " +
+                        " @Autor, @DataPubli)"; // @: PARAMETRO
+                using (var cmd = new MySqlCommand(query, conexao))
+                {
+
+                    cmd.Parameters.Add("@ISBN", MySqlDbType.Decimal).Value = livro.ISBN;
+                    cmd.Parameters.Add("@NomeLiv", MySqlDbType.VarChar).Value = livro.NomeLiv;
+                    cmd.Parameters.Add("@PrecoLiv", MySqlDbType.Decimal).Value = livro.PrecoLiv;
+                    cmd.Parameters.Add("@DescLiv", MySqlDbType.VarChar).Value = livro.DescLiv;
+                    cmd.Parameters.Add("@ImgLiv", MySqlDbType.VarChar).Value = livro.ImgLiv;
+                    cmd.Parameters.Add("@Categoria", MySqlDbType.VarChar).Value = livro.Categoria;
+                    //cmd.Parameters.Add("@NomeEdi", MySqlDbType.VarChar).Value = livro.EditoraId;
+                    cmd.Parameters.Add("@Autor", MySqlDbType.VarChar).Value = livro.Autor;
+                    cmd.Parameters.Add("@DataPubli", MySqlDbType.VarChar).Value = livro.DataPubli;
+
+
+                    cmd.ExecuteNonQuery();
+                    conexao.Close();
+                }
+            }
+
         }
     }
 }

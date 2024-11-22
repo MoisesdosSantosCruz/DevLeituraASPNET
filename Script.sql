@@ -1,14 +1,14 @@
 create database db_DevReads;
 use db_DevReads;
 
--- drop database db_DevReads;
+drop database db_DevReads;
 
 create table tbCliente(
 id int primary key auto_increment,
 CPF decimal(11,0) unique not null,
 NomeCli varchar(200) not null,
 EmailCli varchar(50) not null,
-SenhaCli int not null,
+SenhaCli varchar(50),
 Tel int
 );
 
@@ -30,11 +30,11 @@ ISBN decimal(13,0) primary Key,
 NomeLiv varchar(100) not null,
 PrecoLiv decimal(6,2) not null,
 DescLiv varchar(250)not null,
-ImgLiv varchar(200) not null,
+ImgLiv varchar(255) not null,
 Categoria varchar(100) not null,
-idEdi int not null,
+idEdi int,
 Autor varchar(100) not null,
-DataPubli date not null,
+DataPubli varchar(10) not null,
 Qtd int,
 constraint FK_Id_Edi foreign key(idEdi) references tbEditora(idEdi)
 );
@@ -95,7 +95,7 @@ constraint FK_ISBN foreign key(ISBN) references tbLivro(ISBN)
 
 -- Procedures! ----------------------------------------------------------------------------------
 delimiter $$                  
-create procedure spInsertCliente( vNomeCli varchar(200), vCPF decimal(11,0), vEmailCli varchar(50), vSenhaCli int, vTel int)
+create procedure spInsertCliente( vNomeCli varchar(200), vCPF decimal(11,0), vEmailCli varchar(50), vSenhaCli varchar(50), vTel int)
 begin
 if not exists (select CPF from tbCliente where CPF = vCPF)then
 	insert into tbCliente(CPF, NomeCli, EmailCli, SenhaCli, Tel)
@@ -127,7 +127,7 @@ select "Já tem";
 
 end if;
 end $$
-
+select * from tbEditora;
 -- CNPJ, nome da editora e numero de telefone-------
 call spInsertEditora (04713695000452, 'Alta Books', 987654321);
 call spInsertEditora (23308850000157, 'Érica', 888997767);
@@ -162,11 +162,11 @@ select * from tbLivro;
 
 delimiter $$                  
 create procedure spInsertLivro(vISBN decimal(13,0), vNomeLiv varchar(100), vPrecoLiv decimal(6,2), 
-vDescLiv varchar(250), vImgLiv varchar(200), vCategoria Varchar(100), vNomeEdi varchar(100), vAutor varchar(50), vDataPubli char(10), vQtd int)
+vDescLiv varchar(250), vImgLiv varchar(200), vCategoria Varchar(100), vNomeEdi varchar(100), vAutor varchar(50), vDataPubli varchar(10))
 begin
 if not exists (select ISBN from tbLivro where ISBN = vISBN)then
-	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, idEdi, Autor, DataPubli, Qtd)
-			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, vCategoria, (select idEdi from tbEditora where NomeEdi = vNomeEdi), vAutor, str_to_date(vDataPubli, '%d/%m/%Y'), vQtd);
+	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, idEdi, Autor, DataPubli)
+			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, vCategoria, (select idEdi from tbEditora where NomeEdi = vNomeEdi), vAutor, str_to_date(vDataPubli, '%d/%m/%Y'));
 
 else
 select "Já tem!";
@@ -174,9 +174,24 @@ select "Já tem!";
 end if;
 end $$
 
+delimiter $$                  
+create procedure spInsertLivro(vISBN decimal(13,0), vNomeLiv varchar(100), vPrecoLiv decimal(6,2), 
+vDescLiv varchar(250), vImgLiv varchar(200), vCategoria Varchar(100),  vAutor varchar(50), vDataPubli varchar(10))
+begin
+if not exists (select ISBN from tbLivro where ISBN = vISBN)then
+	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, Autor, DataPubli)
+			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, vCategoria, vAutor, str_to_date(vDataPubli, '%d/%m/%Y'));
+
+else
+select "Já tem!";
+
+end if;
+end $$
+
+
 -- 1 -----
 call spInsertLivro(9788535262128, 'Como Criar Uma Mente', 65.00, 'Conhecimento da tecnologia para com a mente humana',
-'img1.png','Inteligência Artificial e Machine Learning', 'Companhia das Letras', 'Ray Kurzweil', '13/11/2013', 10);
+'img1.png','Inteligência Artificial e Machine Learning', 'Companhia das Letras', 'Ray Kurzweil', '13/11/2013');
 -- 2 -----
 call spInsertLivro(9788576082675, 'Código Limpo: Habilidades Práticas do Agile Software', 
 85.00, 'Habilidades da codificação de software',

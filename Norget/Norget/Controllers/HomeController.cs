@@ -113,14 +113,28 @@ namespace Norget.Controllers
             return RedirectToAction(nameof(PainelUsuario));
         }
 
-        //Detalhes Livros
+        //Parte dos livros 
+        public IActionResult PainelLivro() {
 
+            return View(_livroRepositorio.ListarLivros());
+        }
         public IActionResult DetalheLivro() {
 
             return View();
         }
 
+        public IActionResult CadastroLivro() {
 
+            return View();
+        
+        }
+        [HttpPost]
+        public IActionResult CadastroLivro(Livro livro)
+        {
+            _livroRepositorio.CadastroLivro(livro);
+
+            return RedirectToAction(nameof(PainelLivro));
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

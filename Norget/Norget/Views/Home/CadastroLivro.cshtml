@@ -1,0 +1,84 @@
+﻿@model Norget.Models.Livro;
+
+@{
+    ViewData["Title"] = "CadastroLivro";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="stylesheet" href="~/css/cadastroLivro.css" asp-append-version="true" />
+    <!-- <link rel="stylesheet" href="css/registro.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Tela de Cadastro</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="formulario">
+            <div class="header">
+                <span>REGISTRO</span>
+            </div>
+            <div class="form">
+                <div class="user">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h2>Seja Bem-Vindo!</h2>
+                <form asp-action="CadastroLivro">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <label for="isbn"></label>
+                        <input asp-for="ISBN" id="isbn" placeholder="ISBN" type="number" required>
+                     <span asp-validation-for="ISBN" class="text-danger"></span>
+
+                    <label for="Nome"></label>
+                        <input asp-for="NomeLiv" id="nome" placeholder="Nome" type="text" required>
+                        <span asp-validation-for="NomeLiv" class="text-danger"></span>
+
+                    <label for="Preço"></label>
+                        <input asp-for="PrecoLiv" id="preco" placeholder="Preço" type="number" required>
+                        <span asp-validation-for="PrecoLiv" class="text-danger"></span>
+
+                    <label for="Desc"></label>
+                        <input asp-for="DescLiv" id="desc" placeholder="Descrisão" type="text" required>
+                        <span asp-validation-for="DescLiv" class="text-danger"></span>
+
+                    <label for="Img"></label>
+                    <input asp-for="ImgLiv" id="img" placeholder="Imagem" type="text" required>
+                    <span asp-validation-for="ImgLiv" class="text-danger"></span>
+
+                    <label for="Categoria"></label>
+                    <input asp-for="Categoria" id="editora" placeholder="Categoria" type="text" required>
+                    <span asp-validation-for="Categoria" class="text-danger"></span>
+
+
+                    <label for="Editora"></label>
+                    <input asp-for="EditoraId" id="editora" placeholder="Editora" type="text" >
+                    <span asp-validation-for="EditoraId" class="text-danger"></span>
+
+                    <label for="Autor"></label>
+                    <input asp-for="Autor" id="autor" placeholder="Autor" type="text" required>
+                    <span asp-validation-for="Autor" class="text-danger"></span>
+
+                    <label for="Data de Publicação"></label>
+                    <input asp-for="DataPubli" id="datapubli" placeholder="Data" type="text" required>
+                    <span asp-validation-for="DataPubli" class="text-danger"></span>
+
+                    <a asp-controller="Home" asp-action="PainelLivro">Painel Livro</a>
+
+                    <button type="submit" class="btnregistrar">Registre-se</button>
+
+                </form>
+            </div>
+        </div>
+      
+    </div>
+</body>
+</html>
+    
