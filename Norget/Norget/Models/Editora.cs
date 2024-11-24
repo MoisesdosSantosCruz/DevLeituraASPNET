@@ -17,5 +17,7 @@ namespace Norget.Models
 
         public int? TelEdi { get; set; }
 
+        public ICollection<Livro> Livros { get; set; } = new List<Livro>();
+
     }
 }

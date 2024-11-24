@@ -33,6 +33,7 @@ wwwroot\img\logo2.ico
 wwwroot\img\logo3.ico
 wwwroot\img\logodr.png
 wwwroot\img\sac.png
+wwwroot\img\Union.png
 wwwroot\img\user.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

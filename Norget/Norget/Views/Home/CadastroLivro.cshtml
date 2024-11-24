@@ -34,8 +34,8 @@
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                     <label for="isbn"></label>
-                        <input asp-for="ISBN" id="isbn" placeholder="ISBN" type="number" required>
-                     <span asp-validation-for="ISBN" class="text-danger"></span>
+                        <input asp-for="ISBN" id="isbn" placeholder="ISBN" type="text" required>
+                         <span asp-validation-for="ISBN" class="text-danger"></span>
 
                     <label for="Nome"></label>
                         <input asp-for="NomeLiv" id="nome" placeholder="Nome" type="text" required>
@@ -50,34 +50,34 @@
                         <span asp-validation-for="DescLiv" class="text-danger"></span>
 
                     <label for="Img"></label>
-                    <input asp-for="ImgLiv" id="img" placeholder="Imagem" type="text" required>
-                    <span asp-validation-for="ImgLiv" class="text-danger"></span>
+                        <input asp-for="ImgLiv" id="img" placeholder="Imagem" type="text" required>
+                        <span asp-validation-for="ImgLiv" class="text-danger"></span>
 
                     <label for="Categoria"></label>
-                    <input asp-for="Categoria" id="editora" placeholder="Categoria" type="text" required>
-                    <span asp-validation-for="Categoria" class="text-danger"></span>
-
+                         <input asp-for="Categoria" id="categoria" placeholder="Categoria" type="text" required>
+                         <span asp-validation-for="Categoria" class="text-danger"></span>
 
                     <label for="Editora"></label>
-                    <input asp-for="EditoraId" id="editora" placeholder="Editora" type="text" >
-                    <span asp-validation-for="EditoraId" class="text-danger"></span>
+                         <input asp-for="NomeEdi" id="editora" placeholder="Editora" type="text" required>
+                         <span asp-validation-for="NomeEdi" class="text-danger"></span>
 
                     <label for="Autor"></label>
-                    <input asp-for="Autor" id="autor" placeholder="Autor" type="text" required>
-                    <span asp-validation-for="Autor" class="text-danger"></span>
+                         <input asp-for="Autor" id="autor" placeholder="Autor" type="text" required>
+                         <span asp-validation-for="Autor" class="text-danger"></span>
 
                     <label for="Data de Publicação"></label>
-                    <input asp-for="DataPubli" id="datapubli" placeholder="Data" type="text" required>
-                    <span asp-validation-for="DataPubli" class="text-danger"></span>
-
-                    <a asp-controller="Home" asp-action="PainelLivro">Painel Livro</a>
+                        <input asp-for="DataPubli" id="datapubli" placeholder="Data" type="text" required>
+                        <span asp-validation-for="DataPubli" class="text-danger"></span>
 
                     <button type="submit" class="btnregistrar">Registre-se</button>
 
                 </form>
+                
             </div>
         </div>
-      
+          <div class="redirecionar">
+                    <a asp-controller="Home" asp-action="PainelLivro">Painel Livro</a>
+          </div>
     </div>
 </body>
 </html>

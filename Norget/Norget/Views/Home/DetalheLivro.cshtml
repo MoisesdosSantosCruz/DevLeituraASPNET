@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<Norget.Models.Livro>
 @{
     ViewData["Title"] = "DetalheLivro";
 }
@@ -8,22 +8,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes do Produto</title> 
-    <link rel="stylesheet" href="~/css/detalhelivro.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/detalheslivro.css" asp-append-version="true" />
     <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>DEVREADS</title>
+
     <script>
         function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.classList.toggle('active');
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('active');
         }
     </script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="img/logodr.png" alt="Logo"></a>
-            
+            <img src="/img/logodr.png" alt="Logo"/>
         </div>
         <div class="search">
             <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
@@ -31,7 +32,7 @@
         </div>
         <div class="icons">
             <i class="bi bi-bag"></i>
-            
+
             <div class="menu-icon" onclick="toggleMenu()"><i class="fa fa-caret-down"></i></div>
         </div>
         <nav id="menu" class="nav-menu">
@@ -43,23 +44,31 @@
             <div class="line"></div>
             <div class="menu-buttons">
                 <button class="btnlog"><a href="login.html">Login</a></button>
-                <button class="btnreg"><a href="registro.html">Registre-se</a></button>
+                <button class="btnreg">Registre-se</button>
             </div>
         </nav>
     </header>
 
     <div class="voltar">
-        <a href="#"><i class="fas fa-chevron-left"></i> VOLTAR</a>
+        <a asp-controller="Home" asp-action="Index"><i class="fas fa-chevron-left"></i>VOLTAR</a>
     </div>
 
     <main class="product-details">
         <div class="product-image">
-            <img src="img/b.jpg" alt="Imagem do Produto">
+            @foreach (var livro in Model) 
+            {
+                <img src="/img/@livro.ImgLiv" alt="Imagem do Produto">
+            }
         </div>
         <div class="product-info">
-            <h1>Nome do Produto</h1>
-            <p class="price"><span>R$ 50,00 à vista</span> <br> ou em 1x de R$ 00,00</p>
-
+            @foreach (var livro in Model)
+            {
+                <h1>@livro.NomeLiv</h1>
+            }
+            @foreach (var livro in Model)
+            {
+                <p class="price"><span>R$ @livro.PrecoLiv à vista</span> <br> ou em 1x de R$ 00,00</p>
+            }
             <div class="actions">
                 <button class="comprar">Comprar Agora</button>
                 <button class="addcarrinho">Adicionar no Carrinho</button>
@@ -78,15 +87,23 @@
 
     <section class="product-info-details">
         <h2>Ficha Técnica</h2>
+        <br/>
         <div class="tech-info">
-            <div><i class="bi bi-person"></i> Editora: <span>Fulano</span></div>
-            <div><i class="bi bi-barcode"></i>ISBN: <span>9786560000186</span></div>
-            <div><i class="bi bi-book"></i> Páginas: <span>150</span></div>
-            <div><i class="bi bi-globe"></i> Idioma: <span>Inglês</span></div>
+            @foreach (var livro in Model)
+            {
+                <div><i class="bi bi-person"></i> Editora: <span>@livro.NomeEdi</span></div>
+                <div><i class="bi bi-barcode"></i>ISBN: <span>@livro.ISBN</span></div>
+                <div><i class="bi bi-book"></i> Páginas: <span>150</span></div>
+                <div><i class="bi bi-globe"></i> Idioma: <span>Inglês</span></div>
+            }
         </div>
-
+        
         <h2>Descrição</h2>
-        <p>Christum, Fílium Dei unigénitum et ex Patre natum ante ómnia sǽcula: Deum de Deo, Lumen de Lúmine, Deum verum de Deo vero, génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt; qui propter nos hómines et </p>
+        <br/>
+       @foreach (var livro in Model)
+       {
+        <p>@livro.DescLiv</p>
+       }
     </section>
 
 </body>

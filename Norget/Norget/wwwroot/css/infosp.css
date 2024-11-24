@@ -240,7 +240,7 @@ header {
 /* Estilização dos cartões */
 .card {
     font-size: 1.2rem;
-    color: white;
+    color: black;
     border: 3px solid #3FB950;
     border-radius: 20px;
     padding: 31px;

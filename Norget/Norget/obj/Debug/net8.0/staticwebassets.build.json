@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PBLYoF2/9xOV8KeCSwVXZfzsvYMcITDbcZvgkuW0Hk8=",
+  "Hash": "BUDIiarFr/YrKdpgVEGcoFfAfm2diBvcRqNkraiqZR8=",
   "Source": "Norget",
   "BasePath": "_content/Norget",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Norget\\wwwroot",
       "Source": "Norget",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css",
       "SourceId": "Norget",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Norget",
       "RelativePath": "Norget#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css"
+      "OriginalItemSpec": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
       "SourceId": "Norget",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Norget",
       "RelativePath": "Norget#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/atendimento#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\atendimento.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/cadastro#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/cadastroLivro#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cadastroLivro.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/carrinho#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\carrinho.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\cartao.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cartao.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/cartao#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cartao.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\categoria.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\categoria.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/categoria#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\categoria.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\compras.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\compras.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/compras#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\compras.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\config.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\config.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/config#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\config.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/detalheslivro#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -241,17 +241,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lk6c31nn17",
-      "Integrity": "RWM/5E1ydXp9DLmfagcmj1dsiR8W5tsPjvk/9aGFpmU=",
+      "Fingerprint": "05aphlyeu7",
+      "Integrity": "lMTWk8pX42V59fUfIjNoRaBCny8xaO6P4Zlt+w7v408=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\detalheslivro.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\detalhespedido.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\detalhespedido.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/detalhespedido#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\css\\detalhespedido.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\estilo.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\estilo.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/estilo#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -283,17 +283,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jwi9xbc7bn",
-      "Integrity": "8xSpxhL3q7U+GPXua3SmPrHX1DuvZZfqe84aaoWN4dc=",
+      "Fingerprint": "yzsu734e5y",
+      "Integrity": "sv5lU+Vzc+eqtA64rt9mca51q7cUT0K7KUeqHPVys3c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\estilo.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\infosp.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\infosp.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/infosp#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -304,17 +304,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f1yhj20rot",
-      "Integrity": "bT5q+E2ZvpeBTSFgSXOSbqfhHcR3jQlwTBKLvfG/+9o=",
+      "Fingerprint": "enkwo5uhns",
+      "Integrity": "ipwQbaT72i5TjP0EfrGN6qU2HPOiuBmhw79bZcXUdCg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\infosp.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\login.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/login#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\navbar.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\navbar.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/navbar#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\registro.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\registro.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "css/registro#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\registro.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\favicon.ico",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\b.jpg",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\b.jpg",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/b#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\b.jpg"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\chat.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\chat.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/chat#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\img\\chat.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\email.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\email.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/email#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\img\\email.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img1.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img1.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img1#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img1.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img10.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img10.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img10#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img10.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img11.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img11.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img11#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img11.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img2.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img2.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img2.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img3.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img3.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img3#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img3.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img4.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img4.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img4.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img5.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img5.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img5#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img5.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img6.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img6.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img6#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img6.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img7.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img7.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img7#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img7.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img8.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img8.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img8#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img8.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img9.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img9.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/img9#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img9.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logo.ico",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo.ico",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/logo#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.ico"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/logo2#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo2.ico"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/logo3#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo3.ico"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logodr.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logodr.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/logodr#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logodr.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\sac.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\sac.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/sac#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -794,10 +794,31 @@
       "OriginalItemSpec": "wwwroot\\img\\sac.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\user.png",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\Union.png",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
+      "BasePath": "_content/Norget",
+      "RelativePath": "img/Union#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tlrc0m7hl9",
+      "Integrity": "wd5n3H9ySCxWivVehg1VegULV6KlyAQ4zoZUy48hZWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Union.png"
+    },
+    {
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\user.png",
+      "SourceId": "Norget",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "img/user#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -815,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\img\\user.png"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\js\\site.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -836,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -857,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -899,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -941,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -983,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1025,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1067,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1088,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1109,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1151,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1172,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1193,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1214,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1235,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1256,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1277,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1298,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1319,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1340,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1361,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1382,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1403,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1424,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1445,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1466,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1487,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1508,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1529,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1550,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1571,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1592,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1613,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1634,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1655,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1676,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1697,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1718,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1739,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1760,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1781,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1802,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1823,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1844,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1865,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1886,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1907,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1928,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1949,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1970,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1991,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2012,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Norget",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\",
       "BasePath": "_content/Norget",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2036,7 +2057,7 @@
   "Endpoints": [
     {
       "Route": "css/atendimento.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2073,7 +2094,7 @@
     },
     {
       "Route": "css/atendimento.m1mprkpwny.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2118,7 +2139,7 @@
     },
     {
       "Route": "css/cadastro.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2155,7 +2176,7 @@
     },
     {
       "Route": "css/cadastro.kkjt2q0t4x.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2200,7 +2221,7 @@
     },
     {
       "Route": "css/cadastroLivro.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2237,7 +2258,7 @@
     },
     {
       "Route": "css/cadastroLivro.q9kjpsacio.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2282,7 +2303,7 @@
     },
     {
       "Route": "css/carrinho.5m8j7lb9md.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2327,7 +2348,7 @@
     },
     {
       "Route": "css/carrinho.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2364,7 +2385,7 @@
     },
     {
       "Route": "css/cartao.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\cartao.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cartao.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2401,7 +2422,7 @@
     },
     {
       "Route": "css/cartao.vmf8dgzled.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\cartao.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cartao.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2446,7 +2467,7 @@
     },
     {
       "Route": "css/categoria.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\categoria.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\categoria.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2483,7 +2504,7 @@
     },
     {
       "Route": "css/categoria.xuxtwtiae2.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\categoria.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\categoria.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2528,7 +2549,7 @@
     },
     {
       "Route": "css/compras.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\compras.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\compras.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2565,7 +2586,7 @@
     },
     {
       "Route": "css/compras.lunuzk1a9d.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\compras.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\compras.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2610,7 +2631,7 @@
     },
     {
       "Route": "css/config.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\config.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\config.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2647,7 +2668,7 @@
     },
     {
       "Route": "css/config.qdxfq02jyi.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\config.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\config.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2691,8 +2712,8 @@
       ]
     },
     {
-      "Route": "css/detalheslivro.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
+      "Route": "css/detalheslivro.05aphlyeu7.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2701,7 +2722,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6096"
+          "Value": "6106"
         },
         {
           "Name": "Content-Type",
@@ -2709,48 +2730,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RWM/5E1ydXp9DLmfagcmj1dsiR8W5tsPjvk/9aGFpmU=\""
+          "Value": "\"lMTWk8pX42V59fUfIjNoRaBCny8xaO6P4Zlt+w7v408=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 20:22:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RWM/5E1ydXp9DLmfagcmj1dsiR8W5tsPjvk/9aGFpmU="
-        }
-      ]
-    },
-    {
-      "Route": "css/detalheslivro.lk6c31nn17.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6096"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RWM/5E1ydXp9DLmfagcmj1dsiR8W5tsPjvk/9aGFpmU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 20:22:48 GMT"
+          "Value": "Sat, 23 Nov 2024 18:37:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2760,7 +2744,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lk6c31nn17"
+          "Value": "05aphlyeu7"
         },
         {
           "Name": "label",
@@ -2768,13 +2752,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RWM/5E1ydXp9DLmfagcmj1dsiR8W5tsPjvk/9aGFpmU="
+          "Value": "sha256-lMTWk8pX42V59fUfIjNoRaBCny8xaO6P4Zlt+w7v408="
+        }
+      ]
+    },
+    {
+      "Route": "css/detalheslivro.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6106"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lMTWk8pX42V59fUfIjNoRaBCny8xaO6P4Zlt+w7v408=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 18:37:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lMTWk8pX42V59fUfIjNoRaBCny8xaO6P4Zlt+w7v408="
         }
       ]
     },
     {
       "Route": "css/detalhespedido.c0pjm3azk6.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\detalhespedido.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\detalhespedido.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2819,7 +2840,7 @@
     },
     {
       "Route": "css/detalhespedido.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\detalhespedido.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\detalhespedido.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2856,7 +2877,7 @@
     },
     {
       "Route": "css/estilo.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\estilo.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\estilo.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2865,7 +2886,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8610"
+          "Value": "8643"
         },
         {
           "Name": "Content-Type",
@@ -2873,11 +2894,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8xSpxhL3q7U+GPXua3SmPrHX1DuvZZfqe84aaoWN4dc=\""
+          "Value": "\"sv5lU+Vzc+eqtA64rt9mca51q7cUT0K7KUeqHPVys3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 20:22:48 GMT"
+          "Value": "Sat, 23 Nov 2024 18:48:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2887,13 +2908,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8xSpxhL3q7U+GPXua3SmPrHX1DuvZZfqe84aaoWN4dc="
+          "Value": "sha256-sv5lU+Vzc+eqtA64rt9mca51q7cUT0K7KUeqHPVys3c="
         }
       ]
     },
     {
-      "Route": "css/estilo.jwi9xbc7bn.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\estilo.css",
+      "Route": "css/estilo.yzsu734e5y.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\estilo.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2902,7 +2923,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8610"
+          "Value": "8643"
         },
         {
           "Name": "Content-Type",
@@ -2910,11 +2931,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8xSpxhL3q7U+GPXua3SmPrHX1DuvZZfqe84aaoWN4dc=\""
+          "Value": "\"sv5lU+Vzc+eqtA64rt9mca51q7cUT0K7KUeqHPVys3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 20:22:48 GMT"
+          "Value": "Sat, 23 Nov 2024 18:48:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2924,7 +2945,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jwi9xbc7bn"
+          "Value": "yzsu734e5y"
         },
         {
           "Name": "label",
@@ -2932,13 +2953,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8xSpxhL3q7U+GPXua3SmPrHX1DuvZZfqe84aaoWN4dc="
+          "Value": "sha256-sv5lU+Vzc+eqtA64rt9mca51q7cUT0K7KUeqHPVys3c="
         }
       ]
     },
     {
       "Route": "css/infosp.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\infosp.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\infosp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2955,11 +2976,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bT5q+E2ZvpeBTSFgSXOSbqfhHcR3jQlwTBKLvfG/+9o=\""
+          "Value": "\"ipwQbaT72i5TjP0EfrGN6qU2HPOiuBmhw79bZcXUdCg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 20:22:48 GMT"
+          "Value": "Sat, 23 Nov 2024 16:55:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2969,13 +2990,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bT5q+E2ZvpeBTSFgSXOSbqfhHcR3jQlwTBKLvfG/+9o="
+          "Value": "sha256-ipwQbaT72i5TjP0EfrGN6qU2HPOiuBmhw79bZcXUdCg="
         }
       ]
     },
     {
-      "Route": "css/infosp.f1yhj20rot.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\infosp.css",
+      "Route": "css/infosp.enkwo5uhns.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\infosp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2992,11 +3013,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bT5q+E2ZvpeBTSFgSXOSbqfhHcR3jQlwTBKLvfG/+9o=\""
+          "Value": "\"ipwQbaT72i5TjP0EfrGN6qU2HPOiuBmhw79bZcXUdCg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 20:22:48 GMT"
+          "Value": "Sat, 23 Nov 2024 16:55:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3006,7 +3027,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f1yhj20rot"
+          "Value": "enkwo5uhns"
         },
         {
           "Name": "label",
@@ -3014,13 +3035,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bT5q+E2ZvpeBTSFgSXOSbqfhHcR3jQlwTBKLvfG/+9o="
+          "Value": "sha256-ipwQbaT72i5TjP0EfrGN6qU2HPOiuBmhw79bZcXUdCg="
         }
       ]
     },
     {
       "Route": "css/login.6avm9l5w1z.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\login.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\login.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3065,7 +3086,7 @@
     },
     {
       "Route": "css/login.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\login.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\login.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3102,7 +3123,7 @@
     },
     {
       "Route": "css/navbar.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\navbar.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\navbar.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3139,7 +3160,7 @@
     },
     {
       "Route": "css/navbar.pchvo4kl1c.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\navbar.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\navbar.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3184,7 +3205,7 @@
     },
     {
       "Route": "css/registro.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\registro.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\registro.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3221,7 +3242,7 @@
     },
     {
       "Route": "css/registro.rk19yyvwzm.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\css\\registro.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\registro.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3266,7 +3287,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3311,7 +3332,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3348,7 +3369,7 @@
     },
     {
       "Route": "img/b.8ml8ntnm4g.jpg",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\b.jpg",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3393,7 +3414,7 @@
     },
     {
       "Route": "img/b.jpg",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\b.jpg",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3430,7 +3451,7 @@
     },
     {
       "Route": "img/chat.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\chat.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\chat.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3467,7 +3488,7 @@
     },
     {
       "Route": "img/chat.qb85d14vww.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\chat.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\chat.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3512,7 +3533,7 @@
     },
     {
       "Route": "img/email.4rdd9t9so1.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\email.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\email.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3557,7 +3578,7 @@
     },
     {
       "Route": "img/email.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\email.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\email.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3594,7 +3615,7 @@
     },
     {
       "Route": "img/img1.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img1.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3631,7 +3652,7 @@
     },
     {
       "Route": "img/img1.x1n9vcbuwz.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img1.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3676,7 +3697,7 @@
     },
     {
       "Route": "img/img10.oanp60cps1.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img10.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img10.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3721,7 +3742,7 @@
     },
     {
       "Route": "img/img10.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img10.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img10.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3758,7 +3779,7 @@
     },
     {
       "Route": "img/img11.jwfbi9l2mp.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img11.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img11.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3803,7 +3824,7 @@
     },
     {
       "Route": "img/img11.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img11.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img11.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3840,7 +3861,7 @@
     },
     {
       "Route": "img/img2.7w9tkhoq4x.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img2.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3885,7 +3906,7 @@
     },
     {
       "Route": "img/img2.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img2.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3922,7 +3943,7 @@
     },
     {
       "Route": "img/img3.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img3.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3959,7 +3980,7 @@
     },
     {
       "Route": "img/img3.q6vd9j379j.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img3.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4004,7 +4025,7 @@
     },
     {
       "Route": "img/img4.oqxhbl329b.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img4.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4049,7 +4070,7 @@
     },
     {
       "Route": "img/img4.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img4.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4086,7 +4107,7 @@
     },
     {
       "Route": "img/img5.59bwfswze0.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img5.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4131,7 +4152,7 @@
     },
     {
       "Route": "img/img5.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img5.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4168,7 +4189,7 @@
     },
     {
       "Route": "img/img6.jihswgl3t4.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img6.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img6.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4213,7 +4234,7 @@
     },
     {
       "Route": "img/img6.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img6.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img6.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4250,7 +4271,7 @@
     },
     {
       "Route": "img/img7.fqkpr7ssje.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img7.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img7.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4295,7 +4316,7 @@
     },
     {
       "Route": "img/img7.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img7.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img7.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4332,7 +4353,7 @@
     },
     {
       "Route": "img/img8.nbiyn630cf.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img8.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4377,7 +4398,7 @@
     },
     {
       "Route": "img/img8.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img8.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4414,7 +4435,7 @@
     },
     {
       "Route": "img/img9.7cxv4hp8cq.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img9.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img9.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4459,7 +4480,7 @@
     },
     {
       "Route": "img/img9.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\img9.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img9.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4496,7 +4517,7 @@
     },
     {
       "Route": "img/logo.ico",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logo.ico",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4533,7 +4554,7 @@
     },
     {
       "Route": "img/logo.jcg7u703rr.ico",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logo.ico",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4578,7 +4599,7 @@
     },
     {
       "Route": "img/logo2.ico",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4615,7 +4636,7 @@
     },
     {
       "Route": "img/logo2.vp7lszsgzr.ico",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4660,7 +4681,7 @@
     },
     {
       "Route": "img/logo3.ico",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4697,7 +4718,7 @@
     },
     {
       "Route": "img/logo3.v2mhfnl2hb.ico",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4742,7 +4763,7 @@
     },
     {
       "Route": "img/logodr.kilylknd4l.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logodr.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logodr.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4787,7 +4808,7 @@
     },
     {
       "Route": "img/logodr.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\logodr.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logodr.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4824,7 +4845,7 @@
     },
     {
       "Route": "img/sac.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\sac.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\sac.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4861,7 +4882,7 @@
     },
     {
       "Route": "img/sac.uzde2o6j3n.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\sac.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\sac.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4905,8 +4926,90 @@
       ]
     },
     {
+      "Route": "img/Union.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\Union.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wd5n3H9ySCxWivVehg1VegULV6KlyAQ4zoZUy48hZWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Oct 2024 20:04:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wd5n3H9ySCxWivVehg1VegULV6KlyAQ4zoZUy48hZWY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Union.tlrc0m7hl9.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\Union.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wd5n3H9ySCxWivVehg1VegULV6KlyAQ4zoZUy48hZWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Oct 2024 20:04:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tlrc0m7hl9"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Union.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wd5n3H9ySCxWivVehg1VegULV6KlyAQ4zoZUy48hZWY="
+        }
+      ]
+    },
+    {
       "Route": "img/user.2l5iighgor.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\user.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\user.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4951,7 +5054,7 @@
     },
     {
       "Route": "img/user.png",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\img\\user.png",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\user.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4988,7 +5091,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5025,7 +5128,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5070,7 +5173,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5107,7 +5210,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5152,7 +5255,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5189,7 +5292,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5234,7 +5337,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5271,7 +5374,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5316,7 +5419,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5353,7 +5456,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5398,7 +5501,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5435,7 +5538,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5480,7 +5583,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5517,7 +5620,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5562,7 +5665,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5607,7 +5710,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5644,7 +5747,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5689,7 +5792,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5726,7 +5829,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5763,7 +5866,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5800,7 +5903,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5845,7 +5948,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5890,7 +5993,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5927,7 +6030,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5972,7 +6075,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6009,7 +6112,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6054,7 +6157,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6091,7 +6194,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6136,7 +6239,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6173,7 +6276,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6218,7 +6321,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6255,7 +6358,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6292,7 +6395,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6337,7 +6440,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6382,7 +6485,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6419,7 +6522,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6464,7 +6567,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6501,7 +6604,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6538,7 +6641,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6575,7 +6678,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6620,7 +6723,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6665,7 +6768,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6710,7 +6813,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6755,7 +6858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6792,7 +6895,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6837,7 +6940,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6874,7 +6977,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6911,7 +7014,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6948,7 +7051,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6993,7 +7096,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7038,7 +7141,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7075,7 +7178,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7120,7 +7223,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7157,7 +7260,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7202,7 +7305,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7239,7 +7342,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7276,7 +7379,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7321,7 +7424,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7358,7 +7461,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7403,7 +7506,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7440,7 +7543,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7477,7 +7580,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7522,7 +7625,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7559,7 +7662,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7604,7 +7707,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7649,7 +7752,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7694,7 +7797,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7739,7 +7842,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7784,7 +7887,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7821,7 +7924,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7866,7 +7969,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7903,7 +8006,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7948,7 +8051,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7985,7 +8088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8030,7 +8133,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8067,7 +8170,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8104,7 +8207,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8149,7 +8252,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8186,7 +8289,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8231,7 +8334,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8268,7 +8371,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8305,7 +8408,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8350,7 +8453,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8395,7 +8498,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8432,7 +8535,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8477,7 +8580,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8514,7 +8617,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8559,7 +8662,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8596,7 +8699,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8633,7 +8736,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8678,7 +8781,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8715,7 +8818,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8760,7 +8863,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8805,7 +8908,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8842,7 +8945,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8887,7 +8990,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ehgnz7f14e.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8932,7 +9035,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8969,7 +9072,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9006,7 +9109,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9051,7 +9154,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9088,7 +9191,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9133,7 +9236,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9170,7 +9273,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9215,7 +9318,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9252,7 +9355,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9297,7 +9400,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9334,7 +9437,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9371,7 +9474,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9416,7 +9519,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9453,7 +9556,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9498,7 +9601,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9543,7 +9646,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9580,7 +9683,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.48y08845bh.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9625,7 +9728,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9662,7 +9765,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9707,7 +9810,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9744,7 +9847,7 @@
     },
     {
       "Route": "Norget.bundle.scp.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9781,7 +9884,7 @@
     },
     {
       "Route": "Norget.o8efev9ebn.bundle.scp.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9826,7 +9929,7 @@
     },
     {
       "Route": "Norget.o8efev9ebn.styles.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9871,7 +9974,7 @@
     },
     {
       "Route": "Norget.styles.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

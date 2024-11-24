@@ -1,7 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
+using MySql.Data.Types;
 using Norget.Models;
 using System.Data;
-
 namespace Norget.Repository
 {
     public class LivroRepositorio : ILivroRepositorio
@@ -14,10 +14,11 @@ namespace Norget.Repository
         public IEnumerable<Livro> ListarLivros()
         {
             List<Livro> LivroList = new List<Livro>();
+
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, Autor, DataPubli from tbLivro", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbLivro", conexao);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -25,34 +26,38 @@ namespace Norget.Repository
 
                 conexao.Close();
 
+                // Agora o retorno ocorre depois de preencher a lista
                 foreach (DataRow dr in dt.Rows)
                 {
                     LivroList.Add(
                         new Livro
                         {
+                            IdLiv = (int)(dr["IdLiv"]),
                             ISBN = (decimal)(dr["ISBN"]),
                             NomeLiv = (string)(dr["NomeLiv"]),
                             PrecoLiv = (decimal)(dr["PrecoLiv"]),
                             DescLiv = (string)(dr["DescLiv"]),
                             ImgLiv = (string)(dr["ImgLiv"]),
                             Categoria = (string)(dr["Categoria"]),
-                           // EditoraId = (int)(dr["idEdi"]),
+                            IdEdi = (int)(dr["IdEdi"]),
+                            NomeEdi = (string)(dr["NomeEdi"]),
                             Autor = (string)(dr["Autor"]),
-                            DataPubli = (string)(dr["DataPubli"])
+                            DataPubli = (DateTime)(dr["DataPubli"])
 
-                        }
-                    );
+                        });
                 }
+                return LivroList;
             }
-            return LivroList;
         }
-        public Livro ObterLivro(int ISBN)
+
+      
+        public Livro ObterLivro(int IdLiv)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new("SELECT * from tbLivro ", conexao);
-                cmd.Parameters.AddWithValue("@ISBN", ISBN);
+                MySqlCommand cmd = new("SELECT * from tbLivro", conexao);
+                cmd.Parameters.AddWithValue("@IdLiv", IdLiv);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 MySqlDataReader dr;
@@ -62,16 +67,17 @@ namespace Norget.Repository
                 dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
                 while (dr.Read())
                 {
-                    livro.ISBN = (decimal)(dr["ISBN"]);
+                    livro.IdLiv = Convert.ToInt32(dr["IdLiv"]);
+                    livro.ISBN = Convert.ToDecimal(dr["ISBN"]);
                     livro.NomeLiv = (string)(dr["NomeLiv"]);
                     livro.PrecoLiv = (decimal)(dr["PrecoLiv"]);
                     livro.DescLiv = (string)(dr["DescLiv"]);
                     livro.ImgLiv = (string)(dr["ImgLiv"]);
                     livro.Categoria = (string)(dr["Categoria"]);
-                   // livro.EditoraId = (int)(dr["idEdi"]);
+                    livro.IdEdi = Convert.ToInt32(dr["IdEdi"]);
+                    livro.NomeEdi = (string)(dr["NomeEdi"]);
                     livro.Autor = (string)(dr["Autor"]);
-                    livro.DataPubli = (string)(dr["DataPubli"]);
-
+                    livro.DataPubli = (DateTime)(dr["DataPubli"]);
 
                 }
                 return livro;
@@ -80,25 +86,25 @@ namespace Norget.Repository
 
         public void CadastroLivro(Livro livro)
         {
+            
             using (var conexao = new MySqlConnection(_conexaoMySQL))
-
             {
                 conexao.Open();
 
-                string query = "CALL spInsertLivro(@ISBN, @NomeLiv, @PrecoLiv, @DescLiv, @ImgLiv, @Categoria, " +
-                        " @Autor, @DataPubli)"; // @: PARAMETRO
-                using (var cmd = new MySqlCommand(query, conexao))
+                using (var cmd = new MySqlCommand("spInsertLivro", conexao))
                 {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    var dataPubli = livro.DataPubli?.ToString("dd/MM/yyyy");
 
-                    cmd.Parameters.Add("@ISBN", MySqlDbType.Decimal).Value = livro.ISBN;
-                    cmd.Parameters.Add("@NomeLiv", MySqlDbType.VarChar).Value = livro.NomeLiv;
-                    cmd.Parameters.Add("@PrecoLiv", MySqlDbType.Decimal).Value = livro.PrecoLiv;
-                    cmd.Parameters.Add("@DescLiv", MySqlDbType.VarChar).Value = livro.DescLiv;
-                    cmd.Parameters.Add("@ImgLiv", MySqlDbType.VarChar).Value = livro.ImgLiv;
-                    cmd.Parameters.Add("@Categoria", MySqlDbType.VarChar).Value = livro.Categoria;
-                    //cmd.Parameters.Add("@NomeEdi", MySqlDbType.VarChar).Value = livro.EditoraId;
-                    cmd.Parameters.Add("@Autor", MySqlDbType.VarChar).Value = livro.Autor;
-                    cmd.Parameters.Add("@DataPubli", MySqlDbType.VarChar).Value = livro.DataPubli;
+                    cmd.Parameters.Add("@vISBN", MySqlDbType.Decimal).Value = livro.ISBN;
+                    cmd.Parameters.Add("@vNomeLiv", MySqlDbType.VarChar).Value = livro.NomeLiv;
+                    cmd.Parameters.Add("@vPrecoLiv", MySqlDbType.Decimal).Value = livro.PrecoLiv;
+                    cmd.Parameters.Add("@vDescLiv", MySqlDbType.VarChar).Value = livro.DescLiv;
+                    cmd.Parameters.Add("@vImgLiv", MySqlDbType.VarChar).Value = livro.ImgLiv;
+                    cmd.Parameters.Add("@vCategoria", MySqlDbType.VarChar).Value = livro.Categoria;
+                    cmd.Parameters.Add("@vNomeEdi", MySqlDbType.VarChar).Value = livro.NomeEdi;
+                    cmd.Parameters.Add("@vAutor", MySqlDbType.VarChar).Value = livro.Autor;
+                    cmd.Parameters.Add("@vDataPubli", MySqlDbType.VarChar).Value = livro.DataPubli?.ToString("dd/MM/yyyy");
 
 
                     cmd.ExecuteNonQuery();

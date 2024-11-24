@@ -12,6 +12,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.IdLiv)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.ISBN)
             </th>
             <th>
@@ -22,6 +25,12 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.DescLiv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEdi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeEdi)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Categoria)
@@ -40,6 +49,10 @@
         {
             <tr>
                 <th>
+                    @Html.DisplayFor(modelItem => item.IdLiv)
+                </th>
+
+                <th>
                     @Html.DisplayFor(modelItem => item.ISBN)
                 </th>
                 <th>
@@ -52,8 +65,15 @@
                     @Html.DisplayFor(modelItem => item.DescLiv)
                 </th>
                 <th>
+                    @Html.DisplayFor(modelItem => item.IdEdi)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.NomeEdi)
+                </th>
+                <th>
                     @Html.DisplayFor(modelItem => item.Categoria)
                 </th>
+                
                 <th>
                     @Html.DisplayFor(modelItem => item.Autor)
                 </th>
@@ -61,9 +81,8 @@
                     @Html.DisplayFor(modelItem => item.DataPubli)
                 </th>
                 <th>Ação</th>
-           
                 <td>
-                    @Html.ActionLink("Editar", "Editar", new { id = item.ISBN}) |
+                    @Html.ActionLink("EditarLivro", "EditarLivro", new { id = item.ISBN}) |
                     @Html.ActionLink("Excluir", "Excluir", new { id = item.ISBN },
                              new { onclick = "return confirm('Deseja realmente Excluir este item?');" })
                 </td>

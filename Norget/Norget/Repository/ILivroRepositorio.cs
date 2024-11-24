@@ -4,11 +4,12 @@ namespace Norget.Repository
 {
     public interface ILivroRepositorio
     {
-         IEnumerable<Livro> ListarLivros();
+        public IEnumerable<Livro> ListarLivros();
         
-        public Livro ObterLivro(int ISBN);
+        public Livro ObterLivro(int IdLiv);
 
         void CadastroLivro(Livro livro);
+
 
 
 

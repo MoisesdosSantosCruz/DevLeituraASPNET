@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lk6c31nn17</Fingerprint>
-      <Integrity>RWM/5E1ydXp9DLmfagcmj1dsiR8W5tsPjvk/9aGFpmU=</Integrity>
+      <Fingerprint>05aphlyeu7</Fingerprint>
+      <Integrity>lMTWk8pX42V59fUfIjNoRaBCny8xaO6P4Zlt+w7v408=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\detalheslivro.css'))</OriginalItemSpec>
@@ -192,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jwi9xbc7bn</Fingerprint>
-      <Integrity>8xSpxhL3q7U+GPXua3SmPrHX1DuvZZfqe84aaoWN4dc=</Integrity>
+      <Fingerprint>yzsu734e5y</Fingerprint>
+      <Integrity>sv5lU+Vzc+eqtA64rt9mca51q7cUT0K7KUeqHPVys3c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\estilo.css'))</OriginalItemSpec>
@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f1yhj20rot</Fingerprint>
-      <Integrity>bT5q+E2ZvpeBTSFgSXOSbqfhHcR3jQlwTBKLvfG/+9o=</Integrity>
+      <Fingerprint>enkwo5uhns</Fingerprint>
+      <Integrity>ipwQbaT72i5TjP0EfrGN6qU2HPOiuBmhw79bZcXUdCg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\infosp.css'))</OriginalItemSpec>
@@ -629,6 +629,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\sac.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Union.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Norget</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Norget</BasePath>
+      <RelativePath>img/Union.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tlrc0m7hl9</Fingerprint>
+      <Integrity>wd5n3H9ySCxWivVehg1VegULV6KlyAQ4zoZUy48hZWY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Union.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\user.png'))">
       <SourceType>Package</SourceType>

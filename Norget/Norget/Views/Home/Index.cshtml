@@ -10,7 +10,7 @@
     <!--link o css para o html-->
     <link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true" />
     <!--coloca o icon da dev reads no site-->
-    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/logo3.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--bootstrap lib para pegar icones necessarios para a montagem do site-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
@@ -31,7 +31,6 @@
     <header>
         <div class="logo">
             <a asp-controller="Home" asp-action="Index"><img src="img/logodr.png" alt="Logo"></a>
-
         </div>
         <div class="search">
             <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
@@ -54,6 +53,8 @@
                 <a asp-controller="Home" asp-action="CadastroUsuario" class="cadastro">Registre-se</a>
                 <a asp-controller="Home" asp-action="PainelLivro" class="login">Painel Livro</a>
                 <a asp-controller="Home" asp-action="CadastroLivro" class="cadastro">Registrar Livro</a>
+                <a asp-controller="Home" asp-action="InfoSp" class="login">Usuario</a>
+
             </div>
         </nav>
     </header>
@@ -69,7 +70,8 @@
                         <br><br><img src="img/@livro.ImgLiv">
                         <h2>@livro.NomeLiv</h2>
                         <p>@livro.PrecoLiv</p>
-                        <button class="btnp">VER</button>
+                        <a asp-controller="Home" asp-action="DetalheLivro" asp-route-id="@livro.IdLiv" class="btnp">Ver</a>
+                       <!-- <button class="btnp">VER</button> -->
                     </div>                   
                 }                
             </div>

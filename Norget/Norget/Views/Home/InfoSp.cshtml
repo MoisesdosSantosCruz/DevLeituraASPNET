@@ -1,29 +1,29 @@
-﻿@{
+﻿@model IEnumerable<Norget.Models.Usuario>
+
+@{
     ViewData["Title"] = "InfoSp";
 }
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/infosp.css" asp-append-version="true" />
-    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="shortcut icon" type="imagex/png" href="~/img/logo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <title>Informações Pessoais</title>
     <script>
         function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.classList.toggle('active');
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('active');
         }
     </script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="img/logodr.png" alt="Logo"></a>
-
+           <img src="/img/logodr.png" alt="Logo"></a>
         </div>
         <div class="search">
             <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
@@ -50,7 +50,7 @@
     </header>
 
     <div class="voltar">
-        <a href="#"><i class="fas fa-chevron-left"></i> VOLTAR</a>
+     <a asp-controller="Home" asp-action="Index"><i class="fas fa-chevron-left"></i>VOLTAR</a>
     </div>
 
     <div class="profile-header">
@@ -59,9 +59,12 @@
         </div>
         <br> <br>
         <div class="profile-info">
-            <h2>Fulaninho de Silva</h2>
-
+            @foreach (var usuario in Model)
+            {
+                <h2>@usuario.NomeCli</h2>
+            }
         </div>
+
         <div class="account-section">
             <hr class="quebra">
             <h2>Minha Conta:</h2>
@@ -76,33 +79,44 @@
             <div class="cards-container">
 
                 <div class="card">
-                    <p><strong>Nome:</strong></p>
-                    <p>Fulaninho da Silva</p>
-                    <span class="editar">EDITAR</span>
+                    @foreach (var usuario in Model)
+                    {
+                        <p><strong>Nome:</strong></p>
+                        <p>@usuario.NomeCli</p>
+                        <span class="editar">EDITAR</span>
+                    }
                 </div>
 
                 <div class="card">
-                    <p><strong>E-Mail:</strong></p>
-                    <p>fulanindasisi@gmail.com</p>
-                    <span class="editar">EDITAR</span>
+                    @foreach (var usuario in Model)
+                    {
+                        <p><strong>E-Mail:</strong></p>
+                        <p>@usuario.EmailCli</p>
+                        <span class="editar">EDITAR</span>
+                    }
                 </div>
 
+              <!--  <div class="card">                    
+                   @foreach (var usuario in Model)
+                   {
+                       <p><strong>Telefone:</strong></p>
+                       <p>@usuario.Tel </p>
+                       <span class="editar">EDITAR</span>
+                   }
+                </div> -->
                 <div class="card">
-                    <p><strong>Telefone:</strong></p>
-                    <p>+55 11 94002-8922 </p>
-                    <span class="editar">EDITAR</span>
-                </div>
-
-                <div class="card">
+                 @foreach (var usuario in Model)
+                 {
                     <p><strong>Senha:</strong></p>
-                    <p>*************</p>
+                    <p>@usuario.SenhaCli</p>
                     <span class="editar">EDITAR</span>
-                </div>
-                <div class="card">
+                 }
+               </div>
+               <!-- <div class="card">
                     <p><strong>CPF:</strong></p>
                     <p>892.543.140-80</p>
                     <span class="editar">EDITAR</span>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

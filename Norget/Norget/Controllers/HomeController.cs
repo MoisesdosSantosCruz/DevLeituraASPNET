@@ -36,6 +36,7 @@ namespace Norget.Controllers
             return View();
         }
 
+        
         [HttpPost]
         public IActionResult Login(Usuario usuario)
         {
@@ -56,6 +57,10 @@ namespace Norget.Controllers
             }
         }
 
+        public IActionResult InfoSp()
+        {
+            return View(_usuarioRepositorio.TodosUsuarios());
+        }
 
         public IActionResult PainelUsuario()
         {
@@ -120,7 +125,7 @@ namespace Norget.Controllers
         }
         public IActionResult DetalheLivro() {
 
-            return View();
+            return View(_livroRepositorio.ListarLivros());
         }
 
         public IActionResult CadastroLivro() {

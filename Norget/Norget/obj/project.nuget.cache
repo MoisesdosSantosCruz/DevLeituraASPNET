@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gmgL4FxoE7Y=",
+  "dgSpecHash": "yYAeh3kgDrA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\89DevReads\\Norget\\Norget\\Norget.csproj",
+  "projectFilePath": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\Norget.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idoss\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\idoss\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
