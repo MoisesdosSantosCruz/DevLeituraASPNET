@@ -3,52 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\repository\\livrorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\repository\\livrorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\repository\\ilivrorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\repository\\ilivrorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\views\\home\\detalhelivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\detalhelivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\views\\home\\painellivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\painellivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\repository\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\repository\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\views\\home\\painelusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\views\\home\\painelusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|c:\\users\\idoss\\onedrive\\\u00E1rea de trabalho\\git\\norget\\norget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E034FF3-AF97-4C67-9CC9-4441F590A906}|Norget\\Norget.csproj|solutionrelative:norget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,28 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Models\\Livro.cs",
-              "RelativeDocumentMoniker": "Norget\\Models\\Livro.cs",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Models\\Livro.cs",
-              "RelativeToolTip": "Norget\\Models\\Livro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:39:45.003Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Norget\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T23:21:09.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ILivroRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Repository\\ILivroRepositorio.cs",
               "RelativeDocumentMoniker": "Norget\\Repository\\ILivroRepositorio.cs",
               "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Repository\\ILivroRepositorio.cs",
               "RelativeToolTip": "Norget\\Repository\\ILivroRepositorio.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAtwAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:24:24.524Z",
+              "WhenOpened": "2024-11-24T23:19:56.553Z",
               "EditorCaption": ""
             },
             {
@@ -118,126 +82,9 @@
               "RelativeDocumentMoniker": "Norget\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Norget\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAD4v4oAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T20:22:25.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T20:10:51.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PainelLivro.cshtml",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\PainelLivro.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\PainelLivro.cshtml",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\PainelLivro.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\PainelLivro.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T20:09:33.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PainelUsuario.cshtml",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\PainelUsuario.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\PainelUsuario.cshtml",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\PainelUsuario.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\PainelUsuario.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T20:09:15.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Norget\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Models\\Usuario.cs",
-              "RelativeToolTip": "Norget\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:06:59.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LivroRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Repository\\LivroRepositorio.cs",
-              "RelativeDocumentMoniker": "Norget\\Repository\\LivroRepositorio.cs",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Repository\\LivroRepositorio.cs",
-              "RelativeToolTip": "Norget\\Repository\\LivroRepositorio.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAIwGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T19:15:41.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Program.cs",
-              "RelativeDocumentMoniker": "Norget\\Program.cs",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Program.cs",
-              "RelativeToolTip": "Norget\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:28:56.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UsuarioRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Repository\\UsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "Norget\\Repository\\UsuarioRepositorio.cs",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Repository\\UsuarioRepositorio.cs",
-              "RelativeToolTip": "Norget\\Repository\\UsuarioRepositorio.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAD4v0MAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:59:00.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\Editar.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\Editar.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T20:10:16.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DetalheLivro.cshtml",
-              "DocumentMoniker": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\DetalheLivro.cshtml",
-              "RelativeDocumentMoniker": "Norget\\Views\\Home\\DetalheLivro.cshtml",
-              "ToolTip": "C:\\Users\\idoss\\OneDrive\\\u00C1rea de Trabalho\\Git\\Norget\\Norget\\Views\\Home\\DetalheLivro.cshtml",
-              "RelativeToolTip": "Norget\\Views\\Home\\DetalheLivro.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T20:13:12.234Z",
               "EditorCaption": ""
             }
           ]

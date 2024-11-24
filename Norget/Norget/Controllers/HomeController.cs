@@ -26,6 +26,7 @@ namespace Norget.Controllers
 
         public IActionResult Index()
         {
+
             return View(_livroRepositorio.ListarLivros());
         }
 
@@ -123,11 +124,13 @@ namespace Norget.Controllers
 
             return View(_livroRepositorio.ListarLivros());
         }
-        public IActionResult DetalheLivro() {
+        public IActionResult DetalheLivro(int IdLiv) {
+          
+            var livro = _livroRepositorio.ObterLivro(IdLiv);
 
-            return View(_livroRepositorio.ListarLivros());
+            return View(livro);
         }
-
+     
         public IActionResult CadastroLivro() {
 
             return View();

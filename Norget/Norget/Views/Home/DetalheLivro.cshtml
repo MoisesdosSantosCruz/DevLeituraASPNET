@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Norget.Models.Livro>
+﻿
+@model Norget.Models.Livro
 @{
     ViewData["Title"] = "DetalheLivro";
 }
@@ -55,20 +56,18 @@
 
     <main class="product-details">
         <div class="product-image">
-            @foreach (var livro in Model) 
-            {
-                <img src="/img/@livro.ImgLiv" alt="Imagem do Produto">
-            }
+           
+            <img src="/img/@Model.ImgLiv" alt="Imagem do Produto">
+            
         </div>
         <div class="product-info">
-            @foreach (var livro in Model)
-            {
-                <h1>@livro.NomeLiv</h1>
-            }
-            @foreach (var livro in Model)
-            {
-                <p class="price"><span>R$ @livro.PrecoLiv à vista</span> <br> ou em 1x de R$ 00,00</p>
-            }
+        
+            
+                <h1>@Model.NomeLiv</h1>
+            
+            
+                <p class="price"><span>R$ @Model.PrecoLiv à vista</span> <br> ou em 1x de R$ 00,00</p>
+            
             <div class="actions">
                 <button class="comprar">Comprar Agora</button>
                 <button class="addcarrinho">Adicionar no Carrinho</button>
@@ -89,10 +88,9 @@
         <h2>Ficha Técnica</h2>
         <br/>
         <div class="tech-info">
-            @foreach (var livro in Model)
             {
-                <div><i class="bi bi-person"></i> Editora: <span>@livro.NomeEdi</span></div>
-                <div><i class="bi bi-barcode"></i>ISBN: <span>@livro.ISBN</span></div>
+                <div><i class="bi bi-person"></i> Editora: <span>@Model.NomeEdi</span></div>
+                <div><i class="bi bi-barcode"></i>ISBN: <span>@Model.ISBN</span></div>
                 <div><i class="bi bi-book"></i> Páginas: <span>150</span></div>
                 <div><i class="bi bi-globe"></i> Idioma: <span>Inglês</span></div>
             }
@@ -100,10 +98,7 @@
         
         <h2>Descrição</h2>
         <br/>
-       @foreach (var livro in Model)
-       {
-        <p>@livro.DescLiv</p>
-       }
+        <p>@Model.DescLiv</p>
     </section>
 
 </body>

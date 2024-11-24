@@ -56,7 +56,7 @@ namespace Norget.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new("SELECT * from tbLivro", conexao);
+                MySqlCommand cmd = new("SELECT * FROM tbLivro WHERE IdLiv = @IdLiv", conexao);
                 cmd.Parameters.AddWithValue("@IdLiv", IdLiv);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
