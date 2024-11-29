@@ -146,6 +146,12 @@ h2 {
 
 }
 /*cards do topo */
+
+.cards img{
+    width: 150px;
+    height: 200px
+}
+
 .cards {
     display: flex;
     gap: 20px;
@@ -172,6 +178,13 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+}
+
+.promocoes img {
+    height: 200px;
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 100px;
 }
 
 .promocoes {
@@ -201,6 +214,7 @@ h2 {
     margin-top: -59px;
     color: white;
 }
+
 
 .cardP h2 {
     color: white;
@@ -248,6 +262,12 @@ h2 {
     border:#3FB950 3px solid;
    /* box-shadow: #3fb94fa2 0px 0px 30px;*/
     margin-bottom: 40px;
+
+}
+.destaque img {
+    
+    height: 200px
+    
 }
 /*arrumando o texto centralizando, trocando a cor e deixando em negrito*/
 .destaque h2 {

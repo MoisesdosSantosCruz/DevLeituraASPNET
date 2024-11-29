@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Livro>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!--link o css para o html-->
+    <link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true" />
+    <!--coloca o icon da dev reads no site-->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/logo3.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap lib para pegar icones necessarios para a montagem do site-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!--fonte do google montserrat para os textos-->
+    <title>DEVREADS</title>
+    <!--um script para mostrar ao clicar no menu-->
+    <script>
+        function toggleMenu() {
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <section class="populares">
+            <h2>Resultados</h2>
+            <div class="cards">
+                <!-- Altere aqui para "cards" -->
+                @foreach (var livro in Model)
+                {
+
+
+                    <div class="card">
+
+                        <br><br><img src="/img/@livro.ImgLiv">
+                        <h2>@livro.NomeLiv</h2>
+                        <p>@livro.PrecoLiv</p>
+                        <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+                    </div>
+
+
+                }
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>

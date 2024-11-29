@@ -1,7 +1,8 @@
-﻿using MySql.Data.MySqlClient;
-using MySql.Data.Types;
+﻿using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel;
+using MySql.Data.MySqlClient;
 using Norget.Models;
 using System.Data;
+using static Norget.Models.Livro;
 namespace Norget.Repository
 {
     public class LivroRepositorio : ILivroRepositorio
@@ -42,9 +43,11 @@ namespace Norget.Repository
                             IdEdi = (int)(dr["IdEdi"]),
                             NomeEdi = (string)(dr["NomeEdi"]),
                             Autor = (string)(dr["Autor"]),
-                            DataPubli = (DateTime)(dr["DataPubli"])
-
-                        });
+                            DataPubli = (DateTime)(dr["DataPubli"]),
+                            EspeciaLiv = Enum.TryParse(typeof(Livro.EspecialLiv), dr["EspecialLiv"]?.ToString(), out var result)
+                            ? (Livro.EspecialLiv)result
+                            : Livro.EspecialLiv.N
+                        }); 
                 }
                 return LivroList;
             }
@@ -56,7 +59,7 @@ namespace Norget.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new("SELECT * FROM tbLivro WHERE IdLiv = @IdLiv", conexao);
+                MySqlCommand cmd = new("SELECT * FROM tbLivro where IdLiv = @IdLiv", conexao);
                 cmd.Parameters.AddWithValue("@IdLiv", IdLiv);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -78,7 +81,9 @@ namespace Norget.Repository
                     livro.NomeEdi = (string)(dr["NomeEdi"]);
                     livro.Autor = (string)(dr["Autor"]);
                     livro.DataPubli = (DateTime)(dr["DataPubli"]);
-
+                    livro.EspeciaLiv = Enum.TryParse(typeof(Livro.EspecialLiv), dr["EspecialLiv"]?.ToString(), out var result)
+                                                 ? (Livro.EspecialLiv)result
+                                                 : Livro.EspecialLiv.N;
                 }
                 return livro;
             }
@@ -105,6 +110,7 @@ namespace Norget.Repository
                     cmd.Parameters.Add("@vNomeEdi", MySqlDbType.VarChar).Value = livro.NomeEdi;
                     cmd.Parameters.Add("@vAutor", MySqlDbType.VarChar).Value = livro.Autor;
                     cmd.Parameters.Add("@vDataPubli", MySqlDbType.VarChar).Value = livro.DataPubli?.ToString("dd/MM/yyyy");
+                    cmd.Parameters.Add("@vEspecialLiv", MySqlDbType.Enum).Value = livro.EspeciaLiv;
 
 
                     cmd.ExecuteNonQuery();
@@ -112,6 +118,53 @@ namespace Norget.Repository
                 }
             }
 
+
+
         }
+
+        public List<Livro> BuscarLivroPorNome(string pesquisa)
+        {
+
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+
+                conexao.Open();
+
+
+                MySqlCommand cmd = new MySqlCommand("select * from tbLivro where NomeLiv like @NomeLiv", conexao);
+                cmd.Parameters.Add("@NomeLiv", MySqlDbType.String).Value = "%" + pesquisa + "%";
+
+                // Lê os dados que foi pego do email e senha do banco de dados
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                // Guarda os dados que foi pego do email e senha do banco de dados
+                MySqlDataReader dr;
+
+                // Instanciando a model cliente
+                List<Livro> listaLivro = new List<Livro>();
+                // Executando os comandos do mysql e passsando paa a variavel dr
+                dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+
+                // Verifica todos os dados que foram pego do banco e pega o email e senha
+                while (dr.Read())
+                {
+                    Livro livro = new Livro();
+
+                    livro.IdLiv = Convert.ToInt32(dr["IdLiv"]);
+                    livro.NomeLiv = Convert.ToString(dr["NomeLiv"]);
+                    livro.PrecoLiv = Convert.ToDecimal(dr["PrecoLiv"]);
+                    livro.ImgLiv = Convert.ToString(dr["ImgLiv"]);
+                    livro.NomeEdi = Convert.ToString(dr["NomeEdi"]);
+                    livro.Autor = Convert.ToString(dr["Autor"]);
+                    livro.DataPubli = Convert.ToDateTime(dr["DataPubli"]);
+
+                    listaLivro.Add(livro);
+                }
+                return listaLivro;
+            }
+        }
+
+        
+
+
     }
 }

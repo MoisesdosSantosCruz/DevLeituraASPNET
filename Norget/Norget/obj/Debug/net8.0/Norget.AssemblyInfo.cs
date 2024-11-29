@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Norget")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5050f007788b1feac26107dfdac1c0fbada36568")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89279ca8c5adede6f8022574042aa9e2de551e6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Norget")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Norget")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

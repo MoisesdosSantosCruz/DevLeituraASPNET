@@ -27,8 +27,12 @@ namespace Norget.Controllers
         public IActionResult Index()
         {
 
+
             return View(_livroRepositorio.ListarLivros());
         }
+
+
+        
 
         /* Para que os botões funcionem, o controle deve devolver
          sua parte visual descrita abaixo*/
@@ -119,31 +123,7 @@ namespace Norget.Controllers
             return RedirectToAction(nameof(PainelUsuario));
         }
 
-        //Parte dos livros 
-        public IActionResult PainelLivro() {
-
-            return View(_livroRepositorio.ListarLivros());
-        }
-        public IActionResult DetalheLivro(int IdLiv) {
-          
-            var livro = _livroRepositorio.ObterLivro(IdLiv);
-
-            return View(livro);
-        }
-     
-        public IActionResult CadastroLivro() {
-
-            return View();
-        
-        }
-        [HttpPost]
-        public IActionResult CadastroLivro(Livro livro)
-        {
-            _livroRepositorio.CadastroLivro(livro);
-
-            return RedirectToAction(nameof(PainelLivro));
-        }
-
+       
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

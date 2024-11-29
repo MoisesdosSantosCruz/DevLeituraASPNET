@@ -32,52 +32,62 @@
                 <h2>Seja Bem-Vindo!</h2>
                 <form asp-action="CadastroLivro">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-                    <label for="isbn"></label>
+                    <br /><br />
+                    <label for="isbn">ISBN</label>
                         <input asp-for="ISBN" id="isbn" placeholder="ISBN" type="text" required>
                          <span asp-validation-for="ISBN" class="text-danger"></span>
 
-                    <label for="Nome"></label>
+                    <label for="Nome">Título</label>
                         <input asp-for="NomeLiv" id="nome" placeholder="Nome" type="text" required>
                         <span asp-validation-for="NomeLiv" class="text-danger"></span>
 
-                    <label for="Preço"></label>
+                    <label for="Preço">Preço</label>
                         <input asp-for="PrecoLiv" id="preco" placeholder="Preço" type="number" required>
                         <span asp-validation-for="PrecoLiv" class="text-danger"></span>
 
-                    <label for="Desc"></label>
+                    <label for="Desc">Descrisão</label>
                         <input asp-for="DescLiv" id="desc" placeholder="Descrisão" type="text" required>
                         <span asp-validation-for="DescLiv" class="text-danger"></span>
 
-                    <label for="Img"></label>
+                    <label for="Img">Imagem</label>
                         <input asp-for="ImgLiv" id="img" placeholder="Imagem" type="text" required>
                         <span asp-validation-for="ImgLiv" class="text-danger"></span>
 
-                    <label for="Categoria"></label>
+                    <label for="Categoria">Categoria </label>
                          <input asp-for="Categoria" id="categoria" placeholder="Categoria" type="text" required>
                          <span asp-validation-for="Categoria" class="text-danger"></span>
 
-                    <label for="Editora"></label>
+                    <label for="Editora">Editora</label>
                          <input asp-for="NomeEdi" id="editora" placeholder="Editora" type="text" required>
                          <span asp-validation-for="NomeEdi" class="text-danger"></span>
 
-                    <label for="Autor"></label>
+                    <label for="Autor">Autor</label>
                          <input asp-for="Autor" id="autor" placeholder="Autor" type="text" required>
                          <span asp-validation-for="Autor" class="text-danger"></span>
 
-                    <label for="Data de Publicação"></label>
+                    <label for="Data de Publicação">Data de Publicação</label>
                         <input asp-for="DataPubli" id="datapubli" placeholder="Data" type="text" required>
                         <span asp-validation-for="DataPubli" class="text-danger"></span>
 
-                    <button type="submit" class="btnregistrar">Registre-se</button>
+                    <label for="especialliv">Livro Espercial?</label>
+                    <select asp-for="EspeciaLiv" class="text-danger" id="especialliv" required>
+                        <option value="">Selecione...</option>
+                        <option value="P">Popular</option>
+                        <option value="S">Semana</option>
+                        <option value="O">Oferta</option>
+                        <option value="D">Destaque</option>
+                        <option value="N">Não Especial</option>
+                    </select>
+                    <span asp-validation-for="EspeciaLiv" class="text-danger"></span>
+
+                    <a asp-controller="Home" asp-action="PainelLivro">Painel Livro</a>
+
+                       <button type="submit" class="btnregistrar">Registre-se</button>
 
                 </form>
                 
             </div>
         </div>
-          <div class="redirecionar">
-                    <a asp-controller="Home" asp-action="PainelLivro">Painel Livro</a>
-          </div>
     </div>
 </body>
 </html>

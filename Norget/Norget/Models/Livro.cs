@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using MySql.Data.Types;
 
 namespace Norget.Models;
 
@@ -46,6 +45,22 @@ public class Livro
     public int IdEdi { get; set; }
     public Editora? Editora { get; set; }
 
+    public enum EspecialLiv { 
+        P,
+        S,
+        O,
+        D,
+        N
+    }
+
+    public EspecialLiv EspeciaLiv { get; set; }
+
     public List<Livro>? ListaLivro { get; set; }
 
+    public string? PesquisLiv { get; set; }
+
+    internal static Livro Where(Func<object, bool> value)
+    {
+        throw new NotImplementedException();
+    }
 }

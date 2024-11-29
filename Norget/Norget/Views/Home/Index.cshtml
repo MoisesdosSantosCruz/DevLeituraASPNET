@@ -2,7 +2,10 @@
 @{
     ViewData["Title"] = "Index";
 }
-
+    
+@{
+     List<int> livrosExibidos = new List<int>();  
+}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,59 +24,35 @@
     <!--um script para mostrar ao clicar no menu-->
     <script>
         function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.classList.toggle('active');
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('active');
         }
     </script>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a asp-controller="Home" asp-action="Index"><img src="img/logodr.png" alt="Logo"></a>
-        </div>
-        <div class="search">
-            <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </div>
-        <div class="icons">
-            <a asp-controller="Home" asp-action="Carrinho" class="bi bi-bag"></a>
-
-            <div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-caret-down"></i></div>
-        </div>
-        <nav id="menu" class="nav-menu">
-            <h2>MENU</h2>
-            <ul>
-                <li><a href="config.html">Conta</a></li>
-                <li><a href="atendimento.html">Central de Atendimento</a></li>
-            </ul>
-            <div class="line"></div>
-            <div class="menu-buttons">
-                <a asp-controller="Home" asp-action="Login" class="login">Login</a>
-                <a asp-controller="Home" asp-action="CadastroUsuario" class="cadastro">Registre-se</a>
-                <a asp-controller="Home" asp-action="PainelLivro" class="login">Painel Livro</a>
-                <a asp-controller="Home" asp-action="CadastroLivro" class="cadastro">Registrar Livro</a>
-                <a asp-controller="Home" asp-action="InfoSp" class="login">Usuario</a>
-
-            </div>
-        </nav>
-    </header>
-
     <main>
         <section class="populares">
             <h2>POPULARES</h2>
             <div class="cards">
                 <!-- Altere aqui para "cards" -->
-                @foreach (var livro in Model)
-                {
-                    <div class="card">
+
+                    @foreach (var livro in Model)
+                    {
+
+                        if (livro.EspeciaLiv == Livro.EspecialLiv.P && !livrosExibidos.Contains(livro.IdLiv))
+                        {
+                        <div class="card">
+
                         <br><br><img src="img/@livro.ImgLiv">
                         <h2>@livro.NomeLiv</h2>
                         <p>@livro.PrecoLiv</p>
-                        <a asp-controller="Home" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv"class="btnp">Ver</a>
-                       <!-- <button class="btnp">VER</button> -->
-                    </div>                   
-                }                
+                        <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv"class="btnp">Ver</a>
+                        </div>
+
+                        }
+                    }
+                    
             </div>
         </section>
 
@@ -84,42 +63,87 @@
         <div class="promocoes-container">
             <div class="cardestaque">
                 <div class="destaque">
-                    <h2>Livro da Semana</h2>
-                    <img src="img/img11.jpeg">
-                    <p>Código Limpo</p>
-                    <span>R$ 78,90</span>
-                    <button class="btnd">VER</button>
+                    @foreach (var livro in Model){
+                        if (livro.EspeciaLiv == Livro.EspecialLiv.S && !livrosExibidos.Contains(livro.IdLiv))
+                        {
+                            <h2>Livro da Semana</h2>
+                            <img src="img/@livro.ImgLiv"/>
+                            <p>@livro.NomeLiv</p>
+                            <span>@livro.PrecoLiv</span>
+                            <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+                            
+                            livrosExibidos.Add(livro.IdLiv);
+                            break;
+                        }
+                    }
                 </div>
 
                 <div class="promocoes-container">
-                    <section class="promocoes">
+                   <section class="promocoes">
                         <div class="ofertas">
                             <h2>Ofertas da Semana</h2>
                         </div>
-
                         <div class="cardestaque">
                             <div class="cardP">
-                                <br><br><img src="img/img5.jpeg">
-                                <h2>Tecnologias da Informação na Gestão</h2>
-                                <p>R$ 90,00</p>
-                                <button class="btnd">VER</button>
+                            
+                                @foreach (var livro in Model){
+
+                                    if (livro.EspeciaLiv == Livro.EspecialLiv.O && !livrosExibidos.Contains(livro.IdLiv))
+                                    {
+                                        <br><br><img src="img/@livro.ImgLiv">
+                                        <h2>@livro.NomeLiv</h2>
+                                        <p>@livro.PrecoLiv</p>
+                                        <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+
+
+                                        livrosExibidos.Add(livro.IdLiv);
+                                        break;
+                                    }     
+
+                                }
                             </div>
 
                             <div class="cardP">
-                                <br><br><img src="img/img6.jpeg">
-                                <h2>Por Trás da TI</h2>
-                                <p>R$ 60,00</p>
-                                <button class="btnd">VER</button>
+
+                                @foreach (var livro in Model)
+                                {
+
+                                    if (livro.EspeciaLiv == Livro.EspecialLiv.O && !livrosExibidos.Contains(livro.IdLiv))
+                                    {
+
+                                        <br><br><img src="img/@livro.ImgLiv">
+                                        <h2>@livro.NomeLiv</h2>
+                                        <p>@livro.PrecoLiv</p>
+                                        <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+
+                                        livrosExibidos.Add(livro.IdLiv);
+                                        break;
+
+                                    }
+                                }
                             </div>
 
                             <div class="cardP">
-                                <br><br><img src="img/img7.jpeg">
-                                <h2>The Pragmatic Programming</h2>
-                                <p>R$ 142,20</p>
-                                <button class="btnd">VER</button>
+
+                                @foreach (var livro in Model)
+                                {
+                                    if (livro.EspeciaLiv == Livro.EspecialLiv.O && !livrosExibidos.Contains(livro.IdLiv))
+                                    {
+                                        <br><br><img src="img/@livro.ImgLiv">
+                                        <h2>@livro.NomeLiv</h2>
+                                        <p>R$@livro.PrecoLiv</p>
+                                        <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+
+                                        livrosExibidos.Add(livro.IdLiv);
+                                        break;
+
+
+
+                                    }
+                                }
                             </div>
-                        </div>
-                    </section>
+                       </div>
+                   </section>
                 </div>
             </div>
         </div>

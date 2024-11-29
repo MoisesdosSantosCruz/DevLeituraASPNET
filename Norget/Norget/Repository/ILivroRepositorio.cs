@@ -10,6 +10,7 @@ namespace Norget.Repository
 
         void CadastroLivro(Livro livro);
 
+        public List<Livro> BuscarLivroPorNome(string pesquisa);
 
 
 

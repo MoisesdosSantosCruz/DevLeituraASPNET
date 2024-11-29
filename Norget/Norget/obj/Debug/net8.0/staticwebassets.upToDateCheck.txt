@@ -11,7 +11,6 @@ wwwroot\css\detalhespedido.css
 wwwroot\css\estilo.css
 wwwroot\css\infosp.css
 wwwroot\css\login.css
-wwwroot\css\navbar.css
 wwwroot\css\registro.css
 wwwroot\favicon.ico
 wwwroot\img\b.jpg
