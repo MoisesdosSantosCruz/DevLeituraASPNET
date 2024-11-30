@@ -1,18 +1,22 @@
 ﻿@await Html.PartialAsync("PesquisaForm")
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Norget</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/Norget.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/Norget.styles.css" asp-append-version="true"/>
+    <link rel="shortcut icon" href="~/img/logo.ico" asp-append-version="true"/>
+
 </head>
 <body>
     <header>
         <div class="logo">
-            <a asp-controller="Home" asp-action="Index"><img src="img/logodr.png" alt="Logo"></a>
+            <a asp-controller="Home" asp-action="Index"><img src="/img/logodr.png" alt="Logo"></a>
         </div>
+
         <div class="icons">
             <a asp-controller="Home" asp-action="Carrinho" class="bi bi-bag"></a>
 
@@ -26,11 +30,11 @@
             </ul>
             <div class="line"></div>
             <div class="menu-buttons">
-                <a asp-controller="Home" asp-action="Login" class="login">Login</a>
-                <a asp-controller="Home" asp-action="CadastroUsuario" class="cadastro">Registre-se</a>
+                <a asp-controller="Usuario" asp-action="Login" class="login">Login</a>
+                <a asp-controller="Usuario" asp-action="CadastroUsuario" class="cadastro">Registre-se</a>
                 <a asp-controller="Livro" asp-action="PainelLivro" class="login">Painel Livro</a>
                 <a asp-controller="Livro" asp-action="CadastroLivro" class="cadastro">Registrar Livro</a>
-                <a asp-controller="Home" asp-action="InfoSp" class="login">Usuario</a>
+                <a asp-controller="Usuario" asp-action="InfoSp" class="login">Usuario</a>
             </div>
         </nav>
     </header>
@@ -44,7 +48,7 @@
 
     
    
-    <footer>
+  <!-- <footer>
         <section class="informacoes">
             <div class="info1">
                 <h1>Conheça-nos</h1>
@@ -72,7 +76,7 @@
                 <li><a href="atendimento.html">Central de Atendimento</a></li>
             </div>
         </section>
-    </footer>
+    </footer> -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

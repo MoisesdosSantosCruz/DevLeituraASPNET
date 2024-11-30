@@ -1,383 +1,383 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
       "PackagePath": "staticwebassets\\Norget.o8efev9ebn.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
       "PackagePath": "staticwebassets\\css\\atendimento.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
       "PackagePath": "staticwebassets\\css\\cadastro.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
       "PackagePath": "staticwebassets\\css\\cadastroLivro.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
       "PackagePath": "staticwebassets\\css\\carrinho.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\cartao.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\cartao.css",
       "PackagePath": "staticwebassets\\css\\cartao.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\categoria.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\categoria.css",
       "PackagePath": "staticwebassets\\css\\categoria.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\compras.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\compras.css",
       "PackagePath": "staticwebassets\\css\\compras.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\config.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\config.css",
       "PackagePath": "staticwebassets\\css\\config.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
       "PackagePath": "staticwebassets\\css\\detalheslivro.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\detalhespedido.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\detalhespedido.css",
       "PackagePath": "staticwebassets\\css\\detalhespedido.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\estilo.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\estilo.css",
       "PackagePath": "staticwebassets\\css\\estilo.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\infosp.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\infosp.css",
       "PackagePath": "staticwebassets\\css\\infosp.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\login.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\css\\registro.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\css\\registro.css",
       "PackagePath": "staticwebassets\\css\\registro.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\Union.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\Union.png",
       "PackagePath": "staticwebassets\\img\\Union.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\b.jpg",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\b.jpg",
       "PackagePath": "staticwebassets\\img\\b.jpg"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\chat.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\chat.png",
       "PackagePath": "staticwebassets\\img\\chat.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\email.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\email.png",
       "PackagePath": "staticwebassets\\img\\email.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img1.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img1.png",
       "PackagePath": "staticwebassets\\img\\img1.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img10.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img10.png",
       "PackagePath": "staticwebassets\\img\\img10.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img11.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img11.png",
       "PackagePath": "staticwebassets\\img\\img11.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img2.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img2.png",
       "PackagePath": "staticwebassets\\img\\img2.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img3.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img3.png",
       "PackagePath": "staticwebassets\\img\\img3.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img4.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img4.png",
       "PackagePath": "staticwebassets\\img\\img4.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img5.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img5.png",
       "PackagePath": "staticwebassets\\img\\img5.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img6.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img6.png",
       "PackagePath": "staticwebassets\\img\\img6.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img7.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img7.png",
       "PackagePath": "staticwebassets\\img\\img7.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img8.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img8.png",
       "PackagePath": "staticwebassets\\img\\img8.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\img9.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\img9.png",
       "PackagePath": "staticwebassets\\img\\img9.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\logo.ico",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo.ico",
       "PackagePath": "staticwebassets\\img\\logo.ico"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
       "PackagePath": "staticwebassets\\img\\logo2.ico"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
       "PackagePath": "staticwebassets\\img\\logo3.ico"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\logodr.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\logodr.png",
       "PackagePath": "staticwebassets\\img\\logodr.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\sac.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\sac.png",
       "PackagePath": "staticwebassets\\img\\sac.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\img\\user.png",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\img\\user.png",
       "PackagePath": "staticwebassets\\img\\user.png"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

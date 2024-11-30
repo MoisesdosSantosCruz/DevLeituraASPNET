@@ -6,7 +6,7 @@
 
 <br/>
 <p>
-    <a asp-controller="Home" asp-action="CadastroLivro">Cadastra Livro</a>
+    <a asp-controller="Livro" asp-action="CadastroLivro">Cadastra Livro</a>
 </p>
 <table class="table">
     <thead>
@@ -33,7 +33,10 @@
                 @Html.DisplayNameFor(model => model.NomeEdi)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Categoria)
+                @Html.DisplayNameFor(model => model.IdCategoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeCategoria)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Autor)
@@ -71,9 +74,12 @@
                     @Html.DisplayFor(modelItem => item.NomeEdi)
                 </th>
                 <th>
-                    @Html.DisplayFor(modelItem => item.Categoria)
+                    @Html.DisplayFor(modelItem => item.IdCategoria)
                 </th>
-                
+                <th>
+                    @Html.DisplayFor(modelItem => item.NomeCategoria)
+                </th>
+
                 <th>
                     @Html.DisplayFor(modelItem => item.Autor)
                 </th>
@@ -82,8 +88,8 @@
                 </th>
                 <th>Ação</th>
                 <td>
-                    @Html.ActionLink("EditarLivro", "EditarLivro", new { id = item.ISBN}) |
-                    @Html.ActionLink("Excluir", "Excluir", new { id = item.ISBN },
+                    @Html.ActionLink("EditarLivro", "EditarLivro", new { idliv = item.IdLiv}) |
+                    @Html.ActionLink("Excluir", "Excluir", new { idliv = item.IdLiv },
                              new { onclick = "return confirm('Deseja realmente Excluir este item?');" })
                 </td>
             </tr>

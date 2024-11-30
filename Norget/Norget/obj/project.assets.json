@@ -1653,23 +1653,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\teste\\.nuget\\packages\\": {},
+    "C:\\Users\\idoss\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\Norget.csproj",
+      "projectUniqueName": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\Norget.csproj",
       "projectName": "Norget",
-      "projectPath": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\Norget.csproj",
-      "packagesPath": "C:\\Users\\teste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\teste\\Desktop\\Git\\Git\\Norget\\Norget\\obj\\",
+      "projectPath": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\Norget.csproj",
+      "packagesPath": "C:\\Users\\idoss\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\Git\\Norget\\Norget\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\idoss\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

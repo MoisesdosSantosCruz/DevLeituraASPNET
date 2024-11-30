@@ -12,6 +12,8 @@ namespace Norget.Repository
 
         public List<Livro> BuscarLivroPorNome(string pesquisa);
 
+        void AtualizarLivro(Livro livro);
+
 
 
     }

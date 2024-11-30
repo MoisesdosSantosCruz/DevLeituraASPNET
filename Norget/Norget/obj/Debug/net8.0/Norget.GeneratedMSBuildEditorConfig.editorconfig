@@ -9,89 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Norget
 build_property.RootNamespace = Norget
-build_property.ProjectDir = C:\Users\teste\Desktop\Git\Git\Norget\Norget\
+build_property.ProjectDir = C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\teste\Desktop\Git\Git\Norget\Norget
+build_property.MSBuildProjectDirectory = C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Home/CadastroUsuario.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3Ryb1VzdWFyaW8uY3NodG1s
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Carrinho/Carrinho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9cQ2FycmluaG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Home/Carrinho.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJyaW5oby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Home/Categoria.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Home/Categoria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Home/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0YXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Home/Index.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Home/InfoSp.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvU3AuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Home/PainelUsuario.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWluZWxVc3VhcmlvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Livro/CadastroLivro.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Livro/CadastroLivro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cQ2FkYXN0cm9MaXZyby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Livro/Categoria.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Livro/Categoria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cQ2F0ZWdvcmlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Livro/DetalheLivro.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Livro/DetalheLivro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cRGV0YWxoZUxpdnJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Livro/PainelLivro.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Livro/EditarLivro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cRWRpdGFyTGl2cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Livro/PainelLivro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cUGFpbmVsTGl2cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Shared/Error.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Shared/PesquisaForm.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Shared/PesquisaForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBlc3F1aXNhRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Shared/Resultado.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Shared/Resultado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlc3VsdGFkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/_ViewImports.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Usuario/CadastroUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3Ryb1VzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Usuario/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Usuario/InfoSp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmZvU3AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Usuario/PainelUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xQYWluZWxVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/_ViewStart.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/teste/Desktop/Git/Git/Norget/Norget/Views/Shared/_Layout.cshtml]
+[C:/Users/idoss/OneDrive/Área de Trabalho/Git/Norget/Norget/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3wlk53qgyi

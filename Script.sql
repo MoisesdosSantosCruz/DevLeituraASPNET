@@ -11,12 +11,25 @@ SenhaCli varchar(50),
 Tel int
 );
 
+create table tbCategoria(
+	IdCategoria int primary key auto_increment,
+    NomeCategoria varchar(255) not null
+);
+
+-- Caso o grupo quiser a insersão direta----
+create table tbEditora(
+idEdi int primary key auto_increment,
+NomeEdi varchar(100) not null
+);
+
+-- Caso voltar ao modo tradicional -----
 create table tbEditora(
 idEdi int primary key auto_increment,
 CNPJ decimal (14,0) unique not null,
 NomeEdi varchar(100) not null,
 TelEdi int 
 );
+
 
 create table tbNotaFiscal(
 NF int primary key, -- Chave Principal NotaFiscal/Chave estrangeira tbCompra
@@ -31,26 +44,33 @@ NomeLiv varchar(100) not null,
 PrecoLiv decimal(6,2) not null,
 DescLiv varchar(250)not null,
 ImgLiv varchar(255) not null,
-Categoria varchar(100) not null,
-idEdi int not null,
-NomeEdi varchar(100) not null,
+IdCategoria int not null,
+IdEdi int not null,
 Autor varchar(100) not null,
 DataPubli date not null,
 EspecialLiv enum('P','S','O','D','N') not null,
 constraint FK_Id_Edi foreign key(idEdi) references tbEditora(idEdi)
 );
--- Qtd int,
 
-/*create table tbCarrinho(
-idCarro int primary key auto_increment,
-ISBN decimal(13,0) not null,
-Qtd int not null, -- FK item_compra
-ImgLiv varchar(200) not null,
-constraint FK_Id_ISBN foreign key(ISBN) references tbLivro(ISBN),
--- constraint FK_Id_PrecoLiv foreign key(PrecoLiv) references tbLivro(PrecoLiv),
-constraint FK_Id_QtdItem foreign key(Qtd) references tbItemCompra(Qtd),
-constraint FK_Id_ImgLiv foreign key(ImgLiv) references tbLivro(ImgLiv)
-); */
+create view vw_Livro 
+as select 
+	tbLivro.IdLiv,
+    tbLivro.ISBN,
+	tbLivro.NomeLiv,
+    tbLivro.PrecoLiv,
+    tbLivro.DescLiv,
+    tbLivro.ImgLiv,
+    tbLivro.IdCategoria,
+    tbCategoria.NomeCategoria,
+    tbLivro.IdEdi,
+    tbEditora.NomeEdi,
+    tbLivro.Autor,
+    tbLivro.DataPubli,
+    tbLivro.EspecialLiv
+from tbLivro inner join tbEditora
+	on tbLivro.IdEdi = tbEditora.IdEdi
+    inner join tbCategoria
+    on tbLivro.IdCategoria = tbCategoria.IdCategoria;
 
 create table tbCompra( 
 NumeroCompra int primary key, -- Notafiscal
@@ -72,7 +92,6 @@ constraint primary key(NumeroCompra, ISBN),
 constraint FK_NumeroCompra foreign key(NumeroCompra) references tbCompra(NumeroCompra),
 constraint FK_ISBN_C foreign key(ISBN) references tbLivro(ISBN)
 );
--- fk_NumeroCompra, fk_ISBNC, ValorItem, QtdC
 
 create table tbVenda(
 NumeroVenda int primary key,
@@ -82,7 +101,6 @@ QtdTotal int not null,
 idEdi int, -- TbEditora
 constraint fk_idEdi foreign key(idEdi) references tbEditora(idEdi)
 );
--- CodVenda, DataVenda, ValorTotal, QtdTotal, fk_CNPJ
 
 create table tbItemVenda(
 NumeroVenda int, -- Chave estrangeira para a tabela tbVenda
@@ -98,21 +116,34 @@ constraint FK_ISBN foreign key(ISBN) references tbLivro(ISBN)
 delimiter $$                  
 create procedure spInsertCliente(vNomeCli varchar(200), vEmailCli varchar(50), vSenhaCli varchar(50), vTel int)
 begin
-if not exists (select NomeCli from tbCliente where NomeCli = vNomeCli)then
+if not exists (select Id from tbCliente where NomeCli = vNomeCli)then
 	insert into tbCliente(NomeCli, EmailCli, SenhaCli, Tel)
 			values(vNomeCli, vEmailCli, vSenhaCli, vTel);
 else
-select "Já tem";
+select "Usuário já cadastrado" as Aviso;
 
 end if;
 end $$
 
 call spInsertCliente('Niko', 'nikoolhate@gmail.com', 123456, 986754389);
-call spInsertCliente('Luciano', 34567891011, 'Luciano@gmail.com', 132457, 997765421);
-call spInsertCliente('Edu bolanhos', 34567665401, 'Edu@gmail.com', 345678, 934465421);
-call spInsertCliente('Luciana Amelia Damasceno Ramos dos Santos', 34567665455, 'Luci@gmail.com', 345655, 934465455);
+call spInsertCliente('Luciano', 'Luciano@gmail.com', 132457, 997765421);
+call spInsertCliente('Edu bolanhos', 'Edu@gmail.com', 345678, 934465421);
+call spInsertCliente('Luciana Amelia Damasceno Ramos dos Santos', 'Luci@gmail.com', 345655, 934465455);
 
-select * from tbCliente;
+-- Categoria --------------------------------------------------------------
+delimiter $$                  
+create procedure spInsertCategoria(vNomeCategoria varchar(255))
+begin
+if not exists (select IdCategoria from tbCategoria where NomeCategoria = vNomeCategoria)then
+	insert into tbCategoria(NomeCategoria)
+			values(vNomeCategoria);
+else
+select "Já tem";
+
+end if;
+end;
+call spInsertCategoria('Inteligência Artificial e Machine Learning');
+call spInsertCategoria('FrontEnd');
 
 -- Editora ----------------------------------------------------------------
 select * from tbEditora;
@@ -129,7 +160,7 @@ select "Já tem";
 end if;
 end $$
 
-select * from tbEditora;
+select * from tbCategoria;
 -- CNPJ, nome da editora e numero de telefone-------
 call spInsertEditora (04713695000452, 'Alta Books', 987654321);
 call spInsertEditora (23308850000157, 'Érica', 888997767);
@@ -147,6 +178,14 @@ call spInsertEditora (585511850001,'Novatec',1129596529);
 call spInsertEditora (57105736000141, 'Editora Contexto',1138325838);
 describe tbEditora;
 
+
+-- Selects -------------------
+
+select * from tbLivro
+select * from tbCategoria;
+select * from tbEditora;
+select * from vw_Livro;
+
 -- Acrescentar a editora nos livros (atributo) - ORDEM DAS EDITORAS DOS LIVROS A SEGUIR SEGUE A ORDEM DOS INSERTS DOS LIVROS
 /*
 Alta Books
@@ -157,27 +196,70 @@ Matrix Editora
 Editora Gente
 Alta Books
 */
-
 -- Procedure tbLivro ----------------------------------------------------------
-select * from tbLivro;
 
+-- Procedure de Atualização/Update: Está corrigida o problema da clausula WHERE ---------------------------
+delimiter $$
+create procedure spUpdateLivro(vISBN decimal(13,0), vNomeLiv varchar(100), vPrecoLiv decimal(6,2), 
+vDescLiv varchar(250), vImgLiv varchar(200), vNomeCategoria Varchar(255), vNomeEdi varchar(100), vAutor varchar(50), vDataPubli char(20), vEspecialLiv enum('P','S','O','D','N'))
+begin
+	if exists(select IdLiv from tbLivro where ISBN = vISBN) then
+    update tbLivro
+    set ISBN = vISBN, NomeLiv = vNomeliv, PrecoLiv = vPrecoLiv, DescLiv = vDescLiv, ImgLiv = vImgLiv, 
+    IdCategoria = (select IdCategoria from tbCategoria where NomeCategoria = vNomeCategoria), 
+    IdEdi = (select IdEdi from tbEditora where NomeEdi = vNomeEdi), Autor = vAutor, DataPubli = str_to_date(vDataPubli, '%d/%m/%Y'), EspecialLiv = vEspecialLiv
+    where ISBN = vISBN;
+    
+    
+else
+select "Update não realizado" as Aviso;
+end if;
+end;
+
+
+/* Procedure Antiga, pode ser reusada, à julgamento do grupo. 
 delimiter $$                  
 create procedure spInsertLivro(vISBN decimal(13,0), vNomeLiv varchar(100), vPrecoLiv decimal(6,2), 
-vDescLiv varchar(250), vImgLiv varchar(200), vCategoria Varchar(100), vNomeEdi varchar(100), vAutor varchar(50), vDataPubli char(20), vEspecialLiv enum('P','S','O','D','N'))
+vDescLiv varchar(250), vImgLiv varchar(200), vNomeCategoria Varchar(255), vNomeEdi varchar(100), vAutor varchar(50), vDataPubli char(20), vEspecialLiv enum('P','S','O','D','N'))
 begin
 if not exists (select ISBN from tbLivro where ISBN = vISBN)then
-	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, Categoria, idEdi, NomeEdi, Autor, DataPubli, EspecialLiv)
-			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, vCategoria, (select idEdi from tbEditora where NomeEdi = vNomeEdi),
-            (select NomeEdi from tbEditora where NomeEdi = vNomeEdi), vAutor, str_to_date(vDataPubli, '%d/%m/%Y'), vEspecialLiv);
+	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, IdCategoria, idEdi, Autor, DataPubli, EspecialLiv)
+			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, 
+            (select IdCategoria from tbCategoria where NomeCategoria = vNomeCategoria), 
+            (select idEdi from tbEditora where NomeEdi = vNomeEdi), vAutor, str_to_date(vDataPubli, '%d/%m/%Y'), vEspecialLiv);
 else
-select "Já tem!";
+select "O livro já existe!" as Aviso;
+
+end if;
+end $$ */
+
+-- Esta Procedure irá inserir a Categoria, a Editora e o Livro de uma vez, poupando tempo. É mais uma opção. -------------
+delimiter $$                  
+create procedure spInsertLivro(vISBN decimal(13,0), vNomeLiv varchar(100), vPrecoLiv decimal(6,2), 
+vDescLiv varchar(250), vImgLiv varchar(200), vNomeCategoria Varchar(255), vNomeEdi varchar(100), vAutor varchar(50), vDataPubli char(20), vEspecialLiv enum('P','S','O','D','N'))
+begin
+	if not exists (select IdEdi from tbEditora where NomeEdi = vNomeEdi) then
+		insert into tbEditora(NomeEdi) values (vNomeEdi);
+         end if;               
+            if not exists (select IdCategoria from tbCategoria where NomeCategoria = vNomeCategoria) then
+            insert into tbCategoria(NomeCategoria) values(vNomeCategoria);
+            end if;
+			
+if not exists (select ISBN from tbLivro where ISBN = vISBN)then
+	insert into tbLivro(ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, IdCategoria, idEdi, Autor, DataPubli, EspecialLiv)
+			values(vISBN, vNomeLiv, vPrecoLiv, vDescLiv, vImgLiv, 
+            (select IdCategoria from tbCategoria where NomeCategoria = vNomeCategoria), 
+            (select idEdi from tbEditora where NomeEdi = vNomeEdi), vAutor, str_to_date(vDataPubli, '%d/%m/%Y'), vEspecialLiv);
+else
+select "O livro já existe!" as Aviso;
 
 end if;
 end $$
 
+
 -- 1 -----
-call spInsertLivro(9788535262128, 'Como Criar Uma Mente', 65.00, 'Conhecimento da tecnologia para com a mente humana',
-'img11.png','Inteligência Artificial e Machine Learning', 'Companhia das Letras', 'Ray Kurzweil', '13/11/2013', 'S');
+call spInsertLivro(1, 9788535262128, 'Como Criar Uma Mente', 65.00, 'Conhecimento da tecnologia para com a mente humana',
+'img11.png','Inteligência Artificial e Machine Learning', 'Visual Books', 'Ray Kurzweil', '13/11/2013', 'O');
 -- 2 -----
 call spInsertLivro(9788576082675, 'Código Limpo: Habilidades Práticas do Agile Software', 
 85.00, 'Habilidades da codificação de software',
@@ -185,7 +267,7 @@ call spInsertLivro(9788576082675, 'Código Limpo: Habilidades Práticas do Agile
 -- 3 -----
 call spInsertLivro(9788535248740, 'Projetos e Implementação de Redes: Fundamentos, Soluções, Arquiteturas e Planejamento', 
 213.00, 'Esta publicação apresenta conceitos iniciais e avançados sobre redes de computador, 
-com exemplos práticos e estudo de soluções', 'img3.png', ' Redes e Infraestrutura ', 
+com exemplos práticos e estudo de soluções', 'img3.png', 'Redes e Infraestrutura ', 
 'Érica', 'Edmundo Antonio Pucci', '30/07/2010','P');
 -- 4 -----
 call spInsertLivro(9788574526102, 'Manual de Produção de Jogos Digitais', 340.00 , 'São apresentados tópicos gerais como: pré-produção, testes e liberação do código, bem como tópicos específicos como: 
@@ -195,7 +277,7 @@ gravações de voiceover e motioncapture, tradução e localização e fornecedo
 call spInsertLivro(9788550802320, 'Inteligência Artificial na Sala de Aula: Como a Tecnologia Está Revolucionando a Educação',  
 40.00, 'Qual é o impacto da Inteligência Artificial na educação? Ao embarcar neste livro, que responde a essas perguntas, 
 lembre-se de que a integração da Inteligência Artificial na educação é uma jornada, não um destino.', 
-'img5.png', 'Inteligência Artificial e Machine Learning','Matrix Editora', 'Leo Fraiman', '25/06/2024', 10);
+'img5.png', 'Inteligência Artificial e Machine Learning','Matrix Editora', 'Leo Fraiman', '25/06/2024', 'P');
 -- 6 -----
 call spInsertLivro(9788545207481, 'A Guerra das Inteligências na Era do ChatGPT', 98.00, 
 'O ChatGPT está na origem de uma virada fundamental de nossa História. Seu fundador, Sam Altman, 
@@ -233,8 +315,9 @@ call spInsertlivro(9788576089483, 'Começando a Programar em Python Para Leigos'
  aplicações e projetada para ter uma independência real de plataforma. Isso o torna uma ótima ferramenta para programadores.', 'Redes.jpeg', 'Gestão de TI', 'Alta Books', 'John Paul Mueller',
  '05/11/2020', 10);
  -- 15 -----
+ select * from tbEditora;
  call spInsertlivro(9788572839785, 'A Quarta Revolução Industrial', '49.32', 'Novas tecnologias estão fundindo os mundos físico, digital e biológico de forma a criar grandes promessas e possíveis perigos.', 'Redes.jpeg',
- 'Inteligência Artificial', 'Edipro', 'Klaus Schwab', '01/02/2018', 10);
+ 'Inteligência Artificial', 'Edipro', 'Klaus Schwab', '01/02/2018', 'D');
  -- 16 -----
  call spInsertlivro(9788580555332, 'Engenharia de Software: Uma Abordagem Profissional', '299.00', 'Engenharia de Software chega à sua 8ª edição como o mais abrangente guia sobre essa importante área.',
  'redes.jpeg', 'Habilidades da codificação de software', 'AMGH', 'Bruce R. Maxim', '15/01/2016', 10);

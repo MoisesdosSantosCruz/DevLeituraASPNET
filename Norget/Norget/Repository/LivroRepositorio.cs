@@ -1,8 +1,7 @@
-﻿using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using Norget.Models;
 using System.Data;
-using static Norget.Models.Livro;
+
 namespace Norget.Repository
 {
     public class LivroRepositorio : ILivroRepositorio
@@ -19,7 +18,7 @@ namespace Norget.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from tbLivro", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from vw_Livro", conexao);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -39,9 +38,10 @@ namespace Norget.Repository
                             PrecoLiv = (decimal)(dr["PrecoLiv"]),
                             DescLiv = (string)(dr["DescLiv"]),
                             ImgLiv = (string)(dr["ImgLiv"]),
-                            Categoria = (string)(dr["Categoria"]),
                             IdEdi = (int)(dr["IdEdi"]),
                             NomeEdi = (string)(dr["NomeEdi"]),
+                            IdCategoria = (int)(dr["IdCategoria"]),
+                            NomeCategoria = (string)(dr["NomeCategoria"]),
                             Autor = (string)(dr["Autor"]),
                             DataPubli = (DateTime)(dr["DataPubli"]),
                             EspeciaLiv = Enum.TryParse(typeof(Livro.EspecialLiv), dr["EspecialLiv"]?.ToString(), out var result)
@@ -59,7 +59,7 @@ namespace Norget.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new("SELECT * FROM tbLivro where IdLiv = @IdLiv", conexao);
+                MySqlCommand cmd = new("SELECT * FROM vw_Livro where IdLiv = @IdLiv", conexao);
                 cmd.Parameters.AddWithValue("@IdLiv", IdLiv);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -76,7 +76,8 @@ namespace Norget.Repository
                     livro.PrecoLiv = (decimal)(dr["PrecoLiv"]);
                     livro.DescLiv = (string)(dr["DescLiv"]);
                     livro.ImgLiv = (string)(dr["ImgLiv"]);
-                    livro.Categoria = (string)(dr["Categoria"]);
+                    livro.IdCategoria = (int)(dr["IdCategoria"]);
+                    livro.NomeCategoria = (string)(dr["NomeCategoria"]);
                     livro.IdEdi = Convert.ToInt32(dr["IdEdi"]);
                     livro.NomeEdi = (string)(dr["NomeEdi"]);
                     livro.Autor = (string)(dr["Autor"]);
@@ -106,7 +107,7 @@ namespace Norget.Repository
                     cmd.Parameters.Add("@vPrecoLiv", MySqlDbType.Decimal).Value = livro.PrecoLiv;
                     cmd.Parameters.Add("@vDescLiv", MySqlDbType.VarChar).Value = livro.DescLiv;
                     cmd.Parameters.Add("@vImgLiv", MySqlDbType.VarChar).Value = livro.ImgLiv;
-                    cmd.Parameters.Add("@vCategoria", MySqlDbType.VarChar).Value = livro.Categoria;
+                    cmd.Parameters.Add("@vNomeCategoria", MySqlDbType.VarChar).Value = livro.NomeCategoria;
                     cmd.Parameters.Add("@vNomeEdi", MySqlDbType.VarChar).Value = livro.NomeEdi;
                     cmd.Parameters.Add("@vAutor", MySqlDbType.VarChar).Value = livro.Autor;
                     cmd.Parameters.Add("@vDataPubli", MySqlDbType.VarChar).Value = livro.DataPubli?.ToString("dd/MM/yyyy");
@@ -131,7 +132,7 @@ namespace Norget.Repository
                 conexao.Open();
 
 
-                MySqlCommand cmd = new MySqlCommand("select * from tbLivro where NomeLiv like @NomeLiv", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from vw_Livro where NomeLiv like @NomeLiv", conexao);
                 cmd.Parameters.Add("@NomeLiv", MySqlDbType.String).Value = "%" + pesquisa + "%";
 
                 // Lê os dados que foi pego do email e senha do banco de dados
@@ -163,7 +164,38 @@ namespace Norget.Repository
             }
         }
 
-        
+        public void AtualizarLivro(Livro livro)
+        {
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
+                using (var cmd = new MySqlCommand("spUpdateLivro", conexao))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.Add("@vISBN", MySqlDbType.Decimal).Value = livro.ISBN;
+                    cmd.Parameters.Add("@vNomeLiv", MySqlDbType.VarChar).Value = livro.NomeLiv;
+                    cmd.Parameters.Add("@vPrecoLiv", MySqlDbType.Decimal).Value = livro.PrecoLiv;
+                    cmd.Parameters.Add("@vDescLiv", MySqlDbType.VarChar).Value = livro.DescLiv;
+                    cmd.Parameters.Add("@vImgLiv", MySqlDbType.VarChar).Value = livro.ImgLiv;
+                    cmd.Parameters.Add("@vNomeCategoria", MySqlDbType.VarChar).Value = livro.NomeCategoria;
+                    cmd.Parameters.Add("@vNomeEdi", MySqlDbType.VarChar).Value = livro.NomeEdi;
+                    cmd.Parameters.Add("@vAutor", MySqlDbType.VarChar).Value = livro.Autor;
+                    cmd.Parameters.Add("@vDataPubli", MySqlDbType.VarChar).Value = livro.DataPubli?.ToString("dd/MM/yyyy");
+                    cmd.Parameters.Add("@vEspecialLiv", MySqlDbType.Enum).Value = livro.EspeciaLiv;
+
+
+                    cmd.ExecuteNonQuery();
+                    conexao.Close();
+                
+                
+                } 
+
+            }
+        }
+
+
+
 
 
     }

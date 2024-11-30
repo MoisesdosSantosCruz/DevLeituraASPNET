@@ -2,6 +2,7 @@
 using Norget.Libraries.Login;
 using Norget.Models;
 using Norget.Repository;
+using System.Diagnostics;
 
 namespace Norget.Controllers
 {
@@ -17,8 +18,38 @@ namespace Norget.Controllers
             _livroRepositorio = livroRepositorio;
 
         }
-        
-        
+
+
+        [HttpPost]
+        public IActionResult EditarLivro(Livro livro)
+        {
+
+            // Carrega a lista de Cliente
+            var listaLivro = _livroRepositorio.ListarLivros();
+
+            //metodo que atualiza cliente
+            _livroRepositorio.AtualizarLivro(livro);
+            //redireciona para a pagina home
+
+            return RedirectToAction(nameof(PainelLivro));
+
+        }
+
+        public IActionResult EditarLivro(int idliv)
+        {
+            // Carrega a liista de Cliente
+            var listaLivro = _livroRepositorio.ListarLivros();
+            var ObjLivro = new Livro
+            {
+                //metodo que lista cliente
+                ListaLivro = (List<Livro>)listaLivro
+
+            };
+
+            //Retorna o cliente pegando o id
+            return View(_livroRepositorio.ObterLivro(idliv));
+        }
+
         public IActionResult PainelLivro()
         {
 
@@ -29,13 +60,11 @@ namespace Norget.Controllers
         public IActionResult DetalheLivro(int IdLiv)
         {
 
-            
+            ;
             return View(_livroRepositorio.ObterLivro(IdLiv));
 
         }
-
-     
-
+        
         public IActionResult CadastroLivro()
         {
 
@@ -50,6 +79,10 @@ namespace Norget.Controllers
             return RedirectToAction(nameof(PainelLivro));
         }
 
-
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
     }
 }
